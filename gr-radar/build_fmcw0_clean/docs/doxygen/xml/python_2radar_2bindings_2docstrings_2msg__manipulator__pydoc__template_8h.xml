@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>msg_manipulator_pydoc_template.h</label>
+        <link refid="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1a1ed431afdbca9d68c90d115494611b02" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_manipulator</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_manipulator</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1ad1c33f93239c332a1544e2eabaccc5fc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_manipulator_msg_manipulator_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_manipulator_msg_manipulator_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="22" column="20" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1a74a319403ca293afdcbeaf11415365c0" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_manipulator_msg_manipulator_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_manipulator_msg_manipulator_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="25" column="20" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1ac2752bc9f8ac73d9671194f4b49727d6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_manipulator_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_manipulator_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="28" column="20" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1a22c2b0e0daedf7e56a142ad620fa76da" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_manipulator_set_const_add</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_manipulator_set_const_add</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="31" column="20" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="python_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h_1a20456aaf564d76758707f5a0c9d7f060" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_manipulator_set_const_mult</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_manipulator_set_const_mult</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" line="34" column="20" bodyfile="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/python/radar/bindings/docstrings/msg_manipulator_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,816 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1static__target__simulator__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::static_target_simulator_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1static__target__simulator__cc" prot="public" virt="non-virtual">gr::radar::static_target_simulator_cc</basecompoundref>
+    <includes refid="static__target__simulator__cc__impl_8h" local="no">static_target_simulator_cc_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1aa3e0742cc104115dd9b98e0534afdb47" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_range</definition>
+        <argsstring></argsstring>
+        <name>d_range</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="63" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a451d4670d93cacac3677fe01552fbf49" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_velocity</definition>
+        <argsstring></argsstring>
+        <name>d_velocity</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="63" column="25" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ae3409a607471b9cb18184a9eb3c2736d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_rcs</definition>
+        <argsstring></argsstring>
+        <name>d_rcs</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_rcs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="63" column="36" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a5e8e44dcaf31e0eff1743c6017d05100" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_azimuth</definition>
+        <argsstring></argsstring>
+        <name>d_azimuth</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_azimuth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="63" column="42" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a52c4a459f0dba2a8e90a9cb8926a62c1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_position_rx</definition>
+        <argsstring></argsstring>
+        <name>d_position_rx</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_position_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="63" column="52" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a5aac391b440b79239b831e8cf30efa4d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::static_target_simulator_cc_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_samp_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="64" column="9" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1acd4dab3dac29032bc1b4dc91cf018279" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::static_target_simulator_cc_impl::d_center_freq</definition>
+        <argsstring></argsstring>
+        <name>d_center_freq</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_center_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="65" column="11" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1aa925af3026d476d334721e066aad1e66" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::static_target_simulator_cc_impl::d_hold_noutput</definition>
+        <argsstring></argsstring>
+        <name>d_hold_noutput</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_hold_noutput</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="66" column="9" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1aac47f02138b62f45a715ca36168d8ec4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::static_target_simulator_cc_impl::d_rndm_phaseshift</definition>
+        <argsstring></argsstring>
+        <name>d_rndm_phaseshift</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_rndm_phaseshift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="67" column="10" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a84143a3505cdf5ccfe11c380e9ac9131" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::static_target_simulator_cc_impl::d_self_coupling</definition>
+        <argsstring></argsstring>
+        <name>d_self_coupling</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_self_coupling</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="69" column="10" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a23465752a93693594638788f91b91828" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::static_target_simulator_cc_impl::d_self_coupling_db</definition>
+        <argsstring></argsstring>
+        <name>d_self_coupling_db</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_self_coupling_db</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="70" column="11" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a05ce4dde7c713826d28b749a0d371eac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::static_target_simulator_cc_impl::d_num_targets</definition>
+        <argsstring></argsstring>
+        <name>d_num_targets</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_num_targets</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="72" column="9" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a6dd624501cbb193073715a3caa647955" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_freq</definition>
+        <argsstring></argsstring>
+        <name>d_freq</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="73" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a214f95a6d48813083167ee42ced19ce1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_doppler</definition>
+        <argsstring></argsstring>
+        <name>d_doppler</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_doppler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="74" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1acbaa0229289eeae8df5c28ec0e7e994e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_scale_ampl</definition>
+        <argsstring></argsstring>
+        <name>d_scale_ampl</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_scale_ampl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="74" column="27" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a4fe9867e43c96fe55512cb7a924bd8db" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::static_target_simulator_cc_impl::d_timeshift</definition>
+        <argsstring></argsstring>
+        <name>d_timeshift</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_timeshift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="74" column="40" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a71ba5eda7898aa2dfcd299b0f9c94e2f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; float &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;float&gt; &gt; gr::radar::static_target_simulator_cc_impl::d_timeshift_azimuth</definition>
+        <argsstring></argsstring>
+        <name>d_timeshift_azimuth</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_timeshift_azimuth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="75" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1adec7c9dcec95035aa1ae2c0b1a4f6406" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::radar::static_target_simulator_cc_impl::d_phase_doppler</definition>
+        <argsstring></argsstring>
+        <name>d_phase_doppler</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_phase_doppler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="76" column="16" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1afa775e79eac5559fb38d05fc948847f3" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::radar::static_target_simulator_cc_impl::d_phase_time</definition>
+        <argsstring></argsstring>
+        <name>d_phase_time</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_phase_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="76" column="32" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a0378b0e77006707f38496e2f2d5f3b81" prot="public" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::radar::static_target_simulator_cc_impl::d_phase_random</definition>
+        <argsstring></argsstring>
+        <name>d_phase_random</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_phase_random</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="76" column="45" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1abfe628bdc5177c9443de0e7f55f72f93" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::radar::static_target_simulator_cc_impl::d_hold_in</definition>
+        <argsstring></argsstring>
+        <name>d_hold_in</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_hold_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="77" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a7e676a1b69d83bd0c8fe06582b1bf266" prot="public" static="no" mutable="no">
+        <type>fftwf_plan</type>
+        <definition>fftwf_plan gr::radar::static_target_simulator_cc_impl::d_fft_plan</definition>
+        <argsstring></argsstring>
+        <name>d_fft_plan</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_fft_plan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="79" column="16" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a03add2ea744ef4a57cee93c780ccd380" prot="public" static="no" mutable="no">
+        <type>fftwf_plan</type>
+        <definition>fftwf_plan gr::radar::static_target_simulator_cc_impl::d_ifft_plan</definition>
+        <argsstring></argsstring>
+        <name>d_ifft_plan</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_ifft_plan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="79" column="27" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a75fd5c530150bd27e65c0cc7a6c0cf59" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::radar::static_target_simulator_cc_impl::d_in_fft</definition>
+        <argsstring></argsstring>
+        <name>d_in_fft</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_in_fft</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="80" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a2c2a95f8b41b88a1af4773aa2f840fa6" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::radar::static_target_simulator_cc_impl::d_filt_doppler</definition>
+        <argsstring></argsstring>
+        <name>d_filt_doppler</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_filt_doppler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="81" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a4f01af7353b0ba5d7a87b9dca50ba20b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::radar::static_target_simulator_cc_impl::d_filt_phase</definition>
+        <argsstring></argsstring>
+        <name>d_filt_phase</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_filt_phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="81" column="32" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1abdc87fd2c58bca37df5f97e9445760e4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::radar::static_target_simulator_cc_impl::d_filt_self_coupling</definition>
+        <argsstring></argsstring>
+        <name>d_filt_self_coupling</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_filt_self_coupling</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="82" column="9" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a87bbae766caef82e0777df63a97ac71e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;gr_complex&gt; &gt; gr::radar::static_target_simulator_cc_impl::d_filt_time</definition>
+        <argsstring></argsstring>
+        <name>d_filt_time</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_filt_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="83" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ae1164e2271485b9d1cf467cdfa749d37" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;std::vector&lt;gr_complex&gt; &gt; &gt; gr::radar::static_target_simulator_cc_impl::d_filt_time_azimuth</definition>
+        <argsstring></argsstring>
+        <name>d_filt_time_azimuth</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_filt_time_azimuth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="84" column="17" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ae3f4b08af81a1e9370bf200e3a1f8e76" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::static_target_simulator_cc_impl::d_key</definition>
+        <argsstring></argsstring>
+        <name>d_key</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="86" column="16" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1af67b2d98ff43452d703a6a8c1a579907" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::static_target_simulator_cc_impl::d_val</definition>
+        <argsstring></argsstring>
+        <name>d_val</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="86" column="22" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1af618b60ec1dced216684c3897fa5f08f" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::static_target_simulator_cc_impl::d_srcid</definition>
+        <argsstring></argsstring>
+        <name>d_srcid</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_srcid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="86" column="28" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ad782f605d93b6288b2121ad97d9e388d" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::radar::static_target_simulator_cc_impl::d_time_sec</definition>
+        <argsstring></argsstring>
+        <name>d_time_sec</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_time_sec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="87" column="14" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ac843647e4fb41ae23c14fb21c1bca6b8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radar::static_target_simulator_cc_impl::d_time_frac_sec</definition>
+        <argsstring></argsstring>
+        <name>d_time_frac_sec</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::d_time_frac_sec</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="88" column="12" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a6ffc78214d851628a38426d76f2176c6" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::radar::static_target_simulator_cc_impl::c_light</definition>
+        <argsstring></argsstring>
+        <name>c_light</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::c_light</qualifiedname>
+        <initializer>= 3e8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="90" column="28" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1abb202c1a50b2298e21332df4f7031705" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::static_target_simulator_cc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::calculate_output_stream_length</qualifiedname>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="36" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ab6d2e6e2f8bf8a2cea7a9120bd72fd06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::static_target_simulator_cc_impl::static_target_simulator_cc_impl</definition>
+        <argsstring>(std::vector&lt; float &gt; range, std::vector&lt; float &gt; velocity, std::vector&lt; float &gt; rcs, std::vector&lt; float &gt; azimuth, std::vector&lt; float &gt; position_rx, int samp_rate, float center_freq, float self_coupling_db, bool rndm_phaseshift, bool self_coupling, const std::string &amp;len_key)</argsstring>
+        <name>static_target_simulator_cc_impl</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::static_target_simulator_cc_impl</qualifiedname>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>rcs</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>position_rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>self_coupling_db</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rndm_phaseshift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>self_coupling</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a5366a22d9ce1ce6c9de43c7eb1d735c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::static_target_simulator_cc_impl::~static_target_simulator_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~static_target_simulator_cc_impl</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::~static_target_simulator_cc_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="50" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a0ca3096458f3a8acdfc6370c3c64f535" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::static_target_simulator_cc_impl::setup_targets</definition>
+        <argsstring>(std::vector&lt; float &gt; range, std::vector&lt; float &gt; velocity, std::vector&lt; float &gt; rcs, std::vector&lt; float &gt; azimuth, std::vector&lt; float &gt; position_rx, int samp_rate, float center_freq, float self_coupling_db, bool rndm_phaseshift, bool self_coupling)</argsstring>
+        <name>setup_targets</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::setup_targets</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1static__target__simulator__cc_1adf281db8c56797d1f150aeae6106ac32">setup_targets</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>rcs</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>position_rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>self_coupling_db</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rndm_phaseshift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>self_coupling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc__impl_1af25083458398ed50afc98186a66025d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::static_target_simulator_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="93" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::radar::static_target_simulator_cc</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::static_target_simulator_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::radar::static_target_simulator_cc</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::static_target_simulator_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_azimuth</edgelabel>
+          <edgelabel>d_doppler</edgelabel>
+          <edgelabel>d_freq</edgelabel>
+          <edgelabel>d_position_rx</edgelabel>
+          <edgelabel>d_range</edgelabel>
+          <edgelabel>d_rcs</edgelabel>
+          <edgelabel>d_scale_ampl</edgelabel>
+          <edgelabel>d_timeshift</edgelabel>
+          <edgelabel>d_velocity</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_timeshift_azimuth</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_hold_in</edgelabel>
+          <edgelabel>d_in_fft</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>d_filt_doppler</edgelabel>
+          <edgelabel>d_filt_phase</edgelabel>
+          <edgelabel>d_filt_self_coupling</edgelabel>
+          <edgelabel>d_filt_time</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>d_filt_time_azimuth</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; gr_complex &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; std::vector&lt; float &gt; &gt;</label>
+        <childnode refid="4" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::vector&lt; std::vector&lt; gr_complex &gt; &gt;</label>
+        <childnode refid="6" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>std::vector&lt; std::vector&lt; std::vector&lt; gr_complex &gt; &gt; &gt;</label>
+        <childnode refid="7" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" line="30" column="1" bodyfile="/home/lmz/gr-radar/lib/static_target_simulator_cc_impl.h" bodystart="31" bodyend="97"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a6ffc78214d851628a38426d76f2176c6" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>c_light</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1abb202c1a50b2298e21332df4f7031705" prot="protected" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a5e8e44dcaf31e0eff1743c6017d05100" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_azimuth</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1acd4dab3dac29032bc1b4dc91cf018279" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a214f95a6d48813083167ee42ced19ce1" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_doppler</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a7e676a1b69d83bd0c8fe06582b1bf266" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_fft_plan</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a2c2a95f8b41b88a1af4773aa2f840fa6" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_filt_doppler</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a4f01af7353b0ba5d7a87b9dca50ba20b" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_filt_phase</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1abdc87fd2c58bca37df5f97e9445760e4" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_filt_self_coupling</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a87bbae766caef82e0777df63a97ac71e" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_filt_time</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ae1164e2271485b9d1cf467cdfa749d37" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_filt_time_azimuth</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a6dd624501cbb193073715a3caa647955" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_freq</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1abfe628bdc5177c9443de0e7f55f72f93" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_hold_in</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1aa925af3026d476d334721e066aad1e66" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_hold_noutput</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a03add2ea744ef4a57cee93c780ccd380" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_ifft_plan</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a75fd5c530150bd27e65c0cc7a6c0cf59" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_in_fft</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ae3f4b08af81a1e9370bf200e3a1f8e76" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_key</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a05ce4dde7c713826d28b749a0d371eac" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_num_targets</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1adec7c9dcec95035aa1ae2c0b1a4f6406" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_phase_doppler</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a0378b0e77006707f38496e2f2d5f3b81" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_phase_random</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1afa775e79eac5559fb38d05fc948847f3" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_phase_time</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a52c4a459f0dba2a8e90a9cb8926a62c1" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_position_rx</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1aa3e0742cc104115dd9b98e0534afdb47" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_range</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ae3409a607471b9cb18184a9eb3c2736d" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_rcs</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1aac47f02138b62f45a715ca36168d8ec4" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_rndm_phaseshift</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a5aac391b440b79239b831e8cf30efa4d" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1acbaa0229289eeae8df5c28ec0e7e994e" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_scale_ampl</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a84143a3505cdf5ccfe11c380e9ac9131" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_self_coupling</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a23465752a93693594638788f91b91828" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_self_coupling_db</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1af618b60ec1dced216684c3897fa5f08f" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_srcid</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ac843647e4fb41ae23c14fb21c1bca6b8" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_time_frac_sec</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ad782f605d93b6288b2121ad97d9e388d" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_time_sec</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a4fe9867e43c96fe55512cb7a924bd8db" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_timeshift</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a71ba5eda7898aa2dfcd299b0f9c94e2f" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_timeshift_azimuth</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1af67b2d98ff43452d703a6a8c1a579907" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_val</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a451d4670d93cacac3677fe01552fbf49" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>d_velocity</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc_1ade321d995448fd9607296d7281935e15" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a0ca3096458f3a8acdfc6370c3c64f535" prot="public" virt="virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>setup_targets</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc_1a66dbec7a5f700d272239db3c35b6cdf7" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1ab6d2e6e2f8bf8a2cea7a9120bd72fd06" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>static_target_simulator_cc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1af25083458398ed50afc98186a66025d3" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a5366a22d9ce1ce6c9de43c7eb1d735c3" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc_impl</scope><name>~static_target_simulator_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

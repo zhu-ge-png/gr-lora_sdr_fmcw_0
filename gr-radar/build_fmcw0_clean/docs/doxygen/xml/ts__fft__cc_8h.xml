@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ts__fft__cc_8h" kind="file" language="C++">
+    <compoundname>ts_fft_cc.h</compoundname>
+    <includes local="no">gnuradio/tagged_stream_block.h</includes>
+    <includes refid="api_8h" local="no">radar/api.h</includes>
+    <includedby refid="ts__fft__cc__impl_8h" local="no">ts_fft_cc_impl.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ts_fft_cc.h</label>
+        <link refid="ts__fft__cc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>ts_fft_cc.h</label>
+        <link refid="ts__fft__cc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ts_fft_cc_impl.h</label>
+        <link refid="ts__fft__cc__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1ts__fft__cc" prot="public">gr::radar::ts_fft_cc</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/include/radar/ts_fft_cc.h"/>
+  </compounddef>
+</doxygen>

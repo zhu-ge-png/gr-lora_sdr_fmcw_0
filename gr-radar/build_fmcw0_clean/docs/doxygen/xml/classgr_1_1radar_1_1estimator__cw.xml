@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1estimator__cw" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::estimator_cw</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1estimator__cw__impl" prot="public" virt="non-virtual">gr::radar::estimator_cw_impl</derivedcompoundref>
+    <includes refid="estimator__cw_8h" local="no">estimator_cw.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1estimator__cw_1abf034b0f78f85391d45cb66882521ad0" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1estimator__cw" kindref="compound">estimator_cw</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;estimator_cw&gt; gr::radar::estimator_cw::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::estimator_cw::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/estimator_cw.h" line="44" column="29" bodyfile="/home/lmz/gr-radar/include/radar/estimator_cw.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__cw_1aaf9b7df283343a3a51e96ef864b54579" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1estimator__cw_1abf034b0f78f85391d45cb66882521ad0" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::estimator_cw::make</definition>
+        <argsstring>(float center_freq)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::estimator_cw::make</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1estimator__cw" kindref="compound">radar::estimator_cw</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1estimator__cw" kindref="compound">radar::estimator_cw</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1estimator__cw_1aaf9b7df283343a3a51e96ef864b54579" kindref="member">radar::estimator_cw::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/estimator_cw.h" line="54" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block estimates the velocity from given peaks of a CW spectrum. The estimator looks for a f32vector tagged with a &apos;frequency&apos; identifier (symbol) and calculates the velocity with the doppler formula. The identifier (symbol) of the output data is &apos;velocity&apos;. Needed identifier (symbols) of the input are &apos;frequency&apos;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>center_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Center frequency </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_cw</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::estimator_cw_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_cw</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/estimator_cw.h" line="41" column="1" bodyfile="/home/lmz/gr-radar/include/radar/estimator_cw.h" bodystart="42" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1estimator__cw_1aaf9b7df283343a3a51e96ef864b54579" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw_1abf034b0f78f85391d45cb66882521ad0" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

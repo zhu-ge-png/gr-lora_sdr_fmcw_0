@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__cyclic__prefix__remover__cvc__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_cyclic_prefix_remover_cvc_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_cyclic_prefix_remover_cvc_pydoc.h</label>
+        <link refid="ofdm__cyclic__prefix__remover__cvc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__cyclic__prefix__remover__cvc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__cyclic__prefix__remover__cvc__pydoc_8h_1ac07153b4fdc19274756a4f5044487f16" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_ofdm_cyclic_prefix_remover_cvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_ofdm_cyclic_prefix_remover_cvc</name>
+        <initializer>= R&quot;doc(This block removes the cyclic prefix of a OFDM signal by cut away the cyclic prefix data. cp_len gives the length of the cyclic prefix. fft_len represents the length of the data before the cyclic prefix.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::ofdm_cyclic_prefix_remover_cvc.
+
+To avoid accidental use of raw pointers, radar::ofdm_cyclic_prefix_remover_cvc&apos;s constructor is in a private implementation class. radar::ofdm_cyclic_prefix_remover_cvc::make is the public interface for creating new instances.
+
+Args:
+    fft_len : 
+    cp_len : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__cyclic__prefix__remover__cvc__pydoc_8h_1ae740faecc9af3bce838e85c1574c1d68" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_ofdm_cyclic_prefix_remover_cvc_ofdm_cyclic_prefix_remover_cvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_ofdm_cyclic_prefix_remover_cvc_ofdm_cyclic_prefix_remover_cvc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" line="33" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__cyclic__prefix__remover__cvc__pydoc_8h_1a9d203bc3f7cd58eaba02e6a328f5cb3b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_ofdm_cyclic_prefix_remover_cvc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_ofdm_cyclic_prefix_remover_cvc_make</name>
+        <initializer>= R&quot;doc(This block removes the cyclic prefix of a OFDM signal by cut away the cyclic prefix data. cp_len gives the length of the cyclic prefix. fft_len represents the length of the data before the cyclic prefix.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::ofdm_cyclic_prefix_remover_cvc.
+
+To avoid accidental use of raw pointers, radar::ofdm_cyclic_prefix_remover_cvc&apos;s constructor is in a private implementation class. radar::ofdm_cyclic_prefix_remover_cvc::make is the public interface for creating new instances.
+
+Args:
+    fft_len : 
+    cp_len : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" line="36" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_cyclic_prefix_remover_cvc_pydoc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1estimator__rcs__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::estimator_rcs_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1estimator__rcs" prot="public" virt="non-virtual">gr::radar::estimator_rcs</basecompoundref>
+    <includes refid="estimator__rcs__impl_8h" local="no">estimator_rcs_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a3404bc966929089247ccd21b3b0e472e" prot="public" static="no" mutable="no">
+        <type>boost::circular_buffer&lt; float &gt;</type>
+        <definition>boost::circular_buffer&lt;float&gt; gr::radar::estimator_rcs_impl::d_rcs_vals</definition>
+        <argsstring></argsstring>
+        <name>d_rcs_vals</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_rcs_vals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="57" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a7937bf4260f08a04be5b5fb763228a8a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::estimator_rcs_impl::d_num_mean</definition>
+        <argsstring></argsstring>
+        <name>d_num_mean</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_num_mean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="58" column="9" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a22ca526d927a3e5bb85076ce6e96d708" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::estimator_rcs_impl::d_loop_counter</definition>
+        <argsstring></argsstring>
+        <name>d_loop_counter</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_loop_counter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="58" column="20" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a08eb6a2258e7e35c739e52d6db749ac8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_center_freq</definition>
+        <argsstring></argsstring>
+        <name>d_center_freq</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_center_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="60" column="11" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1aadcd6ebdaa0fa32d55f16e478f922494" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_antenna_gain_tx</definition>
+        <argsstring></argsstring>
+        <name>d_antenna_gain_tx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_antenna_gain_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="60" column="25" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a39b7dca483f20ba4585587f8cdf4b7f6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_antenna_gain_rx</definition>
+        <argsstring></argsstring>
+        <name>d_antenna_gain_rx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_antenna_gain_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="60" column="43" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a8edc553407a40d87c682efd451ff8a31" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_usrp_gain_rx</definition>
+        <argsstring></argsstring>
+        <name>d_usrp_gain_rx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_usrp_gain_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="60" column="61" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1ad5ad18d4a389020cd2fab99117fa344a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_power_tx</definition>
+        <argsstring></argsstring>
+        <name>d_power_tx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_power_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="60" column="76" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a5d938f94518ea6c375d1ac018f4d7348" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_fak</definition>
+        <argsstring></argsstring>
+        <name>d_fak</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_fak</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="61" column="9" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a4003deac6dba0d2d23ad3d87ab8c8609" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_lambda</definition>
+        <argsstring></argsstring>
+        <name>d_lambda</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_lambda</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="61" column="15" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1af2c58007d9a2f4f91d68c541102e2caf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_antenna_gain_abs_rx</definition>
+        <argsstring></argsstring>
+        <name>d_antenna_gain_abs_rx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_antenna_gain_abs_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="61" column="24" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a40482ac4785c4c9f5c01fee59a5c05c1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_antenna_gain_abs_tx</definition>
+        <argsstring></argsstring>
+        <name>d_antenna_gain_abs_tx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_antenna_gain_abs_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="61" column="46" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1ab1746671b3ad710d12d080a325f27583" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_corr_factor</definition>
+        <argsstring></argsstring>
+        <name>d_corr_factor</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_corr_factor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="61" column="68" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1ac9118ce8b530688a25b40d3a6c4da082" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::d_exponent</definition>
+        <argsstring></argsstring>
+        <name>d_exponent</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_exponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="62" column="9" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a985a85c6688da0bfcfc3ab3272efd359" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_port_id_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_port_id_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="64" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1af3a33c8465a1d887a4b7141558a1c8b4" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_port_id_out</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_out</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_port_id_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="64" column="29" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1aae0e2f7eb2406924abe166acfd6dd957" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_prange</definition>
+        <argsstring></argsstring>
+        <name>d_prange</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_prange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="65" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a3a1854ac63a9077c41750fcb075d47d6" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_ppower</definition>
+        <argsstring></argsstring>
+        <name>d_ppower</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_ppower</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="65" column="25" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1adb2b7b59de976c6a2cd3c99359b708f3" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_value</definition>
+        <argsstring></argsstring>
+        <name>d_value</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="65" column="34" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a004c3a902c3f6530ee36ff9659400b25" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_rcs_value</definition>
+        <argsstring></argsstring>
+        <name>d_rcs_value</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_rcs_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="66" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a6460a6234f4ed5e4b4fffabd0c1c05d5" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_rcs_key</definition>
+        <argsstring></argsstring>
+        <name>d_rcs_key</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_rcs_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="66" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a8ad4f95e6ad7b738880a66a40d558f2a" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_rcs_impl::d_rcs_pack</definition>
+        <argsstring></argsstring>
+        <name>d_rcs_pack</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_rcs_pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="66" column="38" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a51c28666175c0edc02ac1335b0294f83" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_rcs_impl::d_range</definition>
+        <argsstring></argsstring>
+        <name>d_range</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="67" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1adfae8ee226e7e7df447cffa3dd0eb109" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_rcs_impl::d_power</definition>
+        <argsstring></argsstring>
+        <name>d_power</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_power</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="67" column="25" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1ab68c09e64aae0e2d113db2edc08b2caf" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_rcs_impl::d_rcs</definition>
+        <argsstring></argsstring>
+        <name>d_rcs</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_rcs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="67" column="33" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a9e0c4036d8247ccf88d3c60a5f9675d6" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; pmt::pmt_t &gt;</type>
+        <definition>std::vector&lt;pmt::pmt_t&gt; gr::radar::estimator_rcs_impl::d_msg_hold</definition>
+        <argsstring></argsstring>
+        <name>d_msg_hold</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::d_msg_hold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="68" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__rcs__impl_1a9d9aceabebeaa5f2cf31af022734e00c" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::radar::estimator_rcs_impl::c_light</definition>
+        <argsstring></argsstring>
+        <name>c_light</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::c_light</qualifiedname>
+        <initializer>= 3e8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="70" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a15e665d35a0004059ac4d2e442ebf0fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_rcs_impl::estimator_rcs_impl</definition>
+        <argsstring>(int num_mean, float center_freq, float antenna_gain_tx, float antenna_gain_rx, float usrp_gain_rx, float power_tx, float corr_factor, float exponent)</argsstring>
+        <name>estimator_rcs_impl</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::estimator_rcs_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>num_mean</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>antenna_gain_tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>antenna_gain_rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>usrp_gain_rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>power_tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>corr_factor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>exponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a852e7a69a8871d5d749d956a87177b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_rcs_impl::~estimator_rcs_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~estimator_rcs_impl</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::~estimator_rcs_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="44" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a4f4591c92942cb7659098ad59a9f979b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::handle_msg</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1ada881d04e3b9319a5f96c123cc7c0ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::calculate_rcs</definition>
+        <argsstring>()</argsstring>
+        <name>calculate_rcs</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::calculate_rcs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="46" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a96eecb4980e62dfcac9b60b714b17c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::radar::estimator_rcs_impl::calculate_vector_mean</definition>
+        <argsstring>(boost::circular_buffer&lt; float &gt; *)</argsstring>
+        <name>calculate_vector_mean</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::calculate_vector_mean</qualifiedname>
+        <param>
+          <type>boost::circular_buffer&lt; float &gt; *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="47" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a175908cc93d18e8be95f13b0c6590ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_num_mean</definition>
+        <argsstring>(int val)</argsstring>
+        <name>set_num_mean</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_num_mean</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1a920dd6f0c3aa3b3ce7df578855756842">set_num_mean</reimplements>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="48" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1ad34eebc929430f1fb8fd1945d9e67bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_center_freq</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_center_freq</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_center_freq</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1a5ba2347c3c7da68597cefacc8678a6d7">set_center_freq</reimplements>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="49" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1ae2b47459a8acb2f6ad5ab149fe5f5228" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_antenna_gain_tx</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_antenna_gain_tx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_antenna_gain_tx</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1aecc3880ca248046653fcaf7e777fb218">set_antenna_gain_tx</reimplements>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a0b3a9b167004f0ffb74aa3f9f8efc086" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_antenna_gain_rx</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_antenna_gain_rx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_antenna_gain_rx</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1ad9ebb848f3469f215f67da4b15987f5b">set_antenna_gain_rx</reimplements>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1a7f53dc08005273787ef0a53e6d70f911" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_usrp_gain_rx</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_usrp_gain_rx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_usrp_gain_rx</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1abdbbb3353c0bd226c3af1c98c1e2f5b2">set_usrp_gain_rx</reimplements>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="52" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1ad50b327669b1e1d09ed79d440cbab284" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_power_tx</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_power_tx</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_power_tx</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1a7da0b25a1868d83de02ea3ceec51d8f8">set_power_tx</reimplements>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="53" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__rcs__impl_1ab8d6d5ae12721ffb48abbc659a36a696" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_rcs_impl::set_corr_factor</definition>
+        <argsstring>(float val)</argsstring>
+        <name>set_corr_factor</name>
+        <qualifiedname>gr::radar::estimator_rcs_impl::set_corr_factor</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1estimator__rcs_1a4d8e9ee5668aded45ba8b64ca7517526">set_corr_factor</reimplements>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="54" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_rcs</label>
+        <link refid="classgr_1_1radar_1_1estimator__rcs"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_rcs_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__rcs__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_rcs</label>
+        <link refid="classgr_1_1radar_1_1estimator__rcs"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_rcs_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__rcs__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_power</edgelabel>
+          <edgelabel>d_range</edgelabel>
+          <edgelabel>d_rcs</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_msg_hold</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; pmt::pmt_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" line="30" column="1" bodyfile="/home/lmz/gr-radar/lib/estimator_rcs_impl.h" bodystart="31" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a9d9aceabebeaa5f2cf31af022734e00c" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>c_light</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ada881d04e3b9319a5f96c123cc7c0ea6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>calculate_rcs</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a96eecb4980e62dfcac9b60b714b17c41" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>calculate_vector_mean</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1af2c58007d9a2f4f91d68c541102e2caf" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_antenna_gain_abs_rx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a40482ac4785c4c9f5c01fee59a5c05c1" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_antenna_gain_abs_tx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a39b7dca483f20ba4585587f8cdf4b7f6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_antenna_gain_rx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1aadcd6ebdaa0fa32d55f16e478f922494" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_antenna_gain_tx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a08eb6a2258e7e35c739e52d6db749ac8" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ab1746671b3ad710d12d080a325f27583" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_corr_factor</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ac9118ce8b530688a25b40d3a6c4da082" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_exponent</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a5d938f94518ea6c375d1ac018f4d7348" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_fak</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a4003deac6dba0d2d23ad3d87ab8c8609" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_lambda</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a22ca526d927a3e5bb85076ce6e96d708" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_loop_counter</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a9e0c4036d8247ccf88d3c60a5f9675d6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_msg_hold</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a7937bf4260f08a04be5b5fb763228a8a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_num_mean</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a985a85c6688da0bfcfc3ab3272efd359" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_port_id_in</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1af3a33c8465a1d887a4b7141558a1c8b4" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_port_id_out</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1adfae8ee226e7e7df447cffa3dd0eb109" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_power</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ad5ad18d4a389020cd2fab99117fa344a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_power_tx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a3a1854ac63a9077c41750fcb075d47d6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_ppower</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1aae0e2f7eb2406924abe166acfd6dd957" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_prange</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a51c28666175c0edc02ac1335b0294f83" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_range</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ab68c09e64aae0e2d113db2edc08b2caf" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_rcs</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a6460a6234f4ed5e4b4fffabd0c1c05d5" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_rcs_key</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a8ad4f95e6ad7b738880a66a40d558f2a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_rcs_pack</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a3404bc966929089247ccd21b3b0e472e" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_rcs_vals</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a004c3a902c3f6530ee36ff9659400b25" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_rcs_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a8edc553407a40d87c682efd451ff8a31" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_usrp_gain_rx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1adb2b7b59de976c6a2cd3c99359b708f3" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>d_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a15e665d35a0004059ac4d2e442ebf0fa" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>estimator_rcs_impl</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a4f4591c92942cb7659098ad59a9f979b" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs_1a6c81d6b6b8632178260090776f12dba6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a0b3a9b167004f0ffb74aa3f9f8efc086" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_antenna_gain_rx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ae2b47459a8acb2f6ad5ab149fe5f5228" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_antenna_gain_tx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ad34eebc929430f1fb8fd1945d9e67bf1" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ab8d6d5ae12721ffb48abbc659a36a696" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_corr_factor</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a175908cc93d18e8be95f13b0c6590ac2" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_num_mean</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1ad50b327669b1e1d09ed79d440cbab284" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_power_tx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a7f53dc08005273787ef0a53e6d70f911" prot="public" virt="virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>set_usrp_gain_rx</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs_1aaca499347f3fab592d9a1559d0d7048d" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__rcs__impl_1a852e7a69a8871d5d749d956a87177b54" prot="public" virt="non-virtual"><scope>gr::radar::estimator_rcs_impl</scope><name>~estimator_rcs_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

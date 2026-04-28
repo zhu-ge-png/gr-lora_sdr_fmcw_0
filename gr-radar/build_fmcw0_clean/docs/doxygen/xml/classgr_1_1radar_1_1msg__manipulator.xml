@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1msg__manipulator" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::radar::msg_manipulator</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1msg__manipulator__impl" prot="public" virt="non-virtual">gr::radar::msg_manipulator_impl</derivedcompoundref>
+    <includes refid="msg__manipulator_8h" local="no">msg_manipulator.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1msg__manipulator_1ae8aba349fc0c895f6ed5af04bfbaedb6" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1msg__manipulator" kindref="compound">msg_manipulator</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;msg_manipulator&gt; gr::radar::msg_manipulator::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::msg_manipulator::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/msg_manipulator.h" line="47" column="29" bodyfile="/home/lmz/gr-radar/include/radar/msg_manipulator.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator_1a10571a59783a2d90e78dfa128b6619c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1msg__manipulator_1ae8aba349fc0c895f6ed5af04bfbaedb6" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::msg_manipulator::make</definition>
+        <argsstring>(std::vector&lt; std::string &gt; symbols, std::vector&lt; float &gt; const_add, std::vector&lt; float &gt; const_mult)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::msg_manipulator::make</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>const_add</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>const_mult</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1msg__manipulator" kindref="compound">radar::msg_manipulator</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1msg__manipulator" kindref="compound">radar::msg_manipulator</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1msg__manipulator_1a10571a59783a2d90e78dfa128b6619c1" kindref="member">radar::msg_manipulator::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/msg_manipulator.h" line="57" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator_1af07ff2cea0c12ef0deb6eb8bb357daac" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::msg_manipulator::set_const_add</definition>
+        <argsstring>(std::vector&lt; float &gt; val)=0</argsstring>
+        <name>set_const_add</name>
+        <qualifiedname>gr::radar::msg_manipulator::set_const_add</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1msg__manipulator__impl_1adb25fa0f06f2a83464226a013980cb39">set_const_add</reimplementedby>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/msg_manipulator.h" line="60" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator_1aaf8e76ed8a27f0a8de8d5461438020a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::msg_manipulator::set_const_mult</definition>
+        <argsstring>(std::vector&lt; float &gt; val)=0</argsstring>
+        <name>set_const_mult</name>
+        <qualifiedname>gr::radar::msg_manipulator::set_const_mult</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1msg__manipulator__impl_1ad5a18157f4477d05884d1bf2ca403dfe">set_const_mult</reimplementedby>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/msg_manipulator.h" line="61" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block manipulates data in a msg with given identifier (symbol). All data are given as vectors and each index represents a dataset with identifier which should be processed. All other data is pushed through. The addition is performed before the multiplication. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>symbols</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier (symbols) of data as vector </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>const_add</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to add on the data </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>const_mult</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to multiply on the data </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::msg_manipulator</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::msg_manipulator_impl</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::msg_manipulator</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/msg_manipulator.h" line="44" column="1" bodyfile="/home/lmz/gr-radar/include/radar/msg_manipulator.h" bodystart="45" bodyend="62"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1msg__manipulator_1a10571a59783a2d90e78dfa128b6619c1" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator_1af07ff2cea0c12ef0deb6eb8bb357daac" prot="public" virt="pure-virtual"><scope>gr::radar::msg_manipulator</scope><name>set_const_add</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator_1aaf8e76ed8a27f0a8de8d5461438020a7" prot="public" virt="pure-virtual"><scope>gr::radar::msg_manipulator</scope><name>set_const_mult</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator_1ae8aba349fc0c895f6ed5af04bfbaedb6" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

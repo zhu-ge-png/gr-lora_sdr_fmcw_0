@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1static__target__simulator__cc" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::radar::static_target_simulator_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1static__target__simulator__cc__impl" prot="public" virt="non-virtual">gr::radar::static_target_simulator_cc_impl</derivedcompoundref>
+    <includes refid="static__target__simulator__cc_8h" local="no">static_target_simulator_cc.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1static__target__simulator__cc_1a66dbec7a5f700d272239db3c35b6cdf7" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1static__target__simulator__cc" kindref="compound">static_target_simulator_cc</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;static_target_simulator_cc&gt; gr::radar::static_target_simulator_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/static_target_simulator_cc.h" line="99" column="29" bodyfile="/home/lmz/gr-radar/include/radar/static_target_simulator_cc.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc_1ade321d995448fd9607296d7281935e15" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1static__target__simulator__cc_1a66dbec7a5f700d272239db3c35b6cdf7" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::static_target_simulator_cc::make</definition>
+        <argsstring>(std::vector&lt; float &gt; range, std::vector&lt; float &gt; velocity, std::vector&lt; float &gt; rcs, std::vector&lt; float &gt; azimuth, std::vector&lt; float &gt; position_rx, int samp_rate, float center_freq, float self_coupling_db, bool rndm_phaseshift=true, bool self_coupling=true, const std::string &amp;len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc::make</qualifiedname>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>rcs</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>position_rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>self_coupling_db</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rndm_phaseshift</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>self_coupling</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>range</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target ranges as vector (length H) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target velocities as vector (length H) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rcs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target RCS as vector (length H) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>azimuth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Target azimuth as vector (length H) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>position_rx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Position RX antennas. A value of [0] means there is one antenna, located in the origin (simple monostatic case). </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samp_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sample rate (samples per second) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>center_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Center frequency (Hz) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>self_coupling_db</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Self coupling attenuation (dB) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rndm_phaseshift</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Toggle random phaseshift on targets </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>self_coupling</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Toggle self coupling </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>packet_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/static_target_simulator_cc.h" line="116" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1static__target__simulator__cc_1adf281db8c56797d1f150aeae6106ac32" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::static_target_simulator_cc::setup_targets</definition>
+        <argsstring>(std::vector&lt; float &gt; range, std::vector&lt; float &gt; velocity, std::vector&lt; float &gt; rcs, std::vector&lt; float &gt; azimuth, std::vector&lt; float &gt; position_rx, int samp_rate, float center_freq, float self_coupling_db, bool rndm_phaseshift, bool self_coupling)=0</argsstring>
+        <name>setup_targets</name>
+        <qualifiedname>gr::radar::static_target_simulator_cc::setup_targets</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1static__target__simulator__cc__impl_1a0ca3096458f3a8acdfc6370c3c64f535">setup_targets</reimplementedby>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>rcs</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>azimuth</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>position_rx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>self_coupling_db</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rndm_phaseshift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>self_coupling</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/static_target_simulator_cc.h" line="128" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simulates the backscattering of a given signal on point targets.</para>
+<para>Implements the point scatter model. The input signal is the transmitted signal. The output signal is the received, backscattered signal, and contains one output signal per receive antenna.</para>
+<sect1 id="classgr_1_1radar_1_1static__target__simulator__cc_1radar_target_modeling">
+<title>Target modeling</title>
+<para>The targets are modeled by the vectors <computeroutput>range</computeroutput>, <computeroutput>velocity</computeroutput>, <computeroutput>rcs</computeroutput>, and <computeroutput>azimuth</computeroutput>. All these vectors need to be of length H, where H describes the number of reflecting targets. The backscattered signal can either have a zero phase, or a random phase (controlled by <computeroutput>rndm_phaseshift</computeroutput>). The received signal will be the linear superposition of H signals, each of which are derived from the input signal by the following equation:</para>
+<para><formula id="0">\[
+    r_h(t) = b_h s(t - \tau_h) e^{j2\pi f_{D,h}}
+\]</formula></para>
+<para>The attenuation depends on the center frequency <formula id="1">$f_C$</formula>, the radar cross section <formula id="2">$\sigma_{\text{RCS},h}$</formula>, the distance of the target <formula id="3">$d_h$</formula> and the speed of light <formula id="4">$c_0$</formula>:  <formula id="5">\[
+    b_h = \sqrt{\frac{c_0^2 \sigma_{\text{RCS},h}}{(4\pi)^3 d_h^4 f_C^2}}
+\]</formula></para>
+<para>The delay <formula id="6">$\tau_h$</formula> depends on the distance of the target:  <formula id="7">\[
+    \tau_h = 2\frac{d_h}{c_0}
+\]</formula></para>
+<para>The Doppler shift <formula id="8">$f_{D,h}$</formula> depends on the relative velocity and the center frequency:  <formula id="9">\[
+    f_{D,h} = 2\frac{v_{\text{rel},h}{c_0} f_C
+\]</formula></para>
+<para>The signals are added up to produce the total sum signal:  <formula id="10">\[
+    r(t) = \sum_{h=0}^{H-1} r_h(t)
+\]</formula></para>
+</sect1>
+<sect1 id="classgr_1_1radar_1_1static__target__simulator__cc_1radar_mimo_processing">
+<title>MIMO processing simulation</title>
+<para>This block has a limited capability of simulating multi-antenna reception. The <computeroutput>position_rx</computeroutput> vector determines the distance of every RX antenna from the origin (Note: The TX antenna is always in the origin). The length of the <computeroutput>position_rx</computeroutput> vector is thus also the number of output signals this block produces. For a simple, mono-static SISO radar, simply set position_rx to [0]. The RX antennas are always laid out in a straight line. When multiple antennas are given, the target azimuth plays a role; an azimuth of zero is perpendicular to the line in which the RX antennas are placed.</para>
+</sect1>
+<sect1 id="classgr_1_1radar_1_1static__target__simulator__cc_1radar_hw_impairments">
+<title>Self-coupling</title>
+<para>Self-coupling describes the amount of the TX signal that is directly coupled into the RX path. When <computeroutput>self_coupling</computeroutput> is set to true, effectively, a target with zero velocity and range is added. The parameter <computeroutput>self_coupling_db</computeroutput> describes the attenuation of the self-coupling, a value of -10 means that the transmit signal is attenuated by 10 dB on the receive signal. </para>
+</sect1>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::static_target_simulator_cc</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::static_target_simulator_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::static_target_simulator_cc</label>
+        <link refid="classgr_1_1radar_1_1static__target__simulator__cc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/static_target_simulator_cc.h" line="96" column="1" bodyfile="/home/lmz/gr-radar/include/radar/static_target_simulator_cc.h" bodystart="97" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc_1ade321d995448fd9607296d7281935e15" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc_1adf281db8c56797d1f150aeae6106ac32" prot="public" virt="pure-virtual"><scope>gr::radar::static_target_simulator_cc</scope><name>setup_targets</name></member>
+      <member refid="classgr_1_1radar_1_1static__target__simulator__cc_1a66dbec7a5f700d272239db3c35b6cdf7" prot="public" virt="non-virtual"><scope>gr::radar::static_target_simulator_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

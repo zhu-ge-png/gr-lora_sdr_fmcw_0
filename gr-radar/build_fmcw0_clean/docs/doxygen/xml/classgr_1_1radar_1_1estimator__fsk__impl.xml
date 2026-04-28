@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1estimator__fsk__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::estimator_fsk_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1estimator__fsk" prot="public" virt="non-virtual">gr::radar::estimator_fsk</basecompoundref>
+    <includes refid="estimator__fsk__impl_8h" local="no">estimator_fsk_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a8ea4ec9c1f0eae795c73fc4a067bfe11" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fsk_impl::d_center_freq</definition>
+        <argsstring></argsstring>
+        <name>d_center_freq</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_center_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="39" column="11" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a1ffe1187745411015b8bb2a5121fae5b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fsk_impl::d_delta_freq</definition>
+        <argsstring></argsstring>
+        <name>d_delta_freq</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_delta_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="39" column="25" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a79ebe8e5e7c5c7f7c26ff3cb3490ef4c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::estimator_fsk_impl::d_push_power</definition>
+        <argsstring></argsstring>
+        <name>d_push_power</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_push_power</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="40" column="10" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a22d7926b2e33105b98d64b722da26b40" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_port_id_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_port_id_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="41" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a01d4e807c0dacc8d0662b90935c0c9fc" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_port_id_out</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_out</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_port_id_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="41" column="29" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1ad594bbcbe2f3bb3b717ab3f590a856b1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_fsk_impl::d_freq</definition>
+        <argsstring></argsstring>
+        <name>d_freq</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="43" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a6285f4e6e82bd6289e0d6e95d72239e6" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_fsk_impl::d_phase</definition>
+        <argsstring></argsstring>
+        <name>d_phase</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="43" column="24" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a952bb1bdf20432aa2e4a76541a5fbcba" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_ptimestamp</definition>
+        <argsstring></argsstring>
+        <name>d_ptimestamp</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_ptimestamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="44" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1aecf49492caf4b497f4c6a7587864dd0c" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_pfreq</definition>
+        <argsstring></argsstring>
+        <name>d_pfreq</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_pfreq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="44" column="29" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a8418dc7b645bfe0062af36a49bfbbe46" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_pphase</definition>
+        <argsstring></argsstring>
+        <name>d_pphase</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_pphase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="44" column="37" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1adbaf8932c5aad2c3e3a2a4dd656783e6" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_ppower</definition>
+        <argsstring></argsstring>
+        <name>d_ppower</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_ppower</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="44" column="46" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a88877355a3439e0c552f24033c079159" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_fsk_impl::d_vel</definition>
+        <argsstring></argsstring>
+        <name>d_vel</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_vel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="46" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a768c0da3bc7c3c0b8cd6e3d1c2d15429" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_value</definition>
+        <argsstring></argsstring>
+        <name>d_value</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="47" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a681d6ef0e9525537dced1b507fe336b2" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_vel_key</definition>
+        <argsstring></argsstring>
+        <name>d_vel_key</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_vel_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="48" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1aa7433aa92683a21fb68039481f6224c9" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_vel_value</definition>
+        <argsstring></argsstring>
+        <name>d_vel_value</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_vel_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="48" column="26" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1ad87ef7eb2f7ce0cd4d10800a04327838" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_vel_pack</definition>
+        <argsstring></argsstring>
+        <name>d_vel_pack</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_vel_pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="48" column="38" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a5915e3a62cafd4f73697e4afb213a721" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_fsk_impl::d_range</definition>
+        <argsstring></argsstring>
+        <name>d_range</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="49" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1a6d1681d0fab8bf03696e4635c4c4feaf" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_range_key</definition>
+        <argsstring></argsstring>
+        <name>d_range_key</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_range_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="50" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1ab6a6a058b2c92e0274ec977e45b77c71" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_range_value</definition>
+        <argsstring></argsstring>
+        <name>d_range_value</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_range_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="50" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1ac471c8fcccd2795903ec4167a4db334a" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fsk_impl::d_range_pack</definition>
+        <argsstring></argsstring>
+        <name>d_range_pack</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::d_range_pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="50" column="42" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fsk__impl_1aa0008b4f3ca7c68f13c14a3610d217d0" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::radar::estimator_fsk_impl::c_light</definition>
+        <argsstring></argsstring>
+        <name>c_light</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::c_light</qualifiedname>
+        <initializer>= 3e8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="52" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fsk__impl_1a18cd8713128644a9198a43edce9637ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_fsk_impl::estimator_fsk_impl</definition>
+        <argsstring>(float center_freq, float delta_freq, bool push_power)</argsstring>
+        <name>estimator_fsk_impl</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::estimator_fsk_impl</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delta_freq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>push_power</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fsk__impl_1a506a3dc39cb004ddaf2c158fc120d20d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_fsk_impl::~estimator_fsk_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~estimator_fsk_impl</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::~estimator_fsk_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fsk__impl_1a99af7b27832b3d75854fc2680734b7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_fsk_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <qualifiedname>gr::radar::estimator_fsk_impl::handle_msg</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="37" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_fsk</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_fsk_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_fsk</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_fsk_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_freq</edgelabel>
+          <edgelabel>d_phase</edgelabel>
+          <edgelabel>d_range</edgelabel>
+          <edgelabel>d_vel</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" line="29" column="1" bodyfile="/home/lmz/gr-radar/lib/estimator_fsk_impl.h" bodystart="30" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1aa0008b4f3ca7c68f13c14a3610d217d0" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>c_light</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a8ea4ec9c1f0eae795c73fc4a067bfe11" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a1ffe1187745411015b8bb2a5121fae5b" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_delta_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1ad594bbcbe2f3bb3b717ab3f590a856b1" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1aecf49492caf4b497f4c6a7587864dd0c" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_pfreq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a6285f4e6e82bd6289e0d6e95d72239e6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_phase</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a22d7926b2e33105b98d64b722da26b40" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_port_id_in</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a01d4e807c0dacc8d0662b90935c0c9fc" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_port_id_out</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a8418dc7b645bfe0062af36a49bfbbe46" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_pphase</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1adbaf8932c5aad2c3e3a2a4dd656783e6" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_ppower</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a952bb1bdf20432aa2e4a76541a5fbcba" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_ptimestamp</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a79ebe8e5e7c5c7f7c26ff3cb3490ef4c" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_push_power</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a5915e3a62cafd4f73697e4afb213a721" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_range</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a6d1681d0fab8bf03696e4635c4c4feaf" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_range_key</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1ac471c8fcccd2795903ec4167a4db334a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_range_pack</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1ab6a6a058b2c92e0274ec977e45b77c71" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_range_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a768c0da3bc7c3c0b8cd6e3d1c2d15429" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a88877355a3439e0c552f24033c079159" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_vel</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a681d6ef0e9525537dced1b507fe336b2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_vel_key</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1ad87ef7eb2f7ce0cd4d10800a04327838" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_vel_pack</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1aa7433aa92683a21fb68039481f6224c9" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>d_vel_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a18cd8713128644a9198a43edce9637ab" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>estimator_fsk_impl</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a99af7b27832b3d75854fc2680734b7f3" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk_1aa3fa5b2fb6bc9f361c344fb4e02c2f50" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk_1a08ee006008ce9ae7b8cffcd4def0a1a9" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk__impl_1a506a3dc39cb004ddaf2c158fc120d20d" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk_impl</scope><name>~estimator_fsk_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_fd5eb134bc82b3431d6509da9d667228" kind="dir">
+    <compoundname>python</compoundname>
+    <innerdir refid="dir_e357339ae35404b78eeae47802b473ed">radar</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build_fmcw0_clean/python/"/>
+  </compounddef>
+</doxygen>

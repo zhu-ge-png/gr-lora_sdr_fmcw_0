@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_cf879b9f2a3f94ccd1c0339f560fed9c" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerfile refid="build__fmcw0__clean_2python_2radar_2bindings_2pydoc__macros_8h">build_fmcw0_clean/python/radar/bindings/pydoc_macros.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build_fmcw0_clean/python/radar/bindings/"/>
+  </compounddef>
+</doxygen>

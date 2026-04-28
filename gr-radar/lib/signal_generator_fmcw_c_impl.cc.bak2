@@ -1,0 +1,145 @@
+/* -*- c++ -*- */
+/*
+ * Copyright 2014 Communications Engineering Lab, KIT.
+ *
+ * This is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3, or (at your option)
+ * any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this software; see the file COPYING.  If not, write to
+ * the Free Software Foundation, Inc., 51 Franklin Street,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
+#include "signal_generator_fmcw_c_impl.h"
+#include <gnuradio/io_signature.h>
+#include <gnuradio/math.h>
+#include <algorithm>
+#include <cmath>
+#include <iostream>
+
+namespace gr {
+namespace radar {
+
+signal_generator_fmcw_c::sptr signal_generator_fmcw_c::make(const int samp_rate,
+                                                            const int samp_up,
+                                                            const int samp_down,
+                                                            const int samp_cw,
+                                                            const float freq_cw,
+                                                            const float freq_sweep,
+                                                            const float amplitude,
+                                                            const int repeat_count,
+                                                            const std::string& len_key)
+{
+    return gnuradio::make_block_sptr<signal_generator_fmcw_c_impl>(samp_rate,
+                                                                   samp_up,
+                                                                   samp_down,
+                                                                   samp_cw,
+                                                                   freq_cw,
+                                                                   freq_sweep,
+                                                                   amplitude,
+                                                                   repeat_count,
+                                                                   len_key);
+}
+
+signal_generator_fmcw_c_impl::signal_generator_fmcw_c_impl(const int samp_rate,
+                                                           const int samp_up,
+                                                           const int samp_down,
+                                                           const int samp_cw,
+                                                           const float freq_cw,
+                                                           const float freq_sweep,
+                                                           const float amplitude,
+                                                           const int repeat_count,
+                                                           const std::string& len_key)
+    : gr::sync_block("signal_generator_fmcw_c",
+                     gr::io_signature::make(0, 0, 0),
+                     gr::io_signature::make(1, 1, sizeof(gr_complex))),
+      d_samp_rate(std::max(1, samp_rate)),
+      d_req_samp_up(std::max(0, samp_up)),
+      d_req_samp_down(std::max(0, samp_down)),
+      d_req_samp_cw(std::max(0, samp_cw)),
+      // Compatibility rule:
+      // keep the SAME total symbol length as before, but emit no CW flat segment.
+      // So one new FMCW symbol is a pure triangle occupying:
+      //   total_len = old_cw + old_up + old_down
+      d_symbol_len(std::max(2, d_req_samp_up + d_req_samp_down + d_req_samp_cw)),
+      d_triangle_up_len(std::max(1, d_symbol_len / 2)),
+      d_triangle_down_len(std::max(1, d_symbol_len - d_triangle_up_len)),
+      d_repeat_count(std::max(1, repeat_count)),
+      d_packet_len(d_symbol_len * d_repeat_count),
+      d_freq_cw(freq_cw),
+      d_freq_sweep(freq_sweep),
+      d_amplitude(amplitude),
+      d_key_len(pmt::string_to_symbol(len_key)),
+      d_value_len(pmt::from_long(d_packet_len)),
+      d_srcid(pmt::string_to_symbol("signal_generator_fmcw_c")),
+      d_phase(1.0f, 0.0f),
+      d_waveform(d_symbol_len, d_freq_cw),
+      d_wv_counter(0)
+{
+    const float up_den = static_cast<float>(std::max(1, d_triangle_up_len));
+    const float down_den = static_cast<float>(std::max(1, d_triangle_down_len));
+
+    // First half: up-sweep
+    for (int k = 0; k < d_triangle_up_len; ++k) {
+        d_waveform[k] = d_freq_cw + (d_freq_sweep / up_den) * static_cast<float>(k);
+    }
+
+    // Second half: down-sweep
+    for (int k = 0; k < d_triangle_down_len; ++k) {
+        d_waveform[d_triangle_up_len + k] =
+            d_freq_cw + d_freq_sweep - (d_freq_sweep / down_den) * static_cast<float>(k);
+    }
+
+    std::cerr << "[signal_generator_fmcw_c] triangle mode enabled"
+              << " total_symbol_len=" << d_symbol_len
+              << " up_len=" << d_triangle_up_len
+              << " down_len=" << d_triangle_down_len
+              << " repeat_count=" << d_repeat_count
+              << " packet_len=" << d_packet_len
+              << std::endl;
+}
+
+signal_generator_fmcw_c_impl::~signal_generator_fmcw_c_impl() {}
+
+int signal_generator_fmcw_c_impl::work(int noutput_items,
+                                       gr_vector_const_void_star& /*input_items*/,
+                                       gr_vector_void_star& output_items)
+{
+    gr_complex* out = static_cast<gr_complex*>(output_items[0]);
+
+    for (int i = 0; i < noutput_items; ++i) {
+        const uint64_t abs_idx = nitems_written(0) + static_cast<uint64_t>(i);
+        if ((abs_idx % static_cast<uint64_t>(d_packet_len)) == 0ULL) {
+            add_item_tag(0, abs_idx, d_key_len, d_value_len, d_srcid);
+            d_wv_counter = 0;
+        }
+
+        out[i] = d_amplitude * d_phase;
+
+        const float phase_inc =
+            2.0f * GR_M_PI * d_waveform[d_wv_counter] / static_cast<float>(d_samp_rate);
+        d_phase *= std::exp(gr_complex(0.0f, phase_inc));
+
+        d_wv_counter += 1;
+        if (d_wv_counter >= d_symbol_len) {
+            d_wv_counter = 0;
+        }
+    }
+
+    return noutput_items;
+}
+
+} /* namespace radar */
+} /* namespace gr */

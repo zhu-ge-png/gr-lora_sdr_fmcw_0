@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>os_cfar_2d_vc_pydoc_template.h</label>
+        <link refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1aec69bcf16d502c958e78ee6ad6635649" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1ab95c6cd45aaf86c26e9251a2bf1c1b1e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="22" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1a3021de23e92dc10a59d9cb06ea310a24" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="25" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1ad5859e47e6ce7861479e46a337b52f01" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="28" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1a63941887d6fb7632c2fc5d523ef18548" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_rel_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_rel_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="31" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1a103804d221935b0d184a0a2c5447ce02" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_mult_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_mult_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="34" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1ac610bbd455609769d61b7794c7193bc7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_samp_compare</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_samp_compare</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="37" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h_1a30a8e74ae7969719a2f42b50a60b9458" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_samp_protect</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_samp_protect</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" line="40" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

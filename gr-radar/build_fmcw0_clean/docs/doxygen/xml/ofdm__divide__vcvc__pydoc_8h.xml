@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ofdm__divide__vcvc__pydoc_8h" kind="file" language="C++">
+    <compoundname>ofdm_divide_vcvc_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>ofdm_divide_vcvc_pydoc.h</label>
+        <link refid="ofdm__divide__vcvc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="ofdm__divide__vcvc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="ofdm__divide__vcvc__pydoc_8h_1af6dcb89d7a1ee3efa094a4c6f84b8033" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_ofdm_divide_vcvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_ofdm_divide_vcvc</name>
+        <initializer>= R&quot;doc(This block performs a complex complex division with in0/in1. If vlen_out &gt; vlen_in the additional space is filled with zeros. This can be used for zeropadding. discarded_carriers is a vector of the carriers which should be not used and set zero as division result. num_sync_words gives the number of sync words on which the discarded_carriers rule is not applied.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::ofdm_divide_vcvc.
+
+To avoid accidental use of raw pointers, radar::ofdm_divide_vcvc&apos;s constructor is in a private implementation class. radar::ofdm_divide_vcvc::make is the public interface for creating new instances.
+
+Args:
+    vlen_in : 
+    vlen_out : 
+    discarded_carriers : 
+    num_sync_words : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__divide__vcvc__pydoc_8h_1a9663bd7ed332632853908d1e1cf5a947" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_ofdm_divide_vcvc_ofdm_divide_vcvc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_ofdm_divide_vcvc_ofdm_divide_vcvc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" line="35" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ofdm__divide__vcvc__pydoc_8h_1a63dfbca7661c433318eb0383bcbb327d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_ofdm_divide_vcvc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_ofdm_divide_vcvc_make</name>
+        <initializer>= R&quot;doc(This block performs a complex complex division with in0/in1. If vlen_out &gt; vlen_in the additional space is filled with zeros. This can be used for zeropadding. discarded_carriers is a vector of the carriers which should be not used and set zero as division result. num_sync_words gives the number of sync words on which the discarded_carriers rule is not applied.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::ofdm_divide_vcvc.
+
+To avoid accidental use of raw pointers, radar::ofdm_divide_vcvc&apos;s constructor is in a private implementation class. radar::ofdm_divide_vcvc::make is the public interface for creating new instances.
+
+Args:
+    vlen_in : 
+    vlen_out : 
+    discarded_carriers : 
+    num_sync_words : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" line="38" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/ofdm_divide_vcvc_pydoc.h"/>
+  </compounddef>
+</doxygen>

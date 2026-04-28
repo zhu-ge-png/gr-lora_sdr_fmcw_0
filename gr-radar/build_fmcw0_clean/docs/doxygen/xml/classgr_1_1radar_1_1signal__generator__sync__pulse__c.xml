@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1signal__generator__sync__pulse__c" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::signal_generator_sync_pulse_c</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c__impl" prot="public" virt="non-virtual">gr::radar::signal_generator_sync_pulse_c_impl</derivedcompoundref>
+    <includes refid="signal__generator__sync__pulse__c_8h" local="no">signal_generator_sync_pulse_c.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1signal__generator__sync__pulse__c_1a21533b418c6d1d42b9d9736d293f3235" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c" kindref="compound">signal_generator_sync_pulse_c</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;signal_generator_sync_pulse_c&gt; gr::radar::signal_generator_sync_pulse_c::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::signal_generator_sync_pulse_c::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/signal_generator_sync_pulse_c.h" line="51" column="29" bodyfile="/home/lmz/gr-radar/include/radar/signal_generator_sync_pulse_c.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1signal__generator__sync__pulse__c_1a35cf4c168b32911d0ddc1f069d4f5b98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c_1a21533b418c6d1d42b9d9736d293f3235" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::signal_generator_sync_pulse_c::make</definition>
+        <argsstring>(int packet_len, std::vector&lt; int &gt; pulse_len, std::vector&lt; int &gt; pulse_pause, float pulse_amplitude, const std::string len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::signal_generator_sync_pulse_c::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>packet_len</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>pulse_len</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>pulse_pause</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pulse_amplitude</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c" kindref="compound">radar::signal_generator_sync_pulse_c</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c" kindref="compound">radar::signal_generator_sync_pulse_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c_1a35cf4c168b32911d0ddc1f069d4f5b98" kindref="member">radar::signal_generator_sync_pulse_c::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/signal_generator_sync_pulse_c.h" line="62" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block generates a signal for the synchronization of the USRP Echotimer in baseband. The signal is pulsed with a constant amplitude with various pulse length and wait samples in between. It is structured by alternating wait parts and burst parts and starting with the first wait part. The pulses are full real signals. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>packet_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The packet length has to be longer or equal than the sum of pulse_len and pulse_pause.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pulse_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The length of the pulses are defined in a vector and given in number of samples. The pulses are generated alternating with the wait samples defined in pulse_pause.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pulse_pause</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The wait samples between pulses are defined in a vector. The first segment of the whole signal is the first element in the pulse_pause vector. This element can be zero.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pulse_amplitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pulse amplitude of real signal</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::signal_generator_sync_pulse_c</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::signal_generator_sync_pulse_c_impl</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::signal_generator_sync_pulse_c</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/signal_generator_sync_pulse_c.h" line="48" column="1" bodyfile="/home/lmz/gr-radar/include/radar/signal_generator_sync_pulse_c.h" bodystart="49" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c_1a35cf4c168b32911d0ddc1f069d4f5b98" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_sync_pulse_c</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__sync__pulse__c_1a21533b418c6d1d42b9d9736d293f3235" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_sync_pulse_c</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

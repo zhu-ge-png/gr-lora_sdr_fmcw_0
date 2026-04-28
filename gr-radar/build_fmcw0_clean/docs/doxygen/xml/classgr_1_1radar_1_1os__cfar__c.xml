@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1os__cfar__c" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::radar::os_cfar_c</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1os__cfar__c__impl" prot="public" virt="non-virtual">gr::radar::os_cfar_c_impl</derivedcompoundref>
+    <includes refid="os__cfar__c_8h" local="no">os_cfar_c.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1os__cfar__c_1ad517967a03c62532691b0adf08b01a21" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1os__cfar__c" kindref="compound">os_cfar_c</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;os_cfar_c&gt; gr::radar::os_cfar_c::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::os_cfar_c::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="56" column="29" bodyfile="/home/lmz/gr-radar/include/radar/os_cfar_c.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__c_1a8a625bb9b96efa87a72ab79edc1204b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1os__cfar__c_1ad517967a03c62532691b0adf08b01a21" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::os_cfar_c::make</definition>
+        <argsstring>(int samp_rate, int samp_compare, int samp_protect, float rel_threshold, float mult_threshold, bool merge_consecutive=true, const std::string &amp;len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::os_cfar_c::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_compare</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_protect</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rel_threshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mult_threshold</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>merge_consecutive</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1os__cfar__c" kindref="compound">radar::os_cfar_c</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1os__cfar__c" kindref="compound">radar::os_cfar_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1os__cfar__c_1a8a625bb9b96efa87a72ab79edc1204b4" kindref="member">radar::os_cfar_c::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="66" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__c_1a228c699ffb518d6c1e3c15a37e4ad225" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::os_cfar_c::set_rel_threshold</definition>
+        <argsstring>(float inp)=0</argsstring>
+        <name>set_rel_threshold</name>
+        <qualifiedname>gr::radar::os_cfar_c::set_rel_threshold</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1os__cfar__c__impl_1a39e6f6e7364a9c2693e086b24c107b4b">set_rel_threshold</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="73" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__c_1ab54a405c844312f8fb9eeb62b3c4409e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::os_cfar_c::set_mult_threshold</definition>
+        <argsstring>(float inp)=0</argsstring>
+        <name>set_mult_threshold</name>
+        <qualifiedname>gr::radar::os_cfar_c::set_mult_threshold</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1os__cfar__c__impl_1a76de588ab4e26491c86d52774ffc9ce6">set_mult_threshold</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="74" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__c_1ae9762c0ae9e9e58b89ff86b58e539da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::os_cfar_c::set_samp_compare</definition>
+        <argsstring>(int inp)=0</argsstring>
+        <name>set_samp_compare</name>
+        <qualifiedname>gr::radar::os_cfar_c::set_samp_compare</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1os__cfar__c__impl_1a8f686347a258633cb6dd82014d8e656b">set_samp_compare</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="75" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__c_1af426bc0ddc593c41138f8622ce1e76a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::os_cfar_c::set_samp_protect</definition>
+        <argsstring>(int inp)=0</argsstring>
+        <name>set_samp_protect</name>
+        <qualifiedname>gr::radar::os_cfar_c::set_samp_protect</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1os__cfar__c__impl_1a31b484b37e381e02a76544b89186a340">set_samp_protect</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="76" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block estimates peaks of a given FFT spectrum as tagged stream. Multi peak detection is implemented with the OS-CFAR algorithm. The algorithm uses around the cell under test (CUT) on each side samp_compare samples to estimate the noise floor. This relative threshold is defined by the bin of the vector within the sorted samp_compare samples. A standard value is rel_threshold = 0.78. The value of this bin is multiplied by mult_threshold and compared with the CUT. samp_protect samples are a protected are which is not used for acquiring compare samples. If consecutive bins are detected as valid peaks it is possible to merge these detections with merge_consecutive = true. Output data are f32vectors with the information of frequency, power and phase. The identifiers (symbols) are &apos;frequency&apos;, &apos;power&apos; and &apos;phase&apos;. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>samp_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sample rate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samp_compare</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sample to be compared with each other </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samp_protect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Samples which are protected and not used for peak detection </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rel_threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Relative threshold </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mult_threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Multiplier threshold </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>merge_consectuive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Toggle merging consecutive detected peaks </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::os_cfar_c</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::os_cfar_c_impl</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__c__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::os_cfar_c</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/os_cfar_c.h" line="53" column="1" bodyfile="/home/lmz/gr-radar/include/radar/os_cfar_c.h" bodystart="54" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1os__cfar__c_1a8a625bb9b96efa87a72ab79edc1204b4" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_c</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__c_1ab54a405c844312f8fb9eeb62b3c4409e" prot="public" virt="pure-virtual"><scope>gr::radar::os_cfar_c</scope><name>set_mult_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__c_1a228c699ffb518d6c1e3c15a37e4ad225" prot="public" virt="pure-virtual"><scope>gr::radar::os_cfar_c</scope><name>set_rel_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__c_1ae9762c0ae9e9e58b89ff86b58e539da1" prot="public" virt="pure-virtual"><scope>gr::radar::os_cfar_c</scope><name>set_samp_compare</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__c_1af426bc0ddc593c41138f8622ce1e76a0" prot="public" virt="pure-virtual"><scope>gr::radar::os_cfar_c</scope><name>set_samp_protect</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__c_1ad517967a03c62532691b0adf08b01a21" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_c</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

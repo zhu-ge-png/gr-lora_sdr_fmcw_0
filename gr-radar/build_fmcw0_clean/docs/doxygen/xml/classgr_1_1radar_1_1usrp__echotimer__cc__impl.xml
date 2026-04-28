@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1usrp__echotimer__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::usrp_echotimer_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1usrp__echotimer__cc" prot="public" virt="non-virtual">gr::radar::usrp_echotimer_cc</basecompoundref>
+    <includes refid="usrp__echotimer__cc__impl_8h" local="no">usrp_echotimer_cc_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a1ae2620ee5125c1a016555c73d9b026e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::usrp_echotimer_cc_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_samp_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="70" column="9" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6df5f4850d151fb4b95b994d70bbd67a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_center_freq</definition>
+        <argsstring></argsstring>
+        <name>d_center_freq</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_center_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="71" column="11" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1acaa421d469d7e737b8e8a54c851f7d6c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::usrp_echotimer_cc_impl::d_num_delay_samps</definition>
+        <argsstring></argsstring>
+        <name>d_num_delay_samps</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_num_delay_samps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="72" column="9" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ad569c4c5ee35d92a0269551de77cc23a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::radar::usrp_echotimer_cc_impl::d_out_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_out_buffer</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_out_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="73" column="17" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a193538a580b8bd7b63c7e7b4bd06d77d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_args_tx</definition>
+        <argsstring></argsstring>
+        <name>d_args_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_args_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="75" column="17" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a62b92512ac59ccf6dac45b6d4c77f1c3" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_args_rx</definition>
+        <argsstring></argsstring>
+        <name>d_args_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_args_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="75" column="27" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac437249e2938cb66daf7871ad630dec0" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_clock_source_tx</definition>
+        <argsstring></argsstring>
+        <name>d_clock_source_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_clock_source_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="76" column="17" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1aee71f5bb5ece720273311d7ca04f605a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_clock_source_rx</definition>
+        <argsstring></argsstring>
+        <name>d_clock_source_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_clock_source_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="76" column="35" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ab6ce9e013fe00f6839faa908f0f603ba" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_wire_tx</definition>
+        <argsstring></argsstring>
+        <name>d_wire_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_wire_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="77" column="17" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a86544efe69105af28b56b0159bbb60a7" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_wire_rx</definition>
+        <argsstring></argsstring>
+        <name>d_wire_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_wire_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="77" column="27" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a72f83e73e59ef56be82a705c7f48702c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_antenna_tx</definition>
+        <argsstring></argsstring>
+        <name>d_antenna_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_antenna_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="78" column="17" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac0ade9a7419909277d88981415e9784c" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_antenna_rx</definition>
+        <argsstring></argsstring>
+        <name>d_antenna_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_antenna_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="78" column="30" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a5a703b2caac32ef2bc52dd173e2122c4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_time_source_tx</definition>
+        <argsstring></argsstring>
+        <name>d_time_source_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_time_source_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="79" column="17" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a7bb5ca1d2743ee336274a59f108f406f" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::usrp_echotimer_cc_impl::d_time_source_rx</definition>
+        <argsstring></argsstring>
+        <name>d_time_source_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_time_source_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="79" column="34" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a04015b912490c126ffc69f7b6f07f78f" prot="public" static="no" mutable="no">
+        <type>uhd::usrp::multi_usrp::sptr</type>
+        <definition>uhd::usrp::multi_usrp::sptr gr::radar::usrp_echotimer_cc_impl::d_usrp_tx</definition>
+        <argsstring></argsstring>
+        <name>d_usrp_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_usrp_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="80" column="33" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ab1e81ded45fb6322706bdcd61da1b2b9" prot="public" static="no" mutable="no">
+        <type>uhd::usrp::multi_usrp::sptr</type>
+        <definition>uhd::usrp::multi_usrp::sptr gr::radar::usrp_echotimer_cc_impl::d_usrp_rx</definition>
+        <argsstring></argsstring>
+        <name>d_usrp_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_usrp_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="80" column="43" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a102bf37961c924f048671a6d4c0eaed3" prot="public" static="no" mutable="no">
+        <type>uhd::tune_request_t</type>
+        <definition>uhd::tune_request_t gr::radar::usrp_echotimer_cc_impl::d_tune_request_tx</definition>
+        <argsstring></argsstring>
+        <name>d_tune_request_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_tune_request_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="81" column="25" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6de68cf23ea0dff55a29075e9f33c9c3" prot="public" static="no" mutable="no">
+        <type>uhd::tune_request_t</type>
+        <definition>uhd::tune_request_t gr::radar::usrp_echotimer_cc_impl::d_tune_request_rx</definition>
+        <argsstring></argsstring>
+        <name>d_tune_request_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_tune_request_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="81" column="43" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a4f6f5894fa53948d547b94cff3ca5f6a" prot="public" static="no" mutable="no">
+        <type>uhd::tx_streamer::sptr</type>
+        <definition>uhd::tx_streamer::sptr gr::radar::usrp_echotimer_cc_impl::d_tx_stream</definition>
+        <argsstring></argsstring>
+        <name>d_tx_stream</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_tx_stream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="82" column="28" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6457aea8dba3929963859270095b69ce" prot="public" static="no" mutable="no">
+        <type>uhd::rx_streamer::sptr</type>
+        <definition>uhd::rx_streamer::sptr gr::radar::usrp_echotimer_cc_impl::d_rx_stream</definition>
+        <argsstring></argsstring>
+        <name>d_rx_stream</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_rx_stream</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="83" column="28" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ada245c1c0131f4ce9d148371fe2ddf93" prot="public" static="no" mutable="no">
+        <type>uhd::tx_metadata_t</type>
+        <definition>uhd::tx_metadata_t gr::radar::usrp_echotimer_cc_impl::d_metadata_tx</definition>
+        <argsstring></argsstring>
+        <name>d_metadata_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_metadata_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="84" column="24" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1adfa32d83d0aad733363eaefc7fab7544" prot="public" static="no" mutable="no">
+        <type>uhd::rx_metadata_t</type>
+        <definition>uhd::rx_metadata_t gr::radar::usrp_echotimer_cc_impl::d_metadata_rx</definition>
+        <argsstring></argsstring>
+        <name>d_metadata_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_metadata_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="85" column="24" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a60910802ba8cb9b27e80ea4371ca1297" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radar::usrp_echotimer_cc_impl::d_lo_offset_tx</definition>
+        <argsstring></argsstring>
+        <name>d_lo_offset_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_lo_offset_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="86" column="12" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2c7f111557a2d0547b3244bcef0c5123" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::radar::usrp_echotimer_cc_impl::d_lo_offset_rx</definition>
+        <argsstring></argsstring>
+        <name>d_lo_offset_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_lo_offset_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="86" column="27" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a68caa5f284874e0021b1c46b57ee1729" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_timeout_tx</definition>
+        <argsstring></argsstring>
+        <name>d_timeout_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_timeout_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="87" column="11" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a9733ac854d01379ed9f8af65c751ac6b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_timeout_rx</definition>
+        <argsstring></argsstring>
+        <name>d_timeout_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_timeout_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="87" column="24" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a57aaa89f4ffca573467eae4ac99de67a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_wait_tx</definition>
+        <argsstring></argsstring>
+        <name>d_wait_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_wait_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="88" column="11" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1afb9174f676fad367709dfa2266e48251" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_wait_rx</definition>
+        <argsstring></argsstring>
+        <name>d_wait_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_wait_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="88" column="21" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ab6215f8639493d11809c2543ee38cad5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_gain_tx</definition>
+        <argsstring></argsstring>
+        <name>d_gain_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_gain_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="89" column="11" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2de7fee260fda8b2211e024c4760dcfb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::usrp_echotimer_cc_impl::d_gain_rx</definition>
+        <argsstring></argsstring>
+        <name>d_gain_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_gain_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="89" column="21" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1aaeb11f3f6b0cc3bb1ef152293f27268f" prot="public" static="no" mutable="no">
+        <type>uhd::time_spec_t</type>
+        <definition>uhd::time_spec_t gr::radar::usrp_echotimer_cc_impl::d_time_now_tx</definition>
+        <argsstring></argsstring>
+        <name>d_time_now_tx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_time_now_tx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="91" column="22" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a0538e20aa6616f2ea8d509bec2ca4958" prot="public" static="no" mutable="no">
+        <type>uhd::time_spec_t</type>
+        <definition>uhd::time_spec_t gr::radar::usrp_echotimer_cc_impl::d_time_now_rx</definition>
+        <argsstring></argsstring>
+        <name>d_time_now_rx</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_time_now_rx</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="91" column="36" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2c69844006a7bd0d68f1df471d5a302c" prot="public" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::radar::usrp_echotimer_cc_impl::d_thread_recv</definition>
+        <argsstring></argsstring>
+        <name>d_thread_recv</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_thread_recv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="93" column="24" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac535b2480437505ad80b59d107402969" prot="public" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::radar::usrp_echotimer_cc_impl::d_out_recv</definition>
+        <argsstring></argsstring>
+        <name>d_out_recv</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_out_recv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="94" column="16" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1aa7977a197fea27e20444fe4a340d02ff" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::usrp_echotimer_cc_impl::d_noutput_items_recv</definition>
+        <argsstring></argsstring>
+        <name>d_noutput_items_recv</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_noutput_items_recv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="95" column="9" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a204c7f2141a9b7550e53fe2b932f9f90" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::usrp_echotimer_cc_impl::d_time_key</definition>
+        <argsstring></argsstring>
+        <name>d_time_key</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_time_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="96" column="16" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a52835758b83b94d030aa37036426018f" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::usrp_echotimer_cc_impl::d_time_val</definition>
+        <argsstring></argsstring>
+        <name>d_time_val</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_time_val</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="96" column="27" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a66cac78531aa6527232bcf46b369a518" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::usrp_echotimer_cc_impl::d_srcid</definition>
+        <argsstring></argsstring>
+        <name>d_srcid</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_srcid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="96" column="38" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1acd6e013055678f9d79a9b8c9c0968fe0" prot="public" static="no" mutable="no">
+        <type>gr::thread::thread</type>
+        <definition>gr::thread::thread gr::radar::usrp_echotimer_cc_impl::d_thread_send</definition>
+        <argsstring></argsstring>
+        <name>d_thread_send</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_thread_send</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="98" column="24" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac2dd476346e3dd1f664116f13d31c933" prot="public" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::radar::usrp_echotimer_cc_impl::d_in_send</definition>
+        <argsstring></argsstring>
+        <name>d_in_send</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_in_send</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="99" column="16" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1af14338366361774fdd51d072e0aac061" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::usrp_echotimer_cc_impl::d_noutput_items_send</definition>
+        <argsstring></argsstring>
+        <name>d_noutput_items_send</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::d_noutput_items_send</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="100" column="9" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2ee586fe560580d8b05646cdc8731158" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::usrp_echotimer_cc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::calculate_output_stream_length</qualifiedname>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="38" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a05003f774af8e2df1446ca7ebd401f95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::usrp_echotimer_cc_impl::usrp_echotimer_cc_impl</definition>
+        <argsstring>(int samp_rate, float center_freq, int num_delay_samps, std::string args_tx, std::string wire_tx, std::string clock_source_tx, std::string time_source_tx, std::string antenna_tx, float gain_tx, float timeout_tx, float wait_tx, float lo_offset_tx, std::string args_rx, std::string wire_rx, std::string clock_source_rx, std::string time_source_rx, std::string antenna_rx, float gain_rx, float timeout_rx, float wait_rx, float lo_offset_rx, const std::string &amp;len_key)</argsstring>
+        <name>usrp_echotimer_cc_impl</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::usrp_echotimer_cc_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_delay_samps</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>args_tx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>wire_tx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>clock_source_tx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>time_source_tx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>antenna_tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain_tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeout_tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>wait_tx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lo_offset_tx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>args_rx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>wire_rx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>clock_source_rx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>time_source_rx</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>antenna_rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain_rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeout_rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>wait_rx</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lo_offset_rx</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a1952594707db38baa60e787851c2ae39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::usrp_echotimer_cc_impl::~usrp_echotimer_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~usrp_echotimer_cc_impl</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::~usrp_echotimer_cc_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="63" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac5e1e26923b0b4bb7ce4bdb98945a00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::usrp_echotimer_cc_impl::send</definition>
+        <argsstring>()</argsstring>
+        <name>send</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::send</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6765004b0b215990ccd551d52ae86d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::usrp_echotimer_cc_impl::receive</definition>
+        <argsstring>()</argsstring>
+        <name>receive</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::receive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="65" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a11b5d6d6ae3a4de9c09ec94c7d98c60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::usrp_echotimer_cc_impl::set_num_delay_samps</definition>
+        <argsstring>(int num_samps)</argsstring>
+        <name>set_num_delay_samps</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::set_num_delay_samps</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1usrp__echotimer__cc_1af029bf7193437c2d689058747eeb9230">set_num_delay_samps</reimplements>
+        <param>
+          <type>int</type>
+          <declname>num_samps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="66" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1af8694db313cd74322876cf0a98601687" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::usrp_echotimer_cc_impl::set_rx_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_rx_gain</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::set_rx_gain</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1usrp__echotimer__cc_1ad44075270e4f4a7dca5f98f95662dde2">set_rx_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="67" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a3fccc117093ead0b511907492d7a0f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::usrp_echotimer_cc_impl::set_tx_gain</definition>
+        <argsstring>(float gain)</argsstring>
+        <name>set_tx_gain</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::set_tx_gain</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1usrp__echotimer__cc_1aaaddeacf2db61e391ed2409766b868e2">set_tx_gain</reimplements>
+        <param>
+          <type>float</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="68" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a7e215bdf428b1a5e05729d4554581658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::usrp_echotimer_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::radar::usrp_echotimer_cc_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="103" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::radar::usrp_echotimer_cc</label>
+        <link refid="classgr_1_1radar_1_1usrp__echotimer__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::usrp_echotimer_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::radar::usrp_echotimer_cc</label>
+        <link refid="classgr_1_1radar_1_1usrp__echotimer__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::usrp_echotimer_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_out_buffer</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_antenna_rx</edgelabel>
+          <edgelabel>d_antenna_tx</edgelabel>
+          <edgelabel>d_args_rx</edgelabel>
+          <edgelabel>d_args_tx</edgelabel>
+          <edgelabel>d_clock_source_rx</edgelabel>
+          <edgelabel>d_clock_source_tx</edgelabel>
+          <edgelabel>d_time_source_rx</edgelabel>
+          <edgelabel>d_time_source_tx</edgelabel>
+          <edgelabel>d_wire_rx</edgelabel>
+          <edgelabel>d_wire_tx</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="6">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::string</label>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; gr_complex &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" line="32" column="1" bodyfile="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h" bodystart="33" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2ee586fe560580d8b05646cdc8731158" prot="protected" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac0ade9a7419909277d88981415e9784c" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_antenna_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a72f83e73e59ef56be82a705c7f48702c" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_antenna_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a62b92512ac59ccf6dac45b6d4c77f1c3" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_args_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a193538a580b8bd7b63c7e7b4bd06d77d" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_args_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6df5f4850d151fb4b95b994d70bbd67a" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1aee71f5bb5ece720273311d7ca04f605a" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_clock_source_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac437249e2938cb66daf7871ad630dec0" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_clock_source_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2de7fee260fda8b2211e024c4760dcfb" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_gain_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ab6215f8639493d11809c2543ee38cad5" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_gain_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac2dd476346e3dd1f664116f13d31c933" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_in_send</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2c7f111557a2d0547b3244bcef0c5123" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_lo_offset_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a60910802ba8cb9b27e80ea4371ca1297" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_lo_offset_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1adfa32d83d0aad733363eaefc7fab7544" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_metadata_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ada245c1c0131f4ce9d148371fe2ddf93" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_metadata_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1aa7977a197fea27e20444fe4a340d02ff" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_noutput_items_recv</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1af14338366361774fdd51d072e0aac061" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_noutput_items_send</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1acaa421d469d7e737b8e8a54c851f7d6c" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_num_delay_samps</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ad569c4c5ee35d92a0269551de77cc23a" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_out_buffer</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac535b2480437505ad80b59d107402969" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_out_recv</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6457aea8dba3929963859270095b69ce" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_rx_stream</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a1ae2620ee5125c1a016555c73d9b026e" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a66cac78531aa6527232bcf46b369a518" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_srcid</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a2c69844006a7bd0d68f1df471d5a302c" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_thread_recv</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1acd6e013055678f9d79a9b8c9c0968fe0" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_thread_send</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a204c7f2141a9b7550e53fe2b932f9f90" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_time_key</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a0538e20aa6616f2ea8d509bec2ca4958" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_time_now_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1aaeb11f3f6b0cc3bb1ef152293f27268f" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_time_now_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a7bb5ca1d2743ee336274a59f108f406f" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_time_source_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a5a703b2caac32ef2bc52dd173e2122c4" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_time_source_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a52835758b83b94d030aa37036426018f" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_time_val</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a9733ac854d01379ed9f8af65c751ac6b" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_timeout_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a68caa5f284874e0021b1c46b57ee1729" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_timeout_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6de68cf23ea0dff55a29075e9f33c9c3" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_tune_request_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a102bf37961c924f048671a6d4c0eaed3" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_tune_request_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a4f6f5894fa53948d547b94cff3ca5f6a" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_tx_stream</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ab1e81ded45fb6322706bdcd61da1b2b9" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_usrp_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a04015b912490c126ffc69f7b6f07f78f" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_usrp_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1afb9174f676fad367709dfa2266e48251" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_wait_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a57aaa89f4ffca573467eae4ac99de67a" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_wait_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a86544efe69105af28b56b0159bbb60a7" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_wire_rx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ab6ce9e013fe00f6839faa908f0f603ba" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>d_wire_tx</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc_1af28724f82fe8b26282583d7c99f2c059" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a6765004b0b215990ccd551d52ae86d91" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>receive</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1ac5e1e26923b0b4bb7ce4bdb98945a00c" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>send</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a11b5d6d6ae3a4de9c09ec94c7d98c60e" prot="public" virt="virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>set_num_delay_samps</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1af8694db313cd74322876cf0a98601687" prot="public" virt="virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>set_rx_gain</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a3fccc117093ead0b511907492d7a0f14" prot="public" virt="virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>set_tx_gain</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc_1af9b186ce9f44829c0abd6848ce3d4982" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a05003f774af8e2df1446ca7ebd401f95" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>usrp_echotimer_cc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a7e215bdf428b1a5e05729d4554581658" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl_1a1952594707db38baa60e787851c2ae39" prot="public" virt="non-virtual"><scope>gr::radar::usrp_echotimer_cc_impl</scope><name>~usrp_echotimer_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

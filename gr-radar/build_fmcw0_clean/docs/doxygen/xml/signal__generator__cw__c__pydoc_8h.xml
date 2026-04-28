@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="signal__generator__cw__c__pydoc_8h" kind="file" language="C++">
+    <compoundname>signal_generator_cw_c_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>signal_generator_cw_c_pydoc.h</label>
+        <link refid="signal__generator__cw__c__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="signal__generator__cw__c__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="signal__generator__cw__c__pydoc_8h_1a01f82f851851af12de9a25f1b77fe34a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_signal_generator_cw_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_signal_generator_cw_c</name>
+        <initializer>= R&quot;doc(This block generates a signal for CW radar in baseband. The waveform consists of one (or sometimes multiple) constant frequency.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::signal_generator_cw_c.
+
+To avoid accidental use of raw pointers, radar::signal_generator_cw_c&apos;s constructor is in a private implementation class. radar::signal_generator_cw_c::make is the public interface for creating new instances.
+
+Args:
+    packet_len : 
+    samp_rate : 
+    frequency : 
+    amplitude : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="signal__generator__cw__c__pydoc_8h_1a560ad4f7360a44c0a12a0b2d2e849d25" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_signal_generator_cw_c_signal_generator_cw_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_signal_generator_cw_c_signal_generator_cw_c</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" line="35" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="signal__generator__cw__c__pydoc_8h_1a8128b533c930b27a6e87967af8f0d940" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_signal_generator_cw_c_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_signal_generator_cw_c_make</name>
+        <initializer>= R&quot;doc(This block generates a signal for CW radar in baseband. The waveform consists of one (or sometimes multiple) constant frequency.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::signal_generator_cw_c.
+
+To avoid accidental use of raw pointers, radar::signal_generator_cw_c&apos;s constructor is in a private implementation class. radar::signal_generator_cw_c::make is the public interface for creating new instances.
+
+Args:
+    packet_len : 
+    samp_rate : 
+    frequency : 
+    amplitude : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" line="38" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_cw_c_pydoc.h"/>
+  </compounddef>
+</doxygen>

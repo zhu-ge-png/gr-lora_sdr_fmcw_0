@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1ofdm__divide__vcvc" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::ofdm_divide_vcvc</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl" prot="public" virt="non-virtual">gr::radar::ofdm_divide_vcvc_impl</derivedcompoundref>
+    <includes refid="ofdm__divide__vcvc_8h" local="no">ofdm_divide_vcvc.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1ofdm__divide__vcvc_1a34dd7fa5b833f0b97a5d69d09040b433" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1ofdm__divide__vcvc" kindref="compound">ofdm_divide_vcvc</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ofdm_divide_vcvc&gt; gr::radar::ofdm_divide_vcvc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::ofdm_divide_vcvc::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/ofdm_divide_vcvc.h" line="50" column="29" bodyfile="/home/lmz/gr-radar/include/radar/ofdm_divide_vcvc.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__divide__vcvc_1a551167162c2c54954c8ad9e8576d64b4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1ofdm__divide__vcvc_1a34dd7fa5b833f0b97a5d69d09040b433" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::ofdm_divide_vcvc::make</definition>
+        <argsstring>(int vlen_in, int vlen_out, std::vector&lt; int &gt; discarded_carriers, int num_sync_words, std::string len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::ofdm_divide_vcvc::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vlen_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vlen_out</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>discarded_carriers</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sync_words</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1ofdm__divide__vcvc" kindref="compound">radar::ofdm_divide_vcvc</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1ofdm__divide__vcvc" kindref="compound">radar::ofdm_divide_vcvc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1ofdm__divide__vcvc_1a551167162c2c54954c8ad9e8576d64b4" kindref="member">radar::ofdm_divide_vcvc::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/ofdm_divide_vcvc.h" line="60" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block performs a complex complex division with in0/in1. If vlen_out &gt; vlen_in the additional space is filled with zeros. This can be used for zeropadding. discarded_carriers is a vector of the carriers which should be not used and set zero as division result. num_sync_words gives the number of sync words on which the discarded_carriers rule is not applied. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>vlen_in</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Input vector length </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vlen_out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Output vector length </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>discarded_carriers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Discarded carriers </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>num_sync_words</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of sync words </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::ofdm_divide_vcvc</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::ofdm_divide_vcvc_impl</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::ofdm_divide_vcvc</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/ofdm_divide_vcvc.h" line="47" column="1" bodyfile="/home/lmz/gr-radar/include/radar/ofdm_divide_vcvc.h" bodystart="48" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc_1a551167162c2c54954c8ad9e8576d64b4" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc_1a34dd7fa5b833f0b97a5d69d09040b433" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

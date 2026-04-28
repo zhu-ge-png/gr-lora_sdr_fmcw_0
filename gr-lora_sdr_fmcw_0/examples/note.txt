@@ -1,0 +1,1285 @@
+signal_generator_fmcw_c :info: set_min_output_buffer on block 1 to 4096
+modulate0 :info: set_min_output_buffer on block 11 to 65536
+tagged_stream_mux :info: set_min_output_buffer on block 26 to 2097152
+mmse_resampler_cc :info: set_min_output_buffer on block 19 to 520
+fir_filter_blk<IN_T,OUT_T,TAP_T> :info: set_min_output_buffer on block 20 to 520
+multiply_cc :info: set_min_output_buffer on block 24 to 520
+sig_source :info: set_min_output_buffer on block 23 to 520
+add_cc :info: set_min_output_buffer on block 21 to 520
+fastnoise_source :info: set_min_output_buffer on block 22 to 520
+Press Enter to quit: [frame_sync0] DETECT entered, ninput=4088 items_to_consume=0
+[frame_sync0] FMCW corr best_pos=245 best_corr=0.0665347 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=0
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0299226 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=0
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.923319 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.125 m_cfo_frac=0.0108491 sfo_hat=0 coarse_sto_frac=0.125 coarse_cfo_frac=0.0108491 train_tau_hz=-254.266 train_sto_frac=-0.115832 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=129 raw_bin1=8 raw_bin2=16 down_val=0
+[frame_sync0]   cand delta=-3 start=126 netid=8/15 dist=0/1 rank=3 sharp=1.05616 sharp_cap=1.05616 sharp_log=0.0546415 ratioA=1.11064 ratioB=1.05616 score=29868.6
+[frame_sync0]   cand delta=-2 start=127 netid=8/16 dist=0/0 rank=4 sharp=7.22849 sharp_cap=7.22849 sharp_log=1.97803 ratioA=7.22849 ratioB=8.48278 score=40225.4
+[frame_sync0]   cand delta=-1 start=128 netid=8/16 dist=0/0 rank=4 sharp=189.188 sharp_cap=32 sharp_log=3.46574 ratioA=313.582 ratioB=189.188 score=40409.9  <== selected
+[frame_sync0]   cand delta=0 start=129 netid=8/16 dist=0/0 rank=4 sharp=10.431 sharp_cap=10.431 sharp_log=2.34479 ratioA=10.431 ratioB=11.6053 score=40281.4
+[frame_sync0]   cand delta=1 start=130 netid=9/16 dist=1/0 rank=3 sharp=1.04538 sharp_cap=1.04538 sharp_log=0.0443808 ratioA=1.12746 ratioB=1.04538 score=29879.3
+[frame_sync0]   cand delta=2 start=131 netid=9/17 dist=1/1 rank=2 sharp=7.36501 sharp_cap=7.36501 sharp_log=1.99674 ratioA=7.36501 ratioB=8.73041 score=19987.6
+[frame_sync0]   cand delta=3 start=132 netid=9/17 dist=1/1 rank=2 sharp=180.531 sharp_cap=32 sharp_log=3.46574 ratioA=328.044 ratioB=180.531 score=20157.9
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=0.0108491 m_sto_frac=0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=0.0108491 m_sto_frac=0.125
+[frame_sync0] FMCW handoff candidate-nudge=-1 raw_probe=8/16 netid=8/16 down_val=0 nominal_start_off=129 start_off=128 items_to_consume=127
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=1 total=1
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=127
+[fft_demod peakdiag] frame=1 header_start cfo_int=0 cfo_frac=0.0108491 sf=7
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15720.9 peak2_idx=96 peak2=52.2216 gap=15668.6 gap_ratio=301.041
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=17463 peak2_idx=6 peak2=74.4502 gap=17388.6 gap_ratio=234.559
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=16943.3 peak2_idx=21 peak2=79.092 gap=16864.3 gap_ratio=214.223
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16397 peak2_idx=24 peak2=62.2315 gap=16334.8 gap_ratio=263.484
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16644.3 peak2_idx=0 peak2=93.2265 gap=16551.1 gap_ratio=178.537
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16120.9 peak2_idx=29 peak2=86.3787 gap=16034.6 gap_ratio=186.631
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=14547.4 peak2_idx=107 peak2=70.4266 gap=14477 gap_ratio=206.562
+[fft_demod headerdiag] frame=1 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=16045.6 peak2_idx=122 peak2=58.1406 gap=15987.5 gap_ratio=275.979
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=1/0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=1 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=1 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=17961.2 peak2_idx=82 peak2=48.7161 peak_gap=17912.5 gap_ratio=368.691 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15910.1 peak2_idx=28 peak2=58.1426 peak_gap=15852 gap_ratio=273.64 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16690.7 peak2_idx=32 peak2=76.0856 peak_gap=16614.6 gap_ratio=219.367 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16352.9 peak2_idx=70 peak2=72.1241 peak_gap=16280.8 gap_ratio=226.733 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=17183.9 peak2_idx=89 peak2=70.1605 peak_gap=17113.8 gap_ratio=244.923 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15715.1 peak2_idx=92 peak2=50.4204 peak_gap=15664.7 gap_ratio=311.682 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16951.8 peak2_idx=31 peak2=57.7091 peak_gap=16894.1 gap_ratio=293.745 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3580 items_to_consume=512
+[fft_demod peakdiag] frame=1 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16187.4 peak2_idx=6 peak2=86.9458 peak_gap=16100.5 gap_ratio=186.178 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15414.9 peak2_idx=120 peak2=83.3839 peak_gap=15331.5 gap_ratio=184.867 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=16521.8 peak2_idx=64 peak2=73.4528 peak_gap=16448.4 gap_ratio=224.931 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=16455.2 peak2_idx=70 peak2=69.2575 peak_gap=16385.9 gap_ratio=237.594 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16027.3 peak2_idx=93 peak2=59.7077 peak_gap=15967.6 gap_ratio=268.429 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=15566.6 peak2_idx=19 peak2=80.1666 peak_gap=15486.4 gap_ratio=194.178 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=17147.7 peak2_idx=39 peak2=65.1191 peak_gap=17082.6 gap_ratio=263.328 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=17040.1 peak2_idx=3 peak2=58.9533 peak_gap=16981.1 gap_ratio=289.043 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16849.5 peak2_idx=81 peak2=52.94 peak_gap=16796.6 gap_ratio=318.276 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16069.5 peak2_idx=25 peak2=53.7825 peak_gap=16015.7 gap_ratio=298.786 header=0 ldro=0
+[fft_demod peakdiag] frame=1 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16727.8 peak2_idx=56 peak2=64.2595 peak_gap=16663.6 gap_ratio=260.317 header=0 ldro=0
+rx msg: helloworld : 0
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=494 best_corr=0.0691035 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0285742 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.923876 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.125 m_cfo_frac=0.0357601 sfo_hat=0 coarse_sto_frac=0.125 coarse_cfo_frac=0.0357601 train_tau_hz=-426.348 train_sto_frac=-0.194225 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=129 raw_bin1=8 raw_bin2=16 down_val=0
+[frame_sync0]   cand delta=-3 start=126 netid=7/15 dist=1/1 rank=2 sharp=1.1019 sharp_cap=1.1019 sharp_log=0.0970391 ratioA=1.15053 ratioB=1.1019 score=19753.6
+[frame_sync0]   cand delta=-2 start=127 netid=8/16 dist=0/0 rank=4 sharp=5.77564 sharp_cap=5.77564 sharp_log=1.75365 ratioA=5.77564 ratioB=6.62199 score=40198.4
+[frame_sync0]   cand delta=-1 start=128 netid=8/16 dist=0/0 rank=4 sharp=242.779 sharp_cap=32 sharp_log=3.46574 ratioA=242.779 ratioB=256.684 score=40409.9  <== selected
+[frame_sync0]   cand delta=0 start=129 netid=8/16 dist=0/0 rank=4 sharp=9.31525 sharp_cap=9.31525 sharp_log=2.23165 ratioA=10.2638 ratioB=9.31525 score=40267.8
+[frame_sync0]   cand delta=1 start=130 netid=8/16 dist=0/0 rank=4 sharp=1.10531 sharp_cap=1.10531 sharp_log=0.10013 ratioA=1.11411 ratioB=1.10531 score=40006
+[frame_sync0]   cand delta=2 start=131 netid=9/17 dist=1/1 rank=2 sharp=6.13413 sharp_cap=6.13413 sharp_log=1.81387 ratioA=6.13413 ratioB=6.68047 score=19965.7
+[frame_sync0]   cand delta=3 start=132 netid=9/17 dist=1/1 rank=2 sharp=260.212 sharp_cap=32 sharp_log=3.46574 ratioA=260.212 ratioB=264.065 score=20157.9
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=0.0357601 m_sto_frac=0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=0.0357601 m_sto_frac=0.125
+[frame_sync0] FMCW handoff candidate-nudge=-1 raw_probe=8/16 netid=8/16 down_val=0 nominal_start_off=129 start_off=128 items_to_consume=127
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=2 total=2
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=127
+[fft_demod peakdiag] frame=2 header_start cfo_int=0 cfo_frac=0.0357601 sf=7
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16736.8 peak2_idx=96 peak2=80.0146 gap=16656.8 gap_ratio=209.172
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=17025.1 peak2_idx=116 peak2=153.919 gap=16871.1 gap_ratio=110.611
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=16266.1 peak2_idx=62 peak2=76.4746 gap=16189.6 gap_ratio=212.699
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15805.5 peak2_idx=60 peak2=84.7976 gap=15720.7 gap_ratio=186.391
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=15574.3 peak2_idx=122 peak2=72.7027 gap=15501.6 gap_ratio=214.218
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=15824.3 peak2_idx=22 peak2=78.8496 gap=15745.4 gap_ratio=200.689
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=17218 peak2_idx=8 peak2=55.6128 gap=17162.4 gap_ratio=309.605
+[fft_demod headerdiag] frame=2 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=16684.6 peak2_idx=127 peak2=71.2022 gap=16613.4 gap_ratio=234.327
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=2/0
+[fft_demod peakdiag] frame=2 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=2 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=16237.5 peak2_idx=103 peak2=97.1164 peak_gap=16140.4 gap_ratio=167.196 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15499.5 peak2_idx=124 peak2=89.2296 peak_gap=15410.3 gap_ratio=173.704 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16727 peak2_idx=14 peak2=68.9836 peak_gap=16658 gap_ratio=242.478 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16807.3 peak2_idx=34 peak2=109.054 peak_gap=16698.3 gap_ratio=154.119 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16932.1 peak2_idx=107 peak2=82.6543 peak_gap=16849.5 gap_ratio=204.855 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15991.3 peak2_idx=6 peak2=61.9489 peak_gap=15929.4 gap_ratio=258.138 header=0 ldro=0
+[frame_sync0] frame done, reset to DETECT, skip_guard=[fft_demod peakdiag] frame=2 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=512
+38 peak1=16236.9 peak2_idx=65 peak2=55.4159 peak_gap=16181.5 gap_ratio=293.001 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16086 peak2_idx=64 peak2=73.6778 peak_gap=16012.4 gap_ratio=218.33 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16207.6 peak2_idx=23 peak2=87.9865 peak_gap=16119.6 gap_ratio=184.206 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=16356.1 peak2_idx=90 peak2=66.4906 peak_gap=16289.6 gap_ratio=245.991 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=16574.4 peak2_idx=26 peak2=74.2068 peak_gap=16500.2 gap_ratio=223.354 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=15549.6 peak2_idx=14 peak2=86.5222 peak_gap=15463.1 gap_ratio=179.718 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=15439.3 peak2_idx=90 peak2=66.0193 peak_gap=15373.3 gap_ratio=233.86 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3580 items_to_consume=512
+[fft_demod peakdiag] frame=2 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=16855.8 peak2_idx=84 peak2=155.944 peak_gap=16699.9 gap_ratio=108.089 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16538.7 peak2_idx=82 peak2=64.8179 peak_gap=16473.8 gap_ratio=255.155 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=15817.1 peak2_idx=48 peak2=55.7697 peak_gap=15761.3 gap_ratio=283.614 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16190.3 peak2_idx=14 peak2=54.2972 peak_gap=16136 gap_ratio=298.179 header=0 ldro=0
+[fft_demod peakdiag] frame=2 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16553.8 peak2_idx=115 peak2=99.5633 peak_gap=16454.2 gap_ratio=166.264 header=0 ldro=0
+rx msg: helloworld : 1
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=59 best_corr=0.0750998 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0443742 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.925206 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.11349 m_cfo_frac=0.122607 sfo_hat=0 coarse_sto_frac=0.11349 coarse_cfo_frac=0.122607 train_tau_hz=-387.637 train_sto_frac=-0.17659 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=8 raw_bin2=16 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=3.84127 sharp_cap=3.84127 sharp_log=1.3458 ratioA=3.84127 ratioB=4.20888 score=40143.5
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=46.8491 sharp_cap=32 sharp_log=3.46574 ratioA=46.8491 ratioB=50.2006 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=15.5872 sharp_cap=15.5872 sharp_log=2.74645 ratioA=26.0109 ratioB=15.5872 score=40323.6
+[frame_sync0]   cand delta=0 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.56338 sharp_cap=1.56338 sharp_log=0.446851 ratioA=2.05402 ratioB=1.56338 score=40053.6
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=4.06177 sharp_cap=4.06177 sharp_log=1.40162 ratioA=4.06177 ratioB=4.39548 score=19922.2
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=50.766 sharp_cap=32 sharp_log=3.46574 ratioA=50.766 ratioB=52.1632 score=20163.9
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=14.4651 sharp_cap=14.4651 sharp_log=2.67174 ratioA=26.9402 ratioB=14.4651 score=20062.6
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.122607 m_sto_frac=0.11349
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=0.11349
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.122607 m_sto_frac=0.11349
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=8/16 netid=8/16 down_val=127 nominal_start_off=126 start_off=124 items_to_consume=122
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=3 total=3
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=122
+[fft_demod peakdiag] frame=3 header_start cfo_int=-1 cfo_frac=0.122607 sf=7
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=13453.9 peak2_idx=96 peak2=279.787 gap=13174.1 gap_ratio=48.0861
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=15553.4 peak2_idx=56 peak2=428.642 gap=15124.8 gap_ratio=36.2854
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=15318.9 peak2_idx=100 peak2=370.175 gap=14948.7 gap_ratio=41.3828
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16035.2 peak2_idx=60 peak2=509.763 gap=15525.5 gap_ratio=31.4563
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=15003.4 peak2_idx=4 peak2=293.271 gap=14710.1 gap_ratio=51.159
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=15284.5 peak2_idx=16 peak2=223.44 gap=15061.1 gap_ratio=68.4053
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=16353.8 peak2_idx=12 peak2=392.845 gap=15960.9 gap_ratio=41.6291
+[fft_demod headerdiag] frame=3 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=17389.1 peak2_idx=0 peak2=333.791 gap=17055.3 gap_ratio=52.0959
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=3/0
+[fft_demod peakdiag] frame=3 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=3 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15103 peak2_idx=53 peak2=415.664 peak_gap=14687.4 gap_ratio=36.3347 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15811.4 peak2_idx=124 peak2=309.512 peak_gap=15501.9 gap_ratio=51.085 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=15639.8 peak2_idx=32 peak2=364.516 peak_gap=15275.3 gap_ratio=42.9057 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=15082 peak2_idx=70 peak2=414.013 peak_gap=14668 gap_ratio=36.4289 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=15818.3 peak2_idx=107 peak2=470.459 peak_gap=15347.8 gap_ratio=33.6231 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=14410.4 peak2_idx=50 peak2=418.88 peak_gap=13991.5 gap_ratio=34.4022 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=15621.2 peak2_idx=37 peak2=291.671 peak_gap=15329.5 gap_ratio=53.5576 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=15684.1 peak2_idx=59 peak2=355.449 peak_gap=15328.7 gap_ratio=44.1249 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=14890.9 peak2_idx=115 peak2=365.988 peak_gap=14525 gap_ratio=40.687 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15051.7 peak2_idx=84 peak2=326.337 peak_gap=14725.3 gap_ratio=46.1231 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=15827.7 peak2_idx=41 peak2=512.68 peak_gap=15315 gap_ratio=30.8725 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=15130.4 peak2_idx=104 peak2=414.614 peak_gap=14715.8 gap_ratio=36.4928 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=15173.3 peak2_idx=90 peak2=390.437 peak_gap=14782.9 gap_ratio=38.8624 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=16058.2 peak2_idx=85 peak2=319.043 peak_gap=15739.2 gap_ratio=50.3324 header=0 ldro=0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+[fft_demod peakdiag] frame=3 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=15505.1 peak2_idx=84 peak2=280.152 peak_gap=15224.9 gap_ratio=55.3451 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=14636.9 peak2_idx=48 peak2=259.358 peak_gap=14377.6 gap_ratio=56.4353 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16416.3 peak2_idx=45 peak2=348.973 peak_gap=16067.3 gap_ratio=47.0418 header=0 ldro=0
+[fft_demod peakdiag] frame=3 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=14669.6 peak2_idx=115 peak2=483.77 peak_gap=14185.8 gap_ratio=30.3235 header=0 ldro=0
+rx msg: helloworld : 2
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=377 best_corr=0.0674434 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2564 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0548503 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0306596 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2565 best_corr=0.92332 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2565 handoff_start=5125 m_sto_frac=-0.1244 m_cfo_frac=0.0940445 sfo_hat=0 coarse_sto_frac=-0.1244 coarse_cfo_frac=0.0940445 train_tau_hz=96.3379 train_sto_frac=0.0438873 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=9 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=71.1741 sharp_cap=32 sharp_log=3.46574 ratioA=71.1741 ratioB=74.4641 score=40397.9  <== selected
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=15.9703 sharp_cap=15.9703 sharp_log=2.77073 ratioA=27.9139 ratioB=15.9703 score=40320.5
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=1.44696 sharp_cap=1.44696 sharp_log=0.369468 ratioA=1.88994 ratioB=1.44696 score=40038.3
+[frame_sync0]   cand delta=0 start=126 netid=9/17 dist=1/1 rank=2 sharp=4.22384 sharp_cap=4.22384 sharp_log=1.44074 ratioA=4.22384 ratioB=5.73297 score=19932.9
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=78.4246 sharp_cap=32 sharp_log=3.46574 ratioA=78.4246 ratioB=85.0743 score=20169.9
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=15.3604 sharp_cap=15.3604 sharp_log=2.73179 ratioA=27.7196 ratioB=15.3604 score=20075.8
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=1.41796 sharp_cap=1.41796 sharp_log=0.349217 ratioA=1.82845 ratioB=1.41796 score=19783.9
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0940445 m_sto_frac=-0.1244
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=-0.1244
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=127 start_off=123 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0940445 m_sto_frac=-0.1244
+[frame_sync0] FMCW handoff candidate-nudge=-3 raw_probe=9/17 netid=8/16 down_val=127 nominal_start_off=126 start_off=123 items_to_consume=121
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=4 total=4
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=121
+[fft_demod peakdiag] frame=4 header_start cfo_int=-1 cfo_frac=0.0940445 sf=7
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15215.9 peak2_idx=98 peak2=183.287 gap=15032.6 gap_ratio=83.017
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=16248.1 peak2_idx=56 peak2=304.064 gap=15944 gap_ratio=53.4363
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=15189.8 peak2_idx=100 peak2=179.397 gap=15010.4 gap_ratio=84.6713
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15785.8 peak2_idx=60 peak2=177.492 gap=15608.4 gap_ratio=88.9382
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=17270.5 peak2_idx=4 peak2=310.789 gap=16959.7 gap_ratio=55.5699
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16043.5 peak2_idx=16 peak2=233.425 gap=15810.1 gap_ratio=68.7312
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=16473.8 peak2_idx=12 peak2=393.496 gap=16080.3 gap_ratio=41.8653
+[fft_demod headerdiag] frame=4 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=15985.4 peak2_idx=0 peak2=416.174 gap=15569.2 gap_ratio=38.4104
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=[frame_sync0] handoff-header stats: 
+120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=4/0
+[fft_demod peakdiag] frame=4 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=4 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15464.9 peak2_idx=53 peak2=116.11 peak_gap=15348.8 gap_ratio=133.191 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15232.9 peak2_idx=124 peak2=500.567 peak_gap=14732.3 gap_ratio=30.4312 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=14006.4 peak2_idx=32 peak2=322.314 peak_gap=13684.1 gap_ratio=43.4556 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=14524.4 peak2_idx=70 peak2=200.651 peak_gap=14323.7 gap_ratio=72.3862 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16328.7 peak2_idx=107 peak2=201.17 peak_gap=16127.6 gap_ratio=81.1688 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=16562.7 peak2_idx=50 peak2=319.174 peak_gap=16243.5 gap_ratio=51.8923 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16384.8 peak2_idx=39 peak2=228.101 peak_gap=16156.7 gap_ratio=71.8313 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=15579 peak2_idx=57 peak2=289.967 peak_gap=15289 gap_ratio=53.7266 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15915.3 peak2_idx=115 peak2=94.8204 peak_gap=15820.5 gap_ratio=167.847 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15682.2 peak2_idx=86 peak2=271.003 peak_gap=15411.2 gap_ratio=57.8673 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=13997.7 peak2_idx=41 peak2=201.896 peak_gap=13795.8 gap_ratio=69.3309 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=13942.3 peak2_idx=104 peak2=214.984 peak_gap=13727.3 gap_ratio=64.8525 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=17189.6 peak2_idx=90 peak2=292.672 peak_gap=16896.9 gap_ratio=58.7332 header=0 ldro=0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=4 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=15709.5 peak2_idx=85 peak2=186.447 peak_gap=15523 gap_ratio=84.2573 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=15832.7 peak2_idx=82 peak2=362.248 peak_gap=15470.5 gap_ratio=43.707 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16181.7 peak2_idx=48 peak2=205.078 peak_gap=15976.6 gap_ratio=78.9052 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=15403.5 peak2_idx=43 peak2=194.414 peak_gap=15209 gap_ratio=79.2302 header=0 ldro=0
+[fft_demod peakdiag] frame=4 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=14876.3 peak2_idx=115 peak2=224.544 peak_gap=14651.8 gap_ratio=66.2514 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+rx msg: helloworld : 3
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=322 best_corr=0.0786977 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2564 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=1 best_corr=0.03479 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0271746 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.92397 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.124853 m_cfo_frac=0.0889479 sfo_hat=0 coarse_sto_frac=0.124853 coarse_cfo_frac=0.0889479 train_tau_hz=-440.418 train_sto_frac=-0.200635 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=8 raw_bin2=16 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=4.43987 sharp_cap=4.43987 sharp_log=1.49062 ratioA=4.43987 ratioB=4.64863 score=40160.9
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=61.979 sharp_cap=32 sharp_log=3.46574 ratioA=111.382 ratioB=61.979 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=13.4348 sharp_cap=13.4348 sharp_log=2.59785 ratioA=13.4348 ratioB=15.5635 score=40305.7
+[frame_sync0]   cand delta=0 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.32605 sharp_cap=1.32605 sharp_log=0.282207 ratioA=1.52978 ratioB=1.32605 score=40033.9
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=4.59983 sharp_cap=4.59983 sharp_log=1.52602 ratioA=4.59983 ratioB=4.84922 score=19937.1
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=67.8806 sharp_cap=32 sharp_log=3.46574 ratioA=134.745 ratioB=67.8806 score=20163.9
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=13.7488 sharp_cap=13.7488 sharp_log=2.62095 ratioA=13.7488 ratioB=15.0187 score=20056.5
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0889479 m_sto_frac=0.124853
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=0.124853
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0889479 m_sto_frac=0.124853
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=8/16 netid=8/16 down_val=127 nominal_start_off=126 start_off=124 items_to_consume=122
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=5 total=5
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=122
+[fft_demod peakdiag] frame=5 header_start cfo_int=-1 cfo_frac=0.0889479 sf=7
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15093.2 peak2_idx=98 peak2=107.369 gap=14985.8 gap_ratio=140.574
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=16123 peak2_idx=56 peak2=284.253 gap=15838.7 gap_ratio=56.7206
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=15305.3 peak2_idx=102 peak2=140.435 gap=15164.8 gap_ratio=108.985
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15459.2 peak2_idx=60 peak2=185.31 gap=15273.8 gap_ratio=83.4233
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=14474 peak2_idx=4 peak2=174.042 gap=14300 gap_ratio=83.1639
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=15905 peak2_idx=16 peak2=279.892 gap=15625.1 gap_ratio=56.8253
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=15992.4 peak2_idx=12 peak2=190.671 gap=15801.7 gap_ratio=83.8742
+[fft_demod headerdiag] frame=5 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=16367.3 peak2_idx=0 peak2=106.529 gap=16260.8 gap_ratio=153.641
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=5/0
+[fft_demod peakdiag] frame=5 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=5 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=14710 peak2_idx=53 peak2=154.58 peak_gap=14555.4 gap_ratio=95.161 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16085.3 peak2_idx=124 peak2=179.514 peak_gap=15905.8 gap_ratio=89.6045 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=15779.9 peak2_idx=32 peak2=218.076 peak_gap=15561.9 gap_ratio=72.3597 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=15635.3 peak2_idx=70 peak2=168.159 peak_gap=15467.2 gap_ratio=92.9793 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=[frame_sync0] frame done, reset to DETECT, skip_guard=512
+4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=15514.6 peak2_idx=107 peak2=147.393 peak_gap=15367.2 gap_ratio=105.26 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15079.4 peak2_idx=50 peak2=189.851 peak_gap=14889.5 gap_ratio=79.4275 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=15572.4 peak2_idx=39 peak2=156.29 peak_gap=15416.1 gap_ratio=99.6373 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16098.5 peak2_idx=57 peak2=186.527 peak_gap=15912 gap_ratio=86.3066 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15037.2 peak2_idx=115 peak2=137.47 peak_gap=14899.7 gap_ratio=109.385 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15729.2 peak2_idx=86 peak2=126.908 peak_gap=15602.3 gap_ratio=123.942 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=16684 peak2_idx=41 peak2=169.405 peak_gap=16514.6 gap_ratio=98.4861 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=14735.9 peak2_idx=104 peak2=313.851 peak_gap=14422.1 gap_ratio=46.952 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16900.7 peak2_idx=90 peak2=119.875 peak_gap=16780.9 gap_ratio=140.987 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=15236.5 peak2_idx=85 peak2=177.319 peak_gap=15059.2 gap_ratio=85.9271 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=14806.4 peak2_idx=82 peak2=235.552 peak_gap=14570.8 gap_ratio=62.858 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=15661.9 peak2_idx=48 peak2=181.272 peak_gap=15480.6 gap_ratio=86.3998 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16246.3 peak2_idx=43 peak2=184.699 peak_gap=16061.6 gap_ratio=87.961 header=0 ldro=0
+[fft_demod peakdiag] frame=5 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15601.8 peak2_idx=115 peak2=201.718 peak_gap=15400.1 gap_ratio=77.3447 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3585 items_to_consume=512
+rx msg: helloworld : 4
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=274 best_corr=0.0639801 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0332781 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.922271 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.120874 m_cfo_frac=-0.0764744 sfo_hat=0 coarse_sto_frac=0.120874 coarse_cfo_frac=-0.0764744 train_tau_hz=-226.505 train_sto_frac=-0.103186 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=130 raw_bin1=9 raw_bin2=17 down_val=0
+[frame_sync0]   cand delta=-3 start=127 netid=8/16 dist=0/0 rank=4 sharp=10.5528 sharp_cap=10.5528 sharp_log=2.35639 ratioA=14.3768 ratioB=10.5528 score=40264.8
+[frame_sync0]   cand delta=-2 start=128 netid=8/16 dist=0/0 rank=4 sharp=106.193 sharp_cap=32 sharp_log=3.46574 ratioA=106.193 ratioB=107.454 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=129 netid=8/16 dist=0/0 rank=4 sharp=5.04153 sharp_cap=5.04153 sharp_log=1.61771 ratioA=5.04153 ratioB=5.87769 score=40188.1
+[frame_sync0]   cand delta=0 start=130 netid=9/17 dist=1/1 rank=2 sharp=1.44273 sharp_cap=1.44273 sharp_log=0.366535 ratioA=1.5361 ratioB=1.44273 score=19804
+[frame_sync0]   cand delta=1 start=131 netid=9/17 dist=1/1 rank=2 sharp=10.3176 sharp_cap=10.3176 sharp_log=2.33385 ratioA=14.1892 ratioB=10.3176 score=20034.1
+[frame_sync0]   cand delta=2 start=132 netid=9/17 dist=1/1 rank=2 sharp=103.204 sharp_cap=32 sharp_log=3.46574 ratioA=103.204 ratioB=108.944 score=20163.9
+[frame_sync0]   cand delta=3 start=133 netid=9/17 dist=1/1 rank=2 sharp=5.26912 sharp_cap=5.26912 sharp_log=1.66186 ratioA=5.26912 ratioB=6.17003 score=19941.4
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=-0.0764744 m_sto_frac=0.120874
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.120874
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=-0.0764744 m_sto_frac=0.120874
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=9/17 netid=8/16 down_val=0 nominal_start_off=130 start_off=128 items_to_consume=126
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=6 total=6
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=126
+[fft_demod peakdiag] frame=6 header_start cfo_int=0 cfo_frac=-0.0764744 sf=7
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16950.4 peak2_idx=98 peak2=148.344 gap=16802.1 gap_ratio=114.264
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=15519.9 peak2_idx=58 peak2=93.8044 gap=15426 gap_ratio=165.449
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=16360.4 peak2_idx=102 peak2=186.758 gap=16173.7 gap_ratio=87.6022
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16352.5 peak2_idx=9 peak2=72.564 gap=16280 gap_ratio=225.353
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=17265.7 peak2_idx=6 peak2=81.7293 gap=17184 gap_ratio=211.255
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16256.1 peak2_idx=18 peak2=192.637 gap=16063.5 gap_ratio=84.3871
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=16523.8 peak2_idx=14 peak2=112.561 gap=16411.3 gap_ratio=146.798
+[fft_demod headerdiag] frame=6 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=16747.3 peak2_idx=0 peak2=108.943 gap=16638.3 gap_ratio=153.725
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=6/0
+[fft_demod peakdiag] frame=6 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=6 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15705.4 peak2_idx=55 peak2=[frame_sync0] frame done, reset to DETECT, skip_guard=512154.134 peak_gap=15551.3 gap_ratio=
+101.895 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15633.9 peak2_idx=126 peak2=104.543 peak_gap=15529.4 gap_ratio=149.546 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16307 peak2_idx=32 peak2=125.5 peak_gap=16181.5 gap_ratio=129.936 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16559.3 peak2_idx=98 peak2=75.4244 peak_gap=16483.8 gap_ratio=219.548 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16456.4 peak2_idx=109 peak2=165.254 peak_gap=16291.2 gap_ratio=99.5825 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15516.5 peak2_idx=52 peak2=91.2517 peak_gap=15425.2 gap_ratio=170.04 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=14699 peak2_idx=39 peak2=211.43 peak_gap=14487.5 gap_ratio=69.5217 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16719.9 peak2_idx=59 peak2=165.87 peak_gap=16554.1 gap_ratio=100.802 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16548.7 peak2_idx=117 peak2=132.086 peak_gap=16416.6 gap_ratio=125.287 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15985.5 peak2_idx=86 peak2=119.44 peak_gap=15866.1 gap_ratio=133.838 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=16322.4 peak2_idx=41 peak2=146.937 peak_gap=16175.4 gap_ratio=111.084 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=15106.9 peak2_idx=106 peak2=171.272 peak_gap=14935.6 gap_ratio=88.2041 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=17407.1 peak2_idx=92 peak2=160.142 peak_gap=17246.9 gap_ratio=108.698 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=14611.5 peak2_idx=87 peak2=197.553 peak_gap=14413.9 gap_ratio=73.9624 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=15551.9 peak2_idx=84 peak2=77.5511 peak_gap=15474.4 gap_ratio=200.538 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=17413.1 peak2_idx=48 peak2=237.825 peak_gap=17175.2 gap_ratio=73.2181 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16849.2 peak2_idx=45 peak2=147.217 peak_gap=16702 gap_ratio=114.451 header=0 ldro=0
+[fft_demod peakdiag] frame=6 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16906.2 peak2_idx=117 peak2=89.1949 peak_gap=16817.1 gap_ratio=189.543 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+rx msg: helloworld : 5
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=783 best_corr=0.0760758 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0493669 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.922352 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.125 m_cfo_frac=-0.0908697 sfo_hat=0 coarse_sto_frac=0.125 coarse_cfo_frac=-0.0908697 train_tau_hz=-107.9 train_sto_frac=-0.0491544 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=129 raw_bin1=8 raw_bin2=16 down_val=0
+[frame_sync0]   cand delta=-3 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.38828 sharp_cap=1.38828 sharp_log=0.328067 ratioA=1.69535 ratioB=1.38828 score=40021.4
+[frame_sync0]   cand delta=-2 start=127 netid=8/16 dist=0/0 rank=4 sharp=15.903 sharp_cap=15.903 sharp_log=2.76651 ratioA=25.304 ratioB=15.903 score=40320
+[frame_sync0]   cand delta=-1 start=128 netid=8/16 dist=0/0 rank=4 sharp=86.5273 sharp_cap=32 sharp_log=3.46574 ratioA=94.3487 ratioB=86.5273 score=40409.9  <== selected
+[frame_sync0]   cand delta=0 start=129 netid=8/16 dist=0/0 rank=4 sharp=4.72838 sharp_cap=4.72838 sharp_log=1.55358 ratioA=4.72838 ratioB=6.62403 score=40186.4
+[frame_sync0]   cand delta=1 start=130 netid=9/17 dist=1/1 rank=2 sharp=1.33316 sharp_cap=1.33316 sharp_log=0.287553 ratioA=1.69371 ratioB=1.33316 score=19788.5
+[frame_sync0]   cand delta=2 start=131 netid=9/17 dist=1/1 rank=2 sharp=15.2697 sharp_cap=15.2697 sharp_log=2.72587 ratioA=26.4712 ratioB=15.2697 score=20075.1
+[frame_sync0]   cand delta=3 start=132 netid=9/17 dist=1/1 rank=2 sharp=89.0963 sharp_cap=32 sharp_log=3.46574 ratioA=92.9736 ratioB=89.0963 score=20157.9
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=-0.0908697 m_sto_frac=0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=-0.0908697 m_sto_frac=0.125
+[frame_sync0] FMCW handoff candidate-nudge=-1 raw_probe=8/16 netid=8/16 down_val=0 nominal_start_off=129 start_off=128 items_to_consume=127
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=7 total=7
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=127
+[fft_demod peakdiag] frame=7 header_start cfo_int=0 cfo_frac=-0.0908697 sf=7
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15581.5 peak2_idx=96 peak2=220.452 gap=15361 gap_ratio=70.6795
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=16811.8 peak2_idx=58 peak2=212.466 gap=16599.4 gap_ratio=79.1272
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=16191.8 peak2_idx=103 peak2=129.856 gap=16062 gap_ratio=124.69
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15605.8 peak2_idx=63 peak2=145.717 gap=15460.1 gap_ratio=107.096
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=15688.3 peak2_idx=6 peak2=268.645 gap=15419.6 gap_ratio=58.3979
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16488.7 peak2_idx=18 peak2=147.447 gap=16341.3 gap_ratio=111.828
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=15469.2 peak2_idx=14 peak2=236.605 gap=15232.6 gap_ratio=65.3799
+[fft_demod headerdiag] frame=7 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=16818 peak2_idx=0 peak2=95.0656 gap=16722.9 gap_ratio=176.91
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=7/0
+[fft_demod peakdiag] frame=7 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=7 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15570.4 peak2_idx=53 peak2=225.88 peak_gap=15344.5 gap_ratio=68.9321 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15492.7 peak2_idx=124 peak2=116.33 peak_gap=15376.3 gap_ratio=133.179 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16046.2 peak2_idx=34 peak2=[frame_sync0] frame done, reset to DETECT, skip_guard=512
+175.763 peak_gap=15870.5 gap_ratio=91.2946 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=15744.6 peak2_idx=72 peak2=165.65 peak_gap=15579 gap_ratio=95.0476 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16413.1 peak2_idx=106 peak2=174.032 peak_gap=16239 gap_ratio=94.3108 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=17238.6 peak2_idx=50 peak2=105.5 peak_gap=17133.1 gap_ratio=163.399 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16169.7 peak2_idx=39 peak2=180.773 peak_gap=15989 gap_ratio=89.4477 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16867.4 peak2_idx=59 peak2=172.329 peak_gap=16695.1 gap_ratio=97.879 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15234.4 peak2_idx=117 peak2=199.914 peak_gap=15034.5 gap_ratio=76.2049 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=16144.5 peak2_idx=86 peak2=157.566 peak_gap=15986.9 gap_ratio=102.462 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=14850.3 peak2_idx=43 peak2=135.556 peak_gap=14714.7 gap_ratio=109.551 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=17189.3 peak2_idx=106 peak2=260.017 peak_gap=16929.2 gap_ratio=66.1082 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16349.1 peak2_idx=92 peak2=187.295 peak_gap=16161.9 gap_ratio=87.291 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=16208.1 peak2_idx=85 peak2=154.584 peak_gap=16053.5 gap_ratio=104.85 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=15722.9 peak2_idx=82 peak2=88.6844 peak_gap=15634.2 gap_ratio=177.29 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16269.4 peak2_idx=50 peak2=187.191 peak_gap=16082.2 gap_ratio=86.9133 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=15315.1 peak2_idx=91 peak2=108.927 peak_gap=15206.2 gap_ratio=140.6 header=0 ldro=0
+[fft_demod peakdiag] frame=7 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16079.4 peak2_idx=117 peak2=330.202 peak_gap=15749.2 gap_ratio=48.6956 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3580 items_to_consume=512
+rx msg: helloworld : 6
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=841 best_corr=0.0700773 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0165696 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2565 best_corr=0.924652 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2565 handoff_start=5125 m_sto_frac=-0.125 m_cfo_frac=0.0332246 sfo_hat=0 coarse_sto_frac=-0.125 coarse_cfo_frac=0.0332246 train_tau_hz=278.391 train_sto_frac=0.126823 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=127 raw_bin1=9 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=124 netid=8/16 dist=0/0 rank=4 sharp=9.97128 sharp_cap=9.97128 sharp_log=2.29971 ratioA=9.97128 ratioB=15.4552 score=40258  <== selected
+[frame_sync0]   cand delta=-2 start=125 netid=8/16 dist=0/0 rank=4 sharp=1.13354 sharp_cap=1.13354 sharp_log=0.125341 ratioA=1.19276 ratioB=1.13354 score=40003
+[frame_sync0]   cand delta=-1 start=126 netid=9/17 dist=1/1 rank=2 sharp=5.66848 sharp_cap=5.66848 sharp_log=1.73492 ratioA=5.66848 ratioB=7.39678 score=19962.2
+[frame_sync0]   cand delta=0 start=127 netid=9/17 dist=1/1 rank=2 sharp=222.879 sharp_cap=32 sharp_log=3.46574 ratioA=222.879 ratioB=287.93 score=20175.9
+[frame_sync0]   cand delta=1 start=128 netid=9/17 dist=1/1 rank=2 sharp=10.1595 sharp_cap=10.1595 sharp_log=2.31841 ratioA=10.1595 ratioB=14.8091 score=20032.2
+[frame_sync0]   cand delta=2 start=129 netid=9/17 dist=1/1 rank=2 sharp=1.108 sharp_cap=1.108 sharp_log=0.102557 ratioA=1.17538 ratioB=1.108 score=19760.3
+[frame_sync0]   cand delta=3 start=130 netid=10/18 dist=2/2 rank=0 sharp=5.82401 sharp_cap=5.82401 sharp_log=1.76199 ratioA=5.82401 ratioB=7.60944 score=-286.561
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0332246 m_sto_frac=-0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=-0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0332246 m_sto_frac=-0.125
+[frame_sync0] FMCW handoff candidate-nudge=-3 raw_probe=9/17 netid=8/16 down_val=127 nominal_start_off=127 start_off=124 items_to_consume=121
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=8 total=8
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=121
+[fft_demod peakdiag] frame=8 header_start cfo_int=-1 cfo_frac=0.0332246 sf=7
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=12416.9 peak2_idx=98 peak2=1382.16 gap=11034.8 gap_ratio=8.9837
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=12694.7 peak2_idx=58 peak2=1635.97 gap=11058.7 gap_ratio=7.75972
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=13062.2 peak2_idx=102 peak2=1371.75 gap=11690.4 gap_ratio=9.52229
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=12409.9 peak2_idx=62 peak2=2100.69 gap=10309.2 gap_ratio=5.90754
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=14028.6 peak2_idx=6 peak2=1227.9 gap=12800.7 gap_ratio=11.4249
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=13681.3 peak2_idx=18 peak2=1049.17 gap=12632.1 gap_ratio=13.0401
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=12249.7 peak2_idx=14 peak2=981.177 gap=11268.5 gap_ratio=12.4847
+[fft_demod headerdiag] frame=8 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=13749.4 peak2_idx=2 peak2=968.658 gap=12780.7 gap_ratio=14.1943
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=8/0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=8 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=8 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=12453.7 peak2_idx=55 peak2=1393.21 peak_gap=11060.5 gap_ratio=8.93884 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=13589.2 peak2_idx=126 peak2=1402.99 peak_gap=12186.2 gap_ratio=9.68587 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=12151.7 peak2_idx=34 peak2=1428.59 peak_gap=10723.1 gap_ratio=8.50605 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=12779.6 peak2_idx=72 peak2=1941.96 peak_gap=10837.7 gap_ratio=6.58078 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=12930.2 peak2_idx=109 peak2=1401.9 peak_gap=11528.3 gap_ratio=9.22334 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=12541.3 peak2_idx=52 peak2=1493.37 peak_gap=11048 gap_ratio=8.39801 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=12935.1 peak2_idx=39 peak2=1567.04 peak_gap=11368.1 gap_ratio=8.25453 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=12533.3 peak2_idx=59 peak2=1983 peak_gap=10550.3 gap_ratio=6.32034 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=13394.1 peak2_idx=117 peak2=1612.61 peak_gap=11781.5 gap_ratio=8.30586 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=12588.3 peak2_idx=86 peak2=1753.32 peak_gap=10834.9 gap_ratio=7.17966 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=11566.5 peak2_idx=43 peak2=1662.8 peak_gap=9903.74 gap_ratio=6.95605 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=12378.3 peak2_idx=106 peak2=1473.72 peak_gap=10904.6 gap_ratio=8.39935 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=13018.9 peak2_idx=92 peak2=1782.79 peak_gap=11236.1 gap_ratio=7.30253 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=13413.5 peak2_idx=87 peak2=1702.89 peak_gap=11710.6 gap_ratio=7.87686 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=12974.8 peak2_idx=84 peak2=1913.8 peak_gap=11061 gap_ratio=6.77958 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=12316.6 peak2_idx=50 peak2=1457.93 peak_gap=10858.6 gap_ratio=8.448 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=12025.8 peak2_idx=45 peak2=1760.46 peak_gap=10265.3 gap_ratio=6.83104 header=0 ldro=0
+[fft_demod peakdiag] frame=8 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=13165.4 peak2_idx=117 peak2=1092.68 peak_gap=12072.7 gap_ratio=12.0487 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3585 items_to_consume=512
+rx msg: helloworld : 7
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=920 best_corr=0.0670818 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0445665 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.923366 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.119817 m_cfo_frac=-0.0461452 sfo_hat=0 coarse_sto_frac=0.119817 coarse_cfo_frac=-0.0461452 train_tau_hz=-287.636 train_sto_frac=-0.131034 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=130 raw_bin1=9 raw_bin2=17 down_val=0
+[frame_sync0]   cand delta=-3 start=127 netid=8/16 dist=0/0 rank=4 sharp=10.0908 sharp_cap=10.0908 sharp_log=2.31163 ratioA=11.4087 ratioB=10.0908 score=40259.4
+[frame_sync0]   cand delta=-2 start=128 netid=8/16 dist=0/0 rank=4 sharp=161.418 sharp_cap=32 sharp_log=3.46574 ratioA=260.854 ratioB=161.418 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=129 netid=8/16 dist=0/0 rank=4 sharp=5.69699 sharp_cap=5.69699 sharp_log=1.73994 ratioA=5.69699 ratioB=6.29101 score=40202.8
+[frame_sync0]   cand delta=0 start=130 netid=9/17 dist=1/1 rank=2 sharp=1.19738 sharp_cap=1.19738 sharp_log=0.180134 ratioA=1.41899 ratioB=1.19738 score=19781.6
+[frame_sync0]   cand delta=1 start=131 netid=9/17 dist=1/1 rank=2 sharp=9.87885 sharp_cap=9.87885 sharp_log=2.2904 ratioA=12.0948 ratioB=9.87885 score=20028.8
+[frame_sync0]   cand delta=2 start=132 netid=9/17 dist=1/1 rank=2 sharp=161.128 sharp_cap=32 sharp_log=3.46574 ratioA=261.284 ratioB=161.128 score=20163.9
+[frame_sync0]   cand delta=3 start=133 netid=9/17 dist=1/1 rank=2 sharp=5.74171 sharp_cap=5.74171 sharp_log=1.74776 ratioA=5.74171 ratioB=6.71484 score=19951.7
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=-0.0461452 m_sto_frac=0.119817
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.119817
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=-0.0461452 m_sto_frac=0.119817
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=9/17 netid=8/16 down_val=0 nominal_start_off=130 start_off=128 items_to_consume=126
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=9 total=9
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=126
+[fft_demod peakdiag] frame=9 header_start cfo_int=0 cfo_frac=-0.0461452 sf=7
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16468.3 peak2_idx=98 peak2=67.7654 gap=16400.5 gap_ratio=243.019
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=15674.6 peak2_idx=58 peak2=80.9486 gap=15593.7 gap_ratio=193.636
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=15643.3 peak2_idx=112 peak2=82.2829 gap=15561.1 gap_ratio=190.117
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16627.1 peak2_idx=62 peak2=98.9858 gap=16528.1 gap_ratio=167.975
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16564.3 peak2_idx=35 peak2=67.1278 gap=16497.2 gap_ratio=246.758
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16139.2 peak2_idx=1 peak2=59.1662 gap=16080 gap_ratio=272.777
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=16528 peak2_idx=12 peak2=112.795 gap=16415.2 gap_ratio=146.532
+[fft_demod headerdiag] frame=9 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=17043.3 peak2_idx=2 peak2=172.158 gap=16871.2 gap_ratio=98.9979
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=9/0
+[fft_demod peakdiag] frame=9 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=9 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=17593.1 peak2_idx=14 peak2=52.9202 peak_gap=17540.1 gap_ratio=332.445 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16490.5 peak2_idx=126 peak2=82.0668 peak_gap=16408.4 gap_ratio=200.94 header=0 ldro=[frame_sync0] frame done, reset to DETECT, skip_guard=512
+0
+[fft_demod peakdiag] frame=9 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=17638.8 peak2_idx=32 peak2=143.685 peak_gap=17495.1 gap_ratio=122.76 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=15543.8 peak2_idx=7 peak2=75.4767 peak_gap=15468.4 gap_ratio=205.942 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=15726.8 peak2_idx=109 peak2=78.0833 peak_gap=15648.7 gap_ratio=201.41 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=16510.9 peak2_idx=50 peak2=79.3938 peak_gap=16431.5 gap_ratio=207.962 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16537.4 peak2_idx=39 peak2=70.2984 peak_gap=16467.1 gap_ratio=235.246 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+[fft_demod peakdiag] frame=9 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16152.3 peak2_idx=57 peak2=49.9369 peak_gap=16102.4 gap_ratio=323.455 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16077.9 peak2_idx=115 peak2=79.0951 peak_gap=15998.8 gap_ratio=203.273 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=16466 peak2_idx=89 peak2=101.088 peak_gap=16364.9 gap_ratio=162.888 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=16682.1 peak2_idx=91 peak2=71.2122 peak_gap=16610.9 gap_ratio=234.259 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16103.7 peak2_idx=120 peak2=75.7318 peak_gap=16028 gap_ratio=212.642 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=17873.8 peak2_idx=59 peak2=68.939 peak_gap=17804.8 gap_ratio=259.269 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=17678.4 peak2_idx=88 peak2=105.347 peak_gap=17573.1 gap_ratio=167.812 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16199.3 peak2_idx=6 peak2=84.3417 peak_gap=16114.9 gap_ratio=192.067 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=15284.9 peak2_idx=50 peak2=67.1554 peak_gap=15217.8 gap_ratio=227.605 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=17362.2 peak2_idx=42 peak2=87.1804 peak_gap=17275 gap_ratio=199.152 header=0 ldro=0
+[fft_demod peakdiag] frame=9 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16834 peak2_idx=121 peak2=110.095 peak_gap=16723.9 gap_ratio=152.905 header=0 ldro=0
+rx msg: helloworld : 8
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=602 best_corr=0.0642096 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0327842 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.92267 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.123392 m_cfo_frac=0.0110375 sfo_hat=0 coarse_sto_frac=0.123392 coarse_cfo_frac=0.0110375 train_tau_hz=-273.895 train_sto_frac=-0.124775 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=9 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=7.94397 sharp_cap=7.94397 sharp_log=2.07241 ratioA=8.28652 ratioB=7.94397 score=40230.7
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=227.284 sharp_cap=32 sharp_log=3.46574 ratioA=253.531 ratioB=227.284 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=8.4011 sharp_cap=8.4011 sharp_log=2.12836 ratioA=8.92496 ratioB=8.4011 score=40249.4
+[frame_sync0]   cand delta=0 start=126 netid=9/17 dist=1/1 rank=2 sharp=1.02933 sharp_cap=1.02933 sharp_log=0.028906 ratioA=1.02933 ratioB=1.06029 score=19763.5
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=8.32899 sharp_cap=8.32899 sharp_log=2.11974 ratioA=8.72969 ratioB=8.32899 score=20008.4
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=234.634 sharp_cap=32 sharp_log=3.46574 ratioA=274.05 ratioB=234.634 score=20163.9
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=8.08165 sharp_cap=8.08165 sharp_log=2.0896 ratioA=9.28482 ratioB=8.08165 score=19992.8
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0110375 m_sto_frac=0.123392
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=0.123392
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0110375 m_sto_frac=0.123392
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=9/17 netid=8/16 down_val=127 nominal_start_off=126 start_off=124 items_to_consume=122
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=10 total=10
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=122
+[fft_demod peakdiag] frame=10 header_start cfo_int=-1 cfo_frac=0.0110375 sf=7
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16302.2 peak2_idx=100 peak2=81.5771 gap=16220.7 gap_ratio=199.838
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=57 mapped_idx=14 peak1_idx=57 peak1=15997.6 peak2_idx=97 peak2=103.678 gap=15893.9 gap_ratio=154.3
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=101 mapped_idx=25 peak1_idx=101 peak1=15918.6 peak2_idx=88 peak2=64.7657 gap=15853.8 gap_ratio=245.788
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15507.7 peak2_idx=19 peak2=100.474 gap=15407.2 gap_ratio=154.345
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=14981.6 peak2_idx=111 peak2=81.1894 gap=14900.4 gap_ratio=184.526
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=15885.9 peak2_idx=119 peak2=67.8366 gap=15818 gap_ratio=234.178
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=13 mapped_idx=3 peak1_idx=13 peak1=15343.8 peak2_idx=26 peak2=87.6224 gap=15256.2 gap_ratio=175.113
+[fft_demod headerdiag] frame=10 hdr_sym=0 raw_idx=1 mapped_idx=0 peak1_idx=1 peak1=16338.3 peak2_idx=62 peak2=57.4433 gap=16280.8 gap_ratio=284.425
+[header_decoder hdrsym] in0=0 in1=14 in2=5 in3=0 in4=7
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=14 has_crc=1 cr=2 header_chk=7 computed_chk=7 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=14 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=10/0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=10 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=10 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15980.5 peak2_idx=31 peak2=69.8211 peak_gap=15910.7 gap_ratio=228.878 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16009.7 peak2_idx=69 peak2=70.3248 peak_gap=15939.4 gap_ratio=227.653 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+[fft_demod peakdiag] frame=10 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=15645.8 peak2_idx=78 peak2=60.7486 peak_gap=15585.1 gap_ratio=257.551 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16660.5 peak2_idx=86 peak2=92.4786 peak_gap=16568 gap_ratio=180.155 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=15801 peak2_idx=91 peak2=110.947 peak_gap=15690.1 gap_ratio=142.42 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=16804.6 peak2_idx=56 peak2=84.4839 peak_gap=16720.2 gap_ratio=198.91 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16538.1 peak2_idx=117 peak2=98.0349 peak_gap=16440.1 gap_ratio=168.696 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=14990.6 peak2_idx=29 peak2=80.1875 peak_gap=14910.4 gap_ratio=186.945 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15975.9 peak2_idx=112 peak2=63.1315 peak_gap=15912.7 gap_ratio=253.057 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=16246.3 peak2_idx=44 peak2=47.9782 peak_gap=16198.3 gap_ratio=338.618 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=15338.5 peak2_idx=68 peak2=84.1336 peak_gap=15254.3 gap_ratio=182.311 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16041.4 peak2_idx=85 peak2=124.056 peak_gap=15917.3 gap_ratio=129.308 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16150.5 peak2_idx=43 peak2=93.8057 peak_gap=16056.7 gap_ratio=172.17 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=17215.9 peak2_idx=75 peak2=70.1209 peak_gap=17145.7 gap_ratio=245.517 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16257.6 peak2_idx=23 peak2=64.3346 peak_gap=16193.3 gap_ratio=252.704 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16073 peak2_idx=40 peak2=73.9843 peak_gap=15999 gap_ratio=217.248 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=15853.7 peak2_idx=93 peak2=78.791 peak_gap=15774.9 gap_ratio=201.212 header=0 ldro=0
+[fft_demod peakdiag] frame=10 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15400.4 peak2_idx=94 peak2=94.1088 peak_gap=15306.3 gap_ratio=163.645 header=0 ldro=0
+rx msg: helloworld : 9
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=486 best_corr=0.0687229 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2564 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=4 best_corr=0.0474841 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0474841 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.924024 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.125 m_cfo_frac=-0.00785469 sfo_hat=0 coarse_sto_frac=0.125 coarse_cfo_frac=-0.00785469 train_tau_hz=-194.874 train_sto_frac=-0.0887758 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=129 raw_bin1=8 raw_bin2=16 down_val=0
+[frame_sync0]   cand delta=-3 start=126 netid=7/16 dist=1/0 rank=3 sharp=1.00476 sharp_cap=1.00476 sharp_log=0.00474482 ratioA=1.00476 ratioB=1.01725 score=29862.6
+[frame_sync0]   cand delta=-2 start=127 netid=8/16 dist=0/0 rank=4 sharp=8.39077 sharp_cap=8.39077 sharp_log=2.12713 ratioA=8.50309 ratioB=8.39077 score=40243.3
+[frame_sync0]   cand delta=-1 start=128 netid=8/16 dist=0/0 rank=4 sharp=156.381 sharp_cap=32 sharp_log=3.46574 ratioA=156.381 ratioB=206.011 score=40409.9  <== selected
+[frame_sync0]   cand delta=0 start=129 netid=8/16 dist=0/0 rank=4 sharp=10.5902 sharp_cap=10.5902 sharp_log=2.35993 ratioA=10.7913 ratioB=10.5902 score=40283.2
+[frame_sync0]   cand delta=1 start=130 netid=8/17 dist=0/1 rank=3 sharp=1.02105 sharp_cap=1.02105 sharp_log=0.0208296 ratioA=1.02105 ratioB=1.03975 score=29876.5
+[frame_sync0]   cand delta=2 start=131 netid=9/17 dist=1/1 rank=2 sharp=8.41949 sharp_cap=8.41949 sharp_log=2.13055 ratioA=8.83862 ratioB=8.41949 score=20003.7
+[frame_sync0]   cand delta=3 start=132 netid=9/17 dist=1/1 rank=2 sharp=175.71 sharp_cap=32 sharp_log=3.46574 ratioA=175.71 ratioB=243.91 score=20157.9
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=-0.00785469 m_sto_frac=0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=-0.00785469 m_sto_frac=0.125
+[frame_sync0] FMCW handoff candidate-nudge=-1 raw_probe=8/16 netid=8/16 down_val=0 nominal_start_off=129 start_off=128 items_to_consume=127
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=11 total=11
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=127
+[fft_demod peakdiag] frame=11 header_start cfo_int=0 cfo_frac=-0.00785469 sf=7
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=16155.8 peak2_idx=21 peak2=82.3388 gap=16073.5 gap_ratio=196.211
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16368.3 peak2_idx=112 peak2=94.3905 gap=16273.9 gap_ratio=173.41
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=16084.3 peak2_idx=45 peak2=63.7284 gap=16020.6 gap_ratio=252.389
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16825.2 peak2_idx=3 peak2=54.64 gap=16770.6 gap_ratio=307.928
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=15997.7 peak2_idx=116 peak2=71.5254 gap=15926.2 gap_ratio=223.664
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16249.3 peak2_idx=83 peak2=65.9921 gap=16183.3 gap_ratio=246.232
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=15961.5 peak2_idx=102 peak2=45.7754 gap=15915.7 gap_ratio=348.691
+[fft_demod headerdiag] frame=11 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16274.6 peak2_idx=59 peak2=73.1597 gap=16201.4 gap_ratio=222.453
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=11/0
+[fft_demod peakdiag] frame=11 payload_start cr=2 ldro=0 symb_numb=38
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=11 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=17067.7 peak2_idx=126 peak2=47.3991 peak_gap=17020.3 gap_ratio=360.085 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16982.1 peak2_idx=63 peak2=85.7129 peak_gap=16896.4 gap_ratio=198.128 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16336.3 peak2_idx=31 peak2=59.7725 peak_gap=16276.6 gap_ratio=273.309 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16347.7 peak2_idx=39 peak2=48.5351 peak_gap=16299.1 gap_ratio=336.821 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16399.1 peak2_idx=87 peak2=78.2893 peak_gap=16320.8 gap_ratio=209.468 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=17035.8 peak2_idx=23 peak2=83.8296 peak_gap=16952 gap_ratio=203.22 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16659.3 peak2_idx=19 peak2=68.6745 peak_gap=16590.7 gap_ratio=242.584 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=15958.6 peak2_idx=67 peak2=65.0037 peak_gap=15893.6 gap_ratio=245.502 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16560.7 peak2_idx=89 peak2=78.8683 peak_gap=16481.9 gap_ratio=209.98 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=16191.4 peak2_idx=34 peak2=69.6386 peak_gap=16121.8 gap_ratio=232.506 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=17488.8 peak2_idx=110 peak2=73.7094 peak_gap=17415.1 gap_ratio=237.267 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=15856.5 peak2_idx=29 peak2=64.5578 peak_gap=15792 gap_ratio=245.618 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16367.6 peak2_idx=94 peak2=67.0239 peak_gap=16300.6 gap_ratio=244.205 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=16354.8 peak2_idx=88 peak2=59.6228 peak_gap=16295.2 gap_ratio=274.305 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=17382.1 peak2_idx=73 peak2=56.5625 peak_gap=17325.5 gap_ratio=307.308 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16319.6 peak2_idx=39 peak2=73.5425 peak_gap=16246.1 gap_ratio=221.907 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16081.7 peak2_idx=27 peak2=85.8665 peak_gap=15995.8 gap_ratio=187.287 header=0 ldro=0
+[fft_demod peakdiag] frame=11 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15724.4 peak2_idx=2 peak2=67.1505 peak_gap=15657.2 gap_ratio=234.167 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3580 items_to_consume=512
+rx msg: helloworld : 10
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=9 best_corr=0.067534 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0455658 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2565 best_corr=0.922473 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2565 handoff_start=5125 m_sto_frac=-0.121894 m_cfo_frac=0.0233585 sfo_hat=0 coarse_sto_frac=-0.121894 coarse_cfo_frac=0.0233585 train_tau_hz=188.03 train_sto_frac=0.0856582 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=9 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=250.964 sharp_cap=32 sharp_log=3.46574 ratioA=269.179 ratioB=250.964 score=40397.9  <== selected
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=7.84441 sharp_cap=7.84441 sharp_log=2.0598 ratioA=7.84441 ratioB=8.57605 score=40235.2
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=1.03257 sharp_cap=1.03257 sharp_log=0.0320518 ratioA=1.03257 ratioB=1.2102 score=39997.8
+[frame_sync0]   cand delta=0 start=126 netid=9/17 dist=1/1 rank=2 sharp=7.13268 sharp_cap=7.13268 sharp_log=1.96469 ratioA=7.74753 ratioB=7.13268 score=19995.8
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=195.445 sharp_cap=32 sharp_log=3.46574 ratioA=317.525 ratioB=195.445 score=20169.9
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=7.99855 sharp_cap=7.99855 sharp_log=2.07926 ratioA=7.99855 ratioB=8.42826 score=19997.5
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=1.01931 sharp_cap=1.01931 sharp_log=0.0191267 ratioA=1.01931 ratioB=1.20332 score=19744.3
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0233585 m_sto_frac=-0.121894
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=-0.121894
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=127 start_off=123 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0233585 m_sto_frac=-0.121894
+[frame_sync0] FMCW handoff candidate-nudge=-3 raw_probe=9/17 netid=8/16 down_val=127 nominal_start_off=126 start_off=123 items_to_consume=121
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=12 total=12
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=121
+[fft_demod peakdiag] frame=12 header_start cfo_int=-1 cfo_frac=0.0233585 sf=7
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=16651.6 peak2_idx=98 peak2=82.1185 gap=16569.5 gap_ratio=202.775
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16674 peak2_idx=34 peak2=74.6022 gap=16599.4 gap_ratio=223.505
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=16286.5 peak2_idx=15 peak2=66.5365 gap=16220 gap_ratio=244.776
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16003.4 peak2_idx=20 peak2=129.42 gap=15874 gap_ratio=123.655
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=15517.1 peak2_idx=18 peak2=76.5455 gap=15440.6 gap_ratio=202.717
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16118.3 peak2_idx=70 peak2=45.8283 gap=16072.5 gap_ratio=351.711
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=15089.9 peak2_idx=125 peak2=71.3713 gap=15018.5 gap_ratio=211.428
+[fft_demod headerdiag] frame=12 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16864.2 peak2_idx=91 peak2=91.0714 gap=16773.2 gap_ratio=185.176
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=12/0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=12 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=12 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=16000.8 peak2_idx=125 peak2=112.511 peak_gap=15888.3 gap_ratio=142.215 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16257 peak2_idx=29 peak2=79.7263 peak_gap=16177.2 gap_ratio=203.91 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16768.5 peak2_idx=45 peak2=61.8923 peak_gap=16706.6 gap_ratio=270.93 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16504.9 peak2_idx=69 peak2=84.4868 peak_gap=16420.4 gap_ratio=195.354 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=15439.1 peak2_idx=124 peak2=115.911 peak_gap=15323.2 gap_ratio=133.198 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15886.6 peak2_idx=125 peak2=74.0681 peak_gap=15812.5 gap_ratio=214.486 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=17226 peak2_idx=126 peak2=97.1015 peak_gap=17128.9 gap_ratio=177.402 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3585 items_to_consume=512
+[fft_demod peakdiag] frame=12 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16797.6 peak2_idx=57 peak2=100.889 peak_gap=16696.7 gap_ratio=166.495 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15819.2 peak2_idx=117 peak2=73.1573 peak_gap=15746.1 gap_ratio=216.236 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15853.5 peak2_idx=84 peak2=91.4168 peak_gap=15762.1 gap_ratio=173.42 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=15387.7 peak2_idx=65 peak2=79.2028 peak_gap=15308.5 gap_ratio=194.283 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=15553.3 peak2_idx=33 peak2=115.008 peak_gap=15438.3 gap_ratio=135.237 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=15826.8 peak2_idx=3 peak2=72.622 peak_gap=15754.1 gap_ratio=217.933 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=15644.6 peak2_idx=29 peak2=84.2481 peak_gap=15560.3 gap_ratio=185.696 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=15447.8 peak2_idx=4 peak2=78.945 peak_gap=15368.9 gap_ratio=195.678 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=15916.2 peak2_idx=22 peak2=48.7096 peak_gap=15867.5 gap_ratio=326.758 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16248.9 peak2_idx=102 peak2=101.099 peak_gap=16147.8 gap_ratio=160.723 header=0 ldro=0
+[fft_demod peakdiag] frame=12 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15794.6 peak2_idx=120 peak2=66.0842 peak_gap=15728.5 gap_ratio=239.007 header=0 ldro=0
+rx msg: helloworld : 11
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=286 best_corr=0.0812617 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0440654 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.92437 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.122305 m_cfo_frac=0.0461479 sfo_hat=0 coarse_sto_frac=0.122305 coarse_cfo_frac=0.0461479 train_tau_hz=-259.534 train_sto_frac=-0.118232 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=8 raw_bin2=16 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=5.57932 sharp_cap=5.57932 sharp_log=1.71907 ratioA=7.01619 ratioB=5.57932 score=40188.3
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=204.28 sharp_cap=32 sharp_log=3.46574 ratioA=290.675 ratioB=204.28 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=12.3871 sharp_cap=12.3871 sharp_log=2.51666 ratioA=12.3871 ratioB=12.9214 score=40296
+[frame_sync0]   cand delta=0 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.10437 sharp_cap=1.10437 sharp_log=0.0992721 ratioA=1.37316 ratioB=1.10437 score=40011.9
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=5.86037 sharp_cap=5.86037 sharp_log=1.76821 ratioA=7.4084 ratioB=5.86037 score=19966.2
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=216.524 sharp_cap=32 sharp_log=3.46574 ratioA=273.759 ratioB=216.524 score=20163.9
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=12.4729 sharp_cap=12.4729 sharp_log=2.52356 ratioA=12.867 ratioB=12.4729 score=20044.8
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0461479 m_sto_frac=0.122305
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=0.122305
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0461479 m_sto_frac=0.122305
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=8/16 netid=8/16 down_val=127 nominal_start_off=126 start_off=124 items_to_consume=122
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=13 total=13
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=122
+[fft_demod peakdiag] frame=13 header_start cfo_int=-1 cfo_frac=0.0461479 sf=7
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=17511.3 peak2_idx=8 peak2=129.412 gap=17381.9 gap_ratio=135.314
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16150.7 peak2_idx=70 peak2=102.11 gap=16048.6 gap_ratio=158.17
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=14918.2 peak2_idx=122 peak2=58.2927 gap=14859.9 gap_ratio=255.918
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16890.7 peak2_idx=103 peak2=121.814 gap=16768.9 gap_ratio=138.66
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=16186.5 peak2_idx=18 peak2=100.047 gap=16086.4 gap_ratio=161.788
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=15629.4 peak2_idx=18 peak2=72.881 gap=15556.6 gap_ratio=214.452
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=17817.2 peak2_idx=52 peak2=121.298 gap=17695.9 gap_ratio=146.887
+[fft_demod headerdiag] frame=13 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15045.6 peak2_idx=7 peak2=74.8971 gap=14970.7 gap_ratio=200.884
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0 header_len=
+/0 other(ok/bad)=13/0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=13 payload_start cr=2 ldro=0 symb_numb=38
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+[fft_demod peakdiag] frame=13 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15220.5 peak2_idx=104 peak2=65.0918 peak_gap=15155.4 gap_ratio=233.832 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15250 peak2_idx=120 peak2=113.159 peak_gap=15136.9 gap_ratio=134.766 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16107.1 peak2_idx=32 peak2=144.251 peak_gap=15962.9 gap_ratio=111.66 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16120.7 peak2_idx=37 peak2=131.762 peak_gap=15988.9 gap_ratio=122.347 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16310.7 peak2_idx=85 peak2=98.2515 peak_gap=16212.4 gap_ratio=166.01 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15668.7 peak2_idx=49 peak2=103.039 peak_gap=15565.6 gap_ratio=152.066 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16121.3 peak2_idx=39 peak2=79.7973 peak_gap=16041.5 gap_ratio=202.028 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16599.9 peak2_idx=51 peak2=80.4026 peak_gap=16519.5 gap_ratio=206.46 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15966.6 peak2_idx=117 peak2=96.9447 peak_gap=15869.6 gap_ratio=164.698 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15885.2 peak2_idx=33 peak2=76.1732 peak_gap=15809.1 gap_ratio=208.541 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=17256.2 peak2_idx=59 peak2=113.423 peak_gap=17142.8 gap_ratio=152.141 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16094.2 peak2_idx=6 peak2=86.3272 peak_gap=16007.8 gap_ratio=186.432 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16346.9 peak2_idx=123 peak2=59.8533 peak_gap=16287.1 gap_ratio=273.116 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=15766.3 peak2_idx=6 peak2=74.9192 peak_gap=15691.4 gap_ratio=210.444 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16398.6 peak2_idx=82 peak2=108.166 peak_gap=16290.4 gap_ratio=151.606 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16256.8 peak2_idx=48 peak2=102.945 peak_gap=16153.9 gap_ratio=157.918 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16432.9 peak2_idx=8 peak2=70.2122 peak_gap=16362.7 gap_ratio=234.047 header=0 ldro=0
+[fft_demod peakdiag] frame=13 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16222 peak2_idx=84 peak2=108.655 peak_gap=16113.3 gap_ratio=149.299 header=0 ldro=0
+rx msg: helloworld : 12
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=173 best_corr=0.0765792 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2564 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2 best_corr=0.0335175 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0294661 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.922476 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.125 m_cfo_frac=-0.0592486 sfo_hat=0 coarse_sto_frac=0.125 coarse_cfo_frac=-0.0592486 train_tau_hz=-331.08 train_sto_frac=-0.150825 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=129 raw_bin1=8 raw_bin2=16 down_val=0
+[frame_sync0]   cand delta=-3 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.35851 sharp_cap=1.35851 sharp_log=0.306388 ratioA=1.5305 ratioB=1.35851 score=40018.8
+[frame_sync0]   cand delta=-2 start=127 netid=8/16 dist=0/0 rank=4 sharp=11.203 sharp_cap=11.203 sharp_log=2.41618 ratioA=17.0256 ratioB=11.203 score=40277.9
+[frame_sync0]   cand delta=-1 start=128 netid=8/16 dist=0/0 rank=4 sharp=188.134 sharp_cap=32 sharp_log=3.46574 ratioA=233.314 ratioB=188.134 score=40409.9  <== selected
+[frame_sync0]   cand delta=0 start=129 netid=8/16 dist=0/0 rank=4 sharp=4.61246 sharp_cap=4.61246 sharp_log=1.52876 ratioA=5.98703 ratioB=4.61246 score=40183.5
+[frame_sync0]   cand delta=1 start=130 netid=9/17 dist=1/1 rank=2 sharp=1.35284 sharp_cap=1.35284 sharp_log=0.302207 ratioA=1.50973 ratioB=1.35284 score=19790.3
+[frame_sync0]   cand delta=2 start=131 netid=9/17 dist=1/1 rank=2 sharp=11.0705 sharp_cap=11.0705 sharp_log=2.40429 ratioA=17.5154 ratioB=11.0705 score=20036.5
+[frame_sync0]   cand delta=3 start=132 netid=9/17 dist=1/1 rank=2 sharp=194.894 sharp_cap=32 sharp_log=3.46574 ratioA=221.813 ratioB=194.894 score=20157.9
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=0 m_cfo_frac=-0.0592486 m_sto_frac=0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=0 m_sto_frac=0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=0 start_off=128 netid1=8 netid2=16 net_id_off=0 m_cfo_int=0 m_cfo_frac=-0.0592486 m_sto_frac=0.125
+[frame_sync0] FMCW handoff candidate-nudge=-1 raw_probe=8/16 netid=8/16 down_val=0 nominal_start_off=129 start_off=128 items_to_consume=127
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=14 total=14
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=127
+[fft_demod peakdiag] frame=14 header_start cfo_int=0 cfo_frac=-0.0592486 sf=7
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=15020.5 peak2_idx=110 peak2=146.748 gap=14873.7 gap_ratio=102.355
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16723.8 peak2_idx=6 peak2=145.572 gap=16578.2 gap_ratio=114.883
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=17235.4 peak2_idx=122 peak2=86.7231 gap=17148.7 gap_ratio=198.741
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15691.8 peak2_idx=62 peak2=163.135 gap=15528.7 gap_ratio=96.1893
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=16497.2 peak2_idx=26 peak2=118.421 gap=16378.8 gap_ratio=139.31
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16817.2 peak2_idx=16 peak2=145.304 gap=16671.9 gap_ratio=115.738
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=16497 peak2_idx=52 peak2=79.2618 gap=16417.7 gap_ratio=208.133
+[fft_demod headerdiag] frame=14 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15905.9 peak2_idx=98 peak2=137.42 gap=15768.5 gap_ratio=115.747
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=14/0
+[fft_demod peakdiag] frame=14 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=14 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=16670.6 peak2_idx=91 peak2=73.2686 peak_gap=16597.4 gap_ratio=227.528 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=15666.7 peak2_idx=126 peak2=120.261 peak_gap=15546.5 gap_ratio=130.273 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=17099.4 peak2_idx=32 peak2=80.6128 peak_gap=17018.8 gap_ratio=212.118 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=15536.6 peak2_idx=80 peak2=58.9932 peak_gap=15477.6 gap_ratio=263.363 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=17551.7 peak2_idx=109 peak2=146.415 peak_gap=17405.3 gap_ratio=119.876 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=16424.7 peak2_idx=44 peak2=80.6599 peak_gap=16344.1 gap_ratio=203.629 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=15916.1 peak2_idx=39 peak2=151.138 peak_gap=15764.9 gap_ratio=105.308 header=0 ldro=0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[frame_sync0] DETECT entered, ninput=3580 items_to_consume=512
+[fft_demod peakdiag] frame=14 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=16408.5 peak2_idx=57 peak2=87.0533 peak_gap=16321.4 gap_ratio=188.488 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=17138.3 peak2_idx=103 peak2=77.2838 peak_gap=17061 gap_ratio=221.758 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15766.2 peak2_idx=86 peak2=77.1724 peak_gap=15689.1 gap_ratio=204.299 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=16771.8 peak2_idx=41 peak2=71.4725 peak_gap=16700.3 gap_ratio=234.661 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16023 peak2_idx=106 peak2=151.086 peak_gap=15872 gap_ratio=106.053 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=15578.4 peak2_idx=89 peak2=101.969 peak_gap=15476.4 gap_ratio=152.776 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=17001.3 peak2_idx=36 peak2=82.3836 peak_gap=16918.9 gap_ratio=206.367 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=15025.1 peak2_idx=84 peak2=73.3886 peak_gap=14951.7 gap_ratio=204.734 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=15180.9 peak2_idx=48 peak2=125.716 peak_gap=15055.2 gap_ratio=120.756 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16735.5 peak2_idx=45 peak2=140.309 peak_gap=16595.2 gap_ratio=119.276 header=0 ldro=0
+[fft_demod peakdiag] frame=14 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16414.1 peak2_idx=117 peak2=123.888 peak_gap=16290.2 gap_ratio=132.491 header=0 ldro=0
+rx msg: helloworld : 13
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=38 best_corr=0.0630931 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0422884 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.922053 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.117496 m_cfo_frac=0.0394896 sfo_hat=0 coarse_sto_frac=0.117496 coarse_cfo_frac=0.0394896 train_tau_hz=-417.012 train_sto_frac=-0.189972 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=8 raw_bin2=16 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=7.02898 sharp_cap=7.02898 sharp_log=1.95004 ratioA=7.02898 ratioB=8.54973 score=40216
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=208.537 sharp_cap=32 sharp_log=3.46574 ratioA=228.003 ratioB=208.537 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=14.8695 sharp_cap=14.8695 sharp_log=2.69931 ratioA=15.4281 ratioB=14.8695 score=40317.9
+[frame_sync0]   cand delta=0 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.06489 sharp_cap=1.06489 sharp_log=0.0628752 ratioA=1.06489 ratioB=1.1604 score=40007.5
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=7.44286 sharp_cap=7.44286 sharp_log=2.00726 ratioA=7.44286 ratioB=9.01251 score=19994.9
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=211.325 sharp_cap=32 sharp_log=3.46574 ratioA=259.399 ratioB=211.325 score=20163.9
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=14.2807 sharp_cap=14.2807 sharp_log=2.65891 ratioA=16.3266 ratioB=14.2807 score=20061.1
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0394896 m_sto_frac=0.117496
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=0.117496
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=16 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0394896 m_sto_frac=0.117496
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=8/16 netid=8/16 down_val=127 nominal_start_off=126 start_off=124 items_to_consume=122
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=15 total=15
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=122
+[fft_demod peakdiag] frame=15 header_start cfo_int=-1 cfo_frac=0.0394896 sf=7
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=15965.5 peak2_idx=59 peak2=52.8466 gap=15912.6 gap_ratio=302.11
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=15589.7 peak2_idx=51 peak2=67.2723 gap=15522.5 gap_ratio=231.741
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=16491.7 peak2_idx=1 peak2=99.5766 gap=16392.1 gap_ratio=165.618
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=15597.9 peak2_idx=48 peak2=72.8361 gap=15525.1 gap_ratio=214.151
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=15585.7 peak2_idx=24 peak2=117.271 gap=15468.5 gap_ratio=132.903
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=17120.2 peak2_idx=30 peak2=83.433 gap=17036.8 gap_ratio=205.197
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=16742.9 peak2_idx=6 peak2=77.7221 gap=16665.1 gap_ratio=215.42
+[fft_demod headerdiag] frame=15 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16629.7 peak2_idx=94 peak2=128.202 gap=16501.5 gap_ratio=129.715
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=15/0
+[fft_demod peakdiag] frame=15 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=15 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=16658.6 peak2_idx=55 peak2=73.3123 peak_gap=16585.3 gap_ratio=227.228 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16023.2 peak2_idx=96 peak2=67.3017 peak_gap=15955.9 gap_ratio=238.079 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16998.4 peak2_idx=104 peak2=147.552 peak_gap=16850.9 gap_ratio=115.203 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16678.1 peak2_idx=70 peak2=56.8123 peak_gap=16621.3 gap_ratio=293.565 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=16756.7 peak2_idx=86 peak2=87.9764 peak_gap=16668.7 gap_ratio=190.468 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=5 raw_idx=[frame_sync0] frame done, reset to DETECT, skip_guard=512
+51 mapped_idx=50 peak1_idx=51 peak1=15614.6 peak2_idx=50 peak2=76.5735 peak_gap=15538.1 gap_ratio=203.917 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16133.2 peak2_idx=90 peak2=76.3234 peak_gap=16056.9 gap_ratio=211.379 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=15528.8 peak2_idx=69 peak2=78.2401 peak_gap=15450.5 gap_ratio=198.476 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15186.6 peak2_idx=115 peak2=219.845 peak_gap=14966.7 gap_ratio=69.0785 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15695.2 peak2_idx=78 peak2=92.041 peak_gap=15603.2 gap_ratio=170.524 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=15833.7 peak2_idx=41 peak2=90.8304 peak_gap=15742.8 gap_ratio=174.321 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16136.4 peak2_idx=32 peak2=76.1288 peak_gap=16060.2 gap_ratio=211.962 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16920.9 peak2_idx=2 peak2=64.0112 peak_gap=16856.9 gap_ratio=264.344 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=16103.4 peak2_idx=90 peak2=79.6363 peak_gap=16023.8 gap_ratio=202.212 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16744.3 peak2_idx=79 peak2=73.6962 peak_gap=16670.7 gap_ratio=227.208 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16178 peak2_idx=93 peak2=76.1779 peak_gap=16101.8 gap_ratio=212.372 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16914.3 peak2_idx=52 peak2=59.9264 peak_gap=16854.4 gap_ratio=282.251 header=0 ldro=0
+[fft_demod peakdiag] frame=15 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16138.5 peak2_idx=72 peak2=74.785 peak_gap=16063.8 gap_ratio=215.799 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+rx msg: helloworld : 14
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=801 best_corr=0.0758452 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2564 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0532683 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0491404 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2564 best_corr=0.923872 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2564 handoff_start=5124 m_sto_frac=0.120638 m_cfo_frac=0.0459398 sfo_hat=0 coarse_sto_frac=0.120638 coarse_cfo_frac=0.0459398 train_tau_hz=-436.895 train_sto_frac=-0.19903 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=8 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=6.49343 sharp_cap=6.49343 sharp_log=1.87079 ratioA=6.84448 ratioB=6.49343 score=40206.5
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=162.614 sharp_cap=32 sharp_log=3.46574 ratioA=162.614 ratioB=251.992 score=40403.9  <== selected
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=14.9025 sharp_cap=14.9025 sharp_log=2.70153 ratioA=14.9025 ratioB=14.9036 score=40318.2
+[frame_sync0]   cand delta=0 start=126 netid=8/16 dist=0/0 rank=4 sharp=1.02193 sharp_cap=1.02193 sharp_log=0.0216894 ratioA=1.13873 ratioB=1.02193 score=40002.6
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=6.79065 sharp_cap=6.79065 sharp_log=1.91555 ratioA=7.09273 ratioB=6.79065 score=19983.9
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=223.986 sharp_cap=32 sharp_log=3.46574 ratioA=223.986 ratioB=277.84 score=20163.9
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=14.1006 sharp_cap=14.1006 sharp_log=2.64621 ratioA=15.9028 ratioB=14.1006 score=20059.5
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0459398 m_sto_frac=0.120638
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=0.120638
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=8 raw_bin2=17 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0459398 m_sto_frac=0.120638
+[frame_sync0] FMCW handoff candidate-nudge=-2 raw_probe=8/17 netid=8/16 down_val=127 nominal_start_off=126 start_off=124 items_to_consume=122
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=16 total=16
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=122
+[fft_demod peakdiag] frame=16 header_start cfo_int=-1 cfo_frac=0.0459398 sf=7
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=15886.2 peak2_idx=75 peak2=97.5962 gap=15788.6 gap_ratio=162.775
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16162.9 peak2_idx=2 peak2=90.4158 gap=16072.5 gap_ratio=178.762
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=16428.7 peak2_idx=7 peak2=65.1758 gap=16363.5 gap_ratio=252.067
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=16126.2 peak2_idx=14 peak2=102.48 gap=16023.7 gap_ratio=157.359
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=16442.6 peak2_idx=24 peak2=88.7916 gap=16353.8 gap_ratio=185.182
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=16403.7 peak2_idx=40 peak2=65.462 gap=16338.3 gap_ratio=250.584
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=15574.4 peak2_idx=52 peak2=196.116 gap=15378.2 gap_ratio=79.4139
+[fft_demod headerdiag] frame=16 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=16129.9 peak2_idx=51 peak2=77.1347 gap=16052.7 gap_ratio=209.113
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=16/0
+[fft_demod peakdiag] frame=16 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=16 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=15890.5 peak2_idx=39 peak2=70.7391 peak_gap=15819.8 gap_ratio=224.635 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16145.4 peak2_idx=114 peak2=90.2154 peak_gap=16055.2 gap_ratio=178.965 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=15462.9 peak2_idx=32 peak2=107.963 peak_gap=15354.9 gap_ratio=143.224 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16272.4 peak2_idx=48 peak2=59.7373 peak_gap=16212.7 gap_ratio=272.4 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=14899.6 peak2_idx=27 peak2=129.198 peak_gap=14770.4 gap_ratio=115.323 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=15518.6 peak2_idx=107 peak2=87.8854 peak_gap=15430.7 gap_ratio=176.578 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=14805.4 peak2_idx=29 peak2=85.035 peak_gap=14720.3 gap_ratio=174.109 header=0 ldro=0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=16 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=15044.5 peak2_idx=66 peak2=71.2562 peak_gap=14973.3 gap_ratio=211.133 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=15965.1 peak2_idx=114 peak2=93.4594 peak_gap=15871.7 gap_ratio=170.824 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15902.2 peak2_idx=13 peak2=60.6896 peak_gap=15841.5 gap_ratio=262.025 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=15767.3 peak2_idx=37 peak2=111.79 peak_gap=15655.5 gap_ratio=141.045 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=16769.5 peak2_idx=39 peak2=131.585 peak_gap=16637.9 gap_ratio=127.443 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=16237 peak2_idx=90 peak2=84.632 peak_gap=16152.3 gap_ratio=191.854 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=16514.5 peak2_idx=85 peak2=71.1423 peak_gap=16443.3 gap_ratio=232.133 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16910.5 peak2_idx=42 peak2=62.2668 peak_gap=16848.2 gap_ratio=271.581 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=16382.9 peak2_idx=46 peak2=83.284 peak_gap=16299.6 gap_ratio=196.711 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=15750.3 peak2_idx=118 peak2=57.666 peak_gap=15692.6 gap_ratio=273.129 header=0 ldro=0
+[fft_demod peakdiag] frame=16 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16173 peak2_idx=31 peak2=77.1094 peak_gap=16095.9 gap_ratio=209.741 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3585 items_to_consume=512
+rx msg: helloworld : 15
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=99 best_corr=0.0684005 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0273873 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2565 best_corr=0.922242 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2565 handoff_start=5125 m_sto_frac=-0.12294 m_cfo_frac=0.0477966 sfo_hat=0 coarse_sto_frac=-0.12294 coarse_cfo_frac=0.0477966 train_tau_hz=186.652 train_sto_frac=0.0850302 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=126 raw_bin1=9 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=123 netid=8/16 dist=0/0 rank=4 sharp=108.478 sharp_cap=32 sharp_log=3.46574 ratioA=108.478 ratioB=200.351 score=40397.9  <== selected
+[frame_sync0]   cand delta=-2 start=124 netid=8/16 dist=0/0 rank=4 sharp=11.9016 sharp_cap=11.9016 sharp_log=2.47667 ratioA=11.9016 ratioB=18.7999 score=40285.2
+[frame_sync0]   cand delta=-1 start=125 netid=8/16 dist=0/0 rank=4 sharp=1.12951 sharp_cap=1.12951 sharp_log=0.121787 ratioA=1.43352 ratioB=1.12951 score=40008.6
+[frame_sync0]   cand delta=0 start=126 netid=9/17 dist=1/1 rank=2 sharp=6.25168 sharp_cap=6.25168 sharp_log=1.83285 ratioA=6.25168 ratioB=6.69205 score=19979.9
+[frame_sync0]   cand delta=1 start=127 netid=9/17 dist=1/1 rank=2 sharp=132.858 sharp_cap=32 sharp_log=3.46574 ratioA=132.858 ratioB=192.238 score=20169.9
+[frame_sync0]   cand delta=2 start=128 netid=9/17 dist=1/1 rank=2 sharp=12.1321 sharp_cap=12.1321 sharp_log=2.49585 ratioA=12.1321 ratioB=18.1667 score=20047.5
+[frame_sync0]   cand delta=3 start=129 netid=9/17 dist=1/1 rank=2 sharp=1.11398 sharp_cap=1.11398 sharp_log=0.107944 ratioA=1.41665 ratioB=1.11398 score=19755
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=0.0477966 m_sto_frac=-0.12294
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=-0.12294
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=127 start_off=123 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=0.0477966 m_sto_frac=-0.12294
+[frame_sync0] FMCW handoff candidate-nudge=-3 raw_probe=9/17 netid=8/16 down_val=127 nominal_start_off=126 start_off=123 items_to_consume=121
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=17 total=17
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=121
+[fft_demod peakdiag] frame=17 header_start cfo_int=-1 cfo_frac=0.0477966 sf=7
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=17674.4 peak2_idx=41 peak2=87.7863 gap=17586.6 gap_ratio=201.334
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=16875.4 peak2_idx=120 peak2=83.4736 gap=16791.9 gap_ratio=202.164
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=15073.8 peak2_idx=73 peak2=70.7141 gap=15003.1 gap_ratio=213.166
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=14890.1 peak2_idx=59 peak2=73.2079 gap=14816.9 gap_ratio=203.395
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=15601.8 peak2_idx=5 peak2=58.8042 gap=15543 gap_ratio=265.318
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=17053.7 peak2_idx=16 peak2=100.049 gap=16953.6 gap_ratio=170.454
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=16662.6 peak2_idx=127 peak2=88.5209 gap=16574.1 gap_ratio=188.233
+[fft_demod headerdiag] frame=17 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=15956.2 peak2_idx=96 peak2=125.081 gap=15831.1 gap_ratio=127.567
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=17/0
+[fft_demod peakdiag] frame=17 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=17 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=16095.7 peak2_idx=53 peak2=[frame_sync0] frame done, reset to DETECT, skip_guard=133.062 peak_gap=51215962.6 gap_ratio=
+120.964 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=16035.7 peak2_idx=93 peak2=97.9918 peak_gap=15937.7 gap_ratio=163.643 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=16486.3 peak2_idx=31 peak2=153.848 peak_gap=16332.5 gap_ratio=107.16 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=16470 peak2_idx=113 peak2=69.0482 peak_gap=16401 gap_ratio=238.53 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=15796.3 peak2_idx=127 peak2=91.653 peak_gap=15704.7 gap_ratio=172.349 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=16518.3 peak2_idx=13 peak2=75.2515 peak_gap=16443 gap_ratio=219.508 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3585 items_to_consume=512
+[fft_demod peakdiag] frame=17 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=16547.3 peak2_idx=55 peak2=70.3455 peak_gap=16476.9 gap_ratio=235.229 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=15770.4 peak2_idx=0 peak2=72.8119 peak_gap=15697.6 gap_ratio=216.591 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16330.9 peak2_idx=115 peak2=140.985 peak_gap=16189.9 gap_ratio=115.834 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=15647.5 peak2_idx=84 peak2=77.8244 peak_gap=15569.7 gap_ratio=201.062 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=15595.5 peak2_idx=121 peak2=97.834 peak_gap=15497.7 gap_ratio=159.408 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=14870.9 peak2_idx=104 peak2=143.892 peak_gap=14727 gap_ratio=103.347 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=15865.4 peak2_idx=9 peak2=127.541 peak_gap=15737.9 gap_ratio=124.395 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=15393.5 peak2_idx=87 peak2=70.793 peak_gap=15322.7 gap_ratio=217.443 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=16636.8 peak2_idx=41 peak2=67.2601 peak_gap=16569.6 gap_ratio=247.35 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=15947 peak2_idx=38 peak2=95.8298 peak_gap=15851.2 gap_ratio=166.41 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=16998.9 peak2_idx=81 peak2=62.1567 peak_gap=16936.7 gap_ratio=273.484 header=0 ldro=0
+[fft_demod peakdiag] frame=17 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=16087.1 peak2_idx=64 peak2=83.5167 peak_gap=16003.6 gap_ratio=192.622 header=0 ldro=0
+rx msg: helloworld : 16
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=865 best_corr=0.0701938 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0383757 threshold=0.34
+[frame_sync0] DETECT entered, ninput=6655 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=2565 best_corr=0.922165 threshold=0.34
+[frame_sync0] FMCW DETECTED packet_start=2565 handoff_start=5125 m_sto_frac=-0.125 m_cfo_frac=-0.0424 sfo_hat=0 coarse_sto_frac=-0.125 coarse_cfo_frac=-0.0424 train_tau_hz=376.065 train_sto_frac=0.171319 use_train_sto=0 train_blend=0
+[frame_sync0] SYNC entered symbol_cnt=0
+[frame_sync0] SYNC entered symbol_cnt=1
+[frame_sync0] SYNC entered symbol_cnt=2
+[frame_sync0] SYNC entered symbol_cnt=3
+[frame_sync0] SYNC entered symbol_cnt=4
+[frame_sync0] FMCW candidate scoreboard nominal_start_off=127 raw_bin1=9 raw_bin2=17 down_val=127
+[frame_sync0]   cand delta=-3 start=124 netid=8/16 dist=0/0 rank=4 sharp=5.68753 sharp_cap=5.68753 sharp_log=1.73828 ratioA=5.68753 ratioB=10.5394 score=40190.6  <== selected
+[frame_sync0]   cand delta=-2 start=125 netid=9/17 dist=1/1 rank=2 sharp=1.21423 sharp_cap=1.21423 sharp_log=0.194109 ratioA=1.24308 ratioB=1.21423 score=19771.3
+[frame_sync0]   cand delta=-1 start=126 netid=9/17 dist=1/1 rank=2 sharp=9.84511 sharp_cap=9.84511 sharp_log=2.28697 ratioA=9.84511 ratioB=13.4165 score=20028.4
+[frame_sync0]   cand delta=0 start=127 netid=9/17 dist=1/1 rank=2 sharp=178.203 sharp_cap=32 sharp_log=3.46574 ratioA=185.31 ratioB=178.203 score=20175.9
+[frame_sync0]   cand delta=1 start=128 netid=9/17 dist=1/1 rank=2 sharp=5.96045 sharp_cap=5.96045 sharp_log=1.78515 ratioA=5.96045 ratioB=10.2489 score=19968.2
+[frame_sync0]   cand delta=2 start=129 netid=10/18 dist=2/2 rank=0 sharp=1.18103 sharp_cap=1.18103 sharp_log=0.166387 ratioA=1.2496 ratioB=1.18103 score=-472.034
+[frame_sync0]   cand delta=3 start=130 netid=10/18 dist=2/2 rank=0 sharp=9.9189 sharp_cap=9.9189 sharp_log=2.29444 ratioA=9.9189 ratioB=13.4548 score=-222.667
+[frame_sync0] FMCW handoff netid1=8 netid2=16 m_cfo_int=-1 m_cfo_frac=-0.0424 m_sto_frac=-0.125
+[frame_sync0] FMCW handoff original-style exp1=8 exp2=16 net_id_off=0 keep_m_cfo_int=-1 m_sto_frac=-0.125
+[frame_sync0] FMCW SYNC raw probe kind=GOOD_816 raw_bin1=9 raw_bin2=17 down_val=127 start_off=124 netid1=8 netid2=16 net_id_off=0 m_cfo_int=-1 m_cfo_frac=-0.0424 m_sto_frac=-0.125
+[frame_sync0] FMCW handoff candidate-nudge=-3 raw_probe=9/17 netid=8/16 down_val=127 nominal_start_off=127 start_off=124 items_to_consume=121
+[frame_sync0] handoff-branch stats: 120=0 124=0 128=0 other=18 total=18
+[frame_sync0] FMCW handoff -> SFO_COMPENSATION items_to_consume=121
+[fft_demod peakdiag] frame=18 header_start cfo_int=-1 cfo_frac=-0.0424 sf=7
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=109 mapped_idx=27 peak1_idx=109 peak1=12667.6 peak2_idx=110 peak2=1721.81 gap=10945.8 gap_ratio=7.35713
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=5 mapped_idx=1 peak1_idx=5 peak1=12411.8 peak2_idx=6 peak2=1737.08 gap=10674.8 gap_ratio=7.14523
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=121 mapped_idx=30 peak1_idx=121 peak1=12191.4 peak2_idx=122 peak2=1876.07 gap=10315.3 gap_ratio=6.49837
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=61 mapped_idx=15 peak1_idx=61 peak1=13389.8 peak2_idx=62 peak2=753.651 gap=12636.2 gap_ratio=17.7666
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=25 mapped_idx=6 peak1_idx=25 peak1=12535.2 peak2_idx=26 peak2=1860.98 gap=10674.3 gap_ratio=6.73585
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=17 mapped_idx=4 peak1_idx=17 peak1=13390.2 peak2_idx=18 peak2=1781.37 gap=11608.8 gap_ratio=7.5168
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=53 mapped_idx=13 peak1_idx=53 peak1=13712.3 peak2_idx=54 peak2=1399.03 gap=12313.3 gap_ratio=9.80132
+[fft_demod headerdiag] frame=18 hdr_sym=0 raw_idx=97 mapped_idx=24 peak1_idx=97 peak1=13205.2 peak2_idx=98 peak2=1539.31 gap=11665.9 gap_ratio=8.57864
+[header_decoder hdrsym] in0=0 in1=15 in2=5 in3=0 in4=1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    2
+[header_decoder chk] payload_len=15 has_crc=1 cr=2 header_chk=1 computed_chk=1 head_err=0
+Header checksum valid!
+
+[header_decoder frame_info] cr=2 pay_len=15 crc=1 ldro_mode=2 err=0
+[header_decoder payload_fwd] head_err=0 nitem_to_process=5 header_len=
+[frame_sync0] handoff-header stats: 120(ok/bad)=0/0 124(ok/bad)=0/0 128(ok/bad)=0/0 other(ok/bad)=18/0
+[frame_sync0] frame done, reset to DETECT, skip_guard=512
+[fft_demod peakdiag] frame=18 payload_start cr=2 ldro=0 symb_numb=38
+[fft_demod peakdiag] frame=18 payload_sym=0 raw_idx=54 mapped_idx=53 peak1_idx=54 peak1=12663.9 peak2_idx=55 peak2=1474.6 peak_gap=11189.3 gap_ratio=8.58802 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=1 raw_idx=125 mapped_idx=124 peak1_idx=125 peak1=12367.4 peak2_idx=126 peak2=1938.5 peak_gap=10428.9 gap_ratio=6.37986 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=2 raw_idx=33 mapped_idx=32 peak1_idx=33 peak1=11984.1 peak2_idx=34 peak2=1698.96 peak_gap=10285.1 gap_ratio=7.05379 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=3 raw_idx=71 mapped_idx=70 peak1_idx=71 peak1=13357.3 peak2_idx=72 peak2=1155.6 peak_gap=12201.7 gap_ratio=11.5588 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=4 raw_idx=108 mapped_idx=107 peak1_idx=108 peak1=12972.9 peak2_idx=109 peak2=1828.21 peak_gap=11144.6 gap_ratio=7.09592 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=5 raw_idx=51 mapped_idx=50 peak1_idx=51 peak1=13258.8 peak2_idx=52 peak2=1244.56 peak_gap=12014.2 gap_ratio=10.6534 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=6 raw_idx=38 mapped_idx=37 peak1_idx=38 peak1=12938.7 peak2_idx=39 peak2=1430.89 peak_gap=11507.8 gap_ratio=9.04239 header=0 ldro=0
+[frame_sync0] DETECT entered, ninput=3581 items_to_consume=512
+[fft_demod peakdiag] frame=18 payload_sym=7 raw_idx=58 mapped_idx=57 peak1_idx=58 peak1=13530.4 peak2_idx=59 peak2=954.354 peak_gap=12576 gap_ratio=14.1775 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=8 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=12259.2 peak2_idx=117 peak2=2081.48 peak_gap=10177.7 gap_ratio=5.88963 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=9 raw_idx=85 mapped_idx=84 peak1_idx=85 peak1=13459.7 peak2_idx=86 peak2=1540.86 peak_gap=11918.9 gap_ratio=8.7352 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=10 raw_idx=42 mapped_idx=41 peak1_idx=42 peak1=12679.5 peak2_idx=43 peak2=965.846 peak_gap=11713.6 gap_ratio=13.1279 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=11 raw_idx=105 mapped_idx=104 peak1_idx=105 peak1=13690.4 peak2_idx=106 peak2=1579.01 peak_gap=12111.4 gap_ratio=8.67022 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=12 raw_idx=91 mapped_idx=90 peak1_idx=91 peak1=13598.8 peak2_idx=92 peak2=1252.92 peak_gap=12345.8 gap_ratio=10.8536 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=13 raw_idx=86 mapped_idx=85 peak1_idx=86 peak1=14476.2 peak2_idx=87 peak2=1090.23 peak_gap=13386 gap_ratio=13.2782 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=14 raw_idx=83 mapped_idx=82 peak1_idx=83 peak1=13060 peak2_idx=84 peak2=1555.3 peak_gap=11504.7 gap_ratio=8.39708 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=15 raw_idx=49 mapped_idx=48 peak1_idx=49 peak1=13143.4 peak2_idx=50 peak2=1122.68 peak_gap=12020.8 gap_ratio=11.7072 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=16 raw_idx=44 mapped_idx=43 peak1_idx=44 peak1=13888.6 peak2_idx=45 peak2=1558.89 peak_gap=12329.7 gap_ratio=8.90928 header=0 ldro=0
+[fft_demod peakdiag] frame=18 payload_sym=17 raw_idx=116 mapped_idx=115 peak1_idx=116 peak1=12624.2 peak2_idx=117 peak2=1882.29 peak_gap=10742 gap_ratio=6.70686 header=0 ldro=0
+rx msg: helloworld : 17
+CRC valid!
+
+[frame_sync0] FMCW corr best_pos=154 best_corr=0.0704063 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2564 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0514035 threshold=0.34
+[frame_sync0] DETECT entered, ninput=2560 items_to_consume=512
+[frame_sync0] FMCW corr best_pos=0 best_corr=0.0390303 threshold=0.34

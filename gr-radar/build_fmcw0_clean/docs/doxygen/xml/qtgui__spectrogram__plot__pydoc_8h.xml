@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="qtgui__spectrogram__plot__pydoc_8h" kind="file" language="C++">
+    <compoundname>qtgui_spectrogram_plot_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>qtgui_spectrogram_plot_pydoc.h</label>
+        <link refid="qtgui__spectrogram__plot__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="qtgui__spectrogram__plot__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="qtgui__spectrogram__plot__pydoc_8h_1a5bd95e4ccce920e08274312423979339" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_qtgui_spectrogram_plot</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_qtgui_spectrogram_plot</name>
+        <initializer>= R&quot;doc(This block displays a spectrogram plot of a tagged stream with vectors. Tagged streams combined with vectors represent a matrix. The value of the matrix elements are displayed within a color plot. The colorbar can be scaled automatically or with a manual scale with axis_z. The axis of x and y are set with axis_x and axis_y. The update rate interval is given in milliseconds.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::qtgui_spectrogram_plot.
+
+To avoid accidental use of raw pointers, radar::qtgui_spectrogram_plot&apos;s constructor is in a private implementation class. radar::qtgui_spectrogram_plot::make is the public interface for creating new instances.
+
+Args:
+    vlen : 
+    interval : 
+    xlabel : 
+    ylabel : 
+    label : 
+    axis_x : 
+    axis_y : 
+    axis_z : 
+    autoscale_z : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="qtgui__spectrogram__plot__pydoc_8h_1a8f26983b28505c4cf249c35a90f70bca" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_qtgui_spectrogram_plot_qtgui_spectrogram_plot</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_qtgui_spectrogram_plot_qtgui_spectrogram_plot</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" line="40" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="qtgui__spectrogram__plot__pydoc_8h_1a027b6ef4210ce5b0b7223c0c12b34da7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_qtgui_spectrogram_plot_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_qtgui_spectrogram_plot_make</name>
+        <initializer>= R&quot;doc(This block displays a spectrogram plot of a tagged stream with vectors. Tagged streams combined with vectors represent a matrix. The value of the matrix elements are displayed within a color plot. The colorbar can be scaled automatically or with a manual scale with axis_z. The axis of x and y are set with axis_x and axis_y. The update rate interval is given in milliseconds.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::qtgui_spectrogram_plot.
+
+To avoid accidental use of raw pointers, radar::qtgui_spectrogram_plot&apos;s constructor is in a private implementation class. radar::qtgui_spectrogram_plot::make is the public interface for creating new instances.
+
+Args:
+    vlen : 
+    interval : 
+    xlabel : 
+    ylabel : 
+    label : 
+    axis_x : 
+    axis_y : 
+    axis_z : 
+    autoscale_z : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" line="43" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/qtgui_spectrogram_plot_pydoc.h"/>
+  </compounddef>
+</doxygen>

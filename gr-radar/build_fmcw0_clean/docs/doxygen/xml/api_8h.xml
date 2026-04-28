@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="crop__matrix__vcvc_8h" local="no">crop_matrix_vcvc.h</includedby>
+    <includedby refid="estimator__cw_8h" local="no">estimator_cw.h</includedby>
+    <includedby refid="estimator__fmcw_8h" local="no">estimator_fmcw.h</includedby>
+    <includedby refid="estimator__fsk_8h" local="no">estimator_fsk.h</includedby>
+    <includedby refid="estimator__ofdm_8h" local="no">estimator_ofdm.h</includedby>
+    <includedby refid="estimator__rcs_8h" local="no">estimator_rcs.h</includedby>
+    <includedby refid="estimator__sync__pulse__c_8h" local="no">estimator_sync_pulse_c.h</includedby>
+    <includedby refid="find__max__peak__c_8h" local="no">find_max_peak_c.h</includedby>
+    <includedby refid="msg__gate_8h" local="no">msg_gate.h</includedby>
+    <includedby refid="msg__manipulator_8h" local="no">msg_manipulator.h</includedby>
+    <includedby refid="ofdm__cyclic__prefix__remover__cvc_8h" local="no">ofdm_cyclic_prefix_remover_cvc.h</includedby>
+    <includedby refid="ofdm__divide__vcvc_8h" local="no">ofdm_divide_vcvc.h</includedby>
+    <includedby refid="os__cfar__2d__vc_8h" local="no">os_cfar_2d_vc.h</includedby>
+    <includedby refid="os__cfar__c_8h" local="no">os_cfar_c.h</includedby>
+    <includedby refid="print__results_8h" local="no">print_results.h</includedby>
+    <includedby refid="qtgui__scatter__plot_8h" local="no">qtgui_scatter_plot.h</includedby>
+    <includedby refid="qtgui__spectrogram__plot_8h" local="no">qtgui_spectrogram_plot.h</includedby>
+    <includedby refid="qtgui__time__plot_8h" local="no">qtgui_time_plot.h</includedby>
+    <includedby refid="signal__generator__cw__c_8h" local="no">signal_generator_cw_c.h</includedby>
+    <includedby refid="signal__generator__fmcw__c_8h" local="no">signal_generator_fmcw_c.h</includedby>
+    <includedby refid="signal__generator__fsk__c_8h" local="no">signal_generator_fsk_c.h</includedby>
+    <includedby refid="signal__generator__sync__pulse__c_8h" local="no">signal_generator_sync_pulse_c.h</includedby>
+    <includedby refid="split__cc_8h" local="no">split_cc.h</includedby>
+    <includedby refid="split__fsk__cc_8h" local="no">split_fsk_cc.h</includedby>
+    <includedby refid="static__target__simulator__cc_8h" local="no">static_target_simulator_cc.h</includedby>
+    <includedby refid="tracking__singletarget_8h" local="no">tracking_singletarget.h</includedby>
+    <includedby refid="transpose__matrix__vcvc_8h" local="no">transpose_matrix_vcvc.h</includedby>
+    <includedby refid="trigger__command_8h" local="no">trigger_command.h</includedby>
+    <includedby refid="ts__fft__cc_8h" local="no">ts_fft_cc.h</includedby>
+    <includedby refid="usrp__echotimer__cc_8h" local="no">usrp_echotimer_cc.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>crop_matrix_vcvc.h</label>
+        <link refid="crop__matrix__vcvc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>estimator_cw.h</label>
+        <link refid="estimator__cw_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>estimator_fmcw.h</label>
+        <link refid="estimator__fmcw_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>estimator_fsk.h</label>
+        <link refid="estimator__fsk_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>estimator_ofdm.h</label>
+        <link refid="estimator__ofdm_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>estimator_rcs.h</label>
+        <link refid="estimator__rcs_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>estimator_sync_pulse_c.h</label>
+        <link refid="estimator__sync__pulse__c_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>find_max_peak_c.h</label>
+        <link refid="find__max__peak__c_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>msg_gate.h</label>
+        <link refid="msg__gate_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>msg_manipulator.h</label>
+        <link refid="msg__manipulator_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ofdm_cyclic_prefix_remover_cvc.h</label>
+        <link refid="ofdm__cyclic__prefix__remover__cvc_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ofdm_divide_vcvc.h</label>
+        <link refid="ofdm__divide__vcvc_8h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>os_cfar_2d_vc.h</label>
+        <link refid="os__cfar__2d__vc_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>os_cfar_c.h</label>
+        <link refid="os__cfar__c_8h"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>print_results.h</label>
+        <link refid="print__results_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>qtgui_scatter_plot.h</label>
+        <link refid="qtgui__scatter__plot_8h"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>qtgui_spectrogram_plot.h</label>
+        <link refid="qtgui__spectrogram__plot_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>qtgui_time_plot.h</label>
+        <link refid="qtgui__time__plot_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>signal_generator_cw_c.h</label>
+        <link refid="signal__generator__cw__c_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>signal_generator_fmcw_c.h</label>
+        <link refid="signal__generator__fmcw__c_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>signal_generator_fsk_c.h</label>
+        <link refid="signal__generator__fsk__c_8h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>signal_generator_sync_pulse_c.h</label>
+        <link refid="signal__generator__sync__pulse__c_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>split_cc.h</label>
+        <link refid="split__cc_8h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>split_fsk_cc.h</label>
+        <link refid="split__fsk__cc_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>static_target_simulator_cc.h</label>
+        <link refid="static__target__simulator__cc_8h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>tracking_singletarget.h</label>
+        <link refid="tracking__singletarget_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>transpose_matrix_vcvc.h</label>
+        <link refid="transpose__matrix__vcvc_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>trigger_command.h</label>
+        <link refid="trigger__command_8h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>ts_fft_cc.h</label>
+        <link refid="ts__fft__cc_8h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>usrp_echotimer_cc.h</label>
+        <link refid="usrp__echotimer__cc_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>crop_matrix_vcvc_impl.h</label>
+        <link refid="crop__matrix__vcvc__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>estimator_cw_impl.h</label>
+        <link refid="estimator__cw__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>estimator_fmcw_impl.h</label>
+        <link refid="estimator__fmcw__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>estimator_fsk_impl.h</label>
+        <link refid="estimator__fsk__impl_8h"/>
+      </node>
+      <node id="11">
+        <label>estimator_ofdm_impl.h</label>
+        <link refid="estimator__ofdm__impl_8h"/>
+      </node>
+      <node id="13">
+        <label>estimator_rcs_impl.h</label>
+        <link refid="estimator__rcs__impl_8h"/>
+      </node>
+      <node id="15">
+        <label>estimator_sync_pulse_c_impl.h</label>
+        <link refid="estimator__sync__pulse__c__impl_8h"/>
+      </node>
+      <node id="17">
+        <label>find_max_peak_c_impl.h</label>
+        <link refid="find__max__peak__c__impl_8h"/>
+      </node>
+      <node id="19">
+        <label>msg_gate_impl.h</label>
+        <link refid="msg__gate__impl_8h"/>
+      </node>
+      <node id="21">
+        <label>msg_manipulator_impl.h</label>
+        <link refid="msg__manipulator__impl_8h"/>
+      </node>
+      <node id="23">
+        <label>ofdm_cyclic_prefix_remover_cvc_impl.h</label>
+        <link refid="ofdm__cyclic__prefix__remover__cvc__impl_8h"/>
+      </node>
+      <node id="25">
+        <label>ofdm_divide_vcvc_impl.h</label>
+        <link refid="ofdm__divide__vcvc__impl_8h"/>
+      </node>
+      <node id="27">
+        <label>os_cfar_2d_vc_impl.h</label>
+        <link refid="os__cfar__2d__vc__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>os_cfar_c_impl.h</label>
+        <link refid="os__cfar__c__impl_8h"/>
+      </node>
+      <node id="31">
+        <label>print_results_impl.h</label>
+        <link refid="print__results__impl_8h"/>
+      </node>
+      <node id="33">
+        <label>qtgui_scatter_plot_impl.h</label>
+        <link refid="qtgui__scatter__plot__impl_8h"/>
+      </node>
+      <node id="35">
+        <label>qtgui_spectrogram_plot_impl.h</label>
+        <link refid="qtgui__spectrogram__plot__impl_8h"/>
+      </node>
+      <node id="37">
+        <label>qtgui_time_plot_impl.h</label>
+        <link refid="qtgui__time__plot__impl_8h"/>
+      </node>
+      <node id="39">
+        <label>signal_generator_cw_c_impl.h</label>
+        <link refid="signal__generator__cw__c__impl_8h"/>
+      </node>
+      <node id="41">
+        <label>signal_generator_fmcw_c_impl.h</label>
+        <link refid="signal__generator__fmcw__c__impl_8h"/>
+      </node>
+      <node id="43">
+        <label>signal_generator_fsk_c_impl.h</label>
+        <link refid="signal__generator__fsk__c__impl_8h"/>
+      </node>
+      <node id="45">
+        <label>signal_generator_sync_pulse_c_impl.h</label>
+        <link refid="signal__generator__sync__pulse__c__impl_8h"/>
+      </node>
+      <node id="47">
+        <label>split_cc_impl.h</label>
+        <link refid="split__cc__impl_8h"/>
+      </node>
+      <node id="49">
+        <label>split_fsk_cc_impl.h</label>
+        <link refid="split__fsk__cc__impl_8h"/>
+      </node>
+      <node id="51">
+        <label>static_target_simulator_cc_impl.h</label>
+        <link refid="static__target__simulator__cc__impl_8h"/>
+      </node>
+      <node id="53">
+        <label>tracking_singletarget_impl.h</label>
+        <link refid="tracking__singletarget__impl_8h"/>
+      </node>
+      <node id="55">
+        <label>transpose_matrix_vcvc_impl.h</label>
+        <link refid="transpose__matrix__vcvc__impl_8h"/>
+      </node>
+      <node id="57">
+        <label>trigger_command_impl.h</label>
+        <link refid="trigger__command__impl_8h"/>
+      </node>
+      <node id="59">
+        <label>ts_fft_cc_impl.h</label>
+        <link refid="ts__fft__cc__impl_8h"/>
+      </node>
+      <node id="61">
+        <label>usrp_echotimer_cc_impl.h</label>
+        <link refid="usrp__echotimer__cc__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a087f3342c4b5ef356c6a607f77df0ea4" prot="public" static="no">
+        <name>RADAR_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/api.h" line="31" column="10" bodyfile="/home/lmz/gr-radar/include/radar/api.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/include/radar/api.h"/>
+  </compounddef>
+</doxygen>

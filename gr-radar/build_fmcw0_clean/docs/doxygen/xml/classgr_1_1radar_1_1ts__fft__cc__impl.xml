@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1ts__fft__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::ts_fft_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1ts__fft__cc" prot="public" virt="non-virtual">gr::radar::ts_fft_cc</basecompoundref>
+    <includes refid="ts__fft__cc__impl_8h" local="no">ts_fft_cc_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ts__fft__cc__impl_1ae7fec68e9b1eb4f950cfd2e259f9002d" prot="public" static="no" mutable="no">
+        <type>fftwf_plan</type>
+        <definition>fftwf_plan gr::radar::ts_fft_cc_impl::d_fft_plan</definition>
+        <argsstring></argsstring>
+        <name>d_fft_plan</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::d_fft_plan</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="42" column="16" bodyfile="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ts__fft__cc__impl_1a6e767ffda3508f0827d39058e23f8718" prot="public" static="no" mutable="no">
+        <type>fftwf_complex *</type>
+        <definition>fftwf_complex* gr::radar::ts_fft_cc_impl::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::d_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="43" column="19" bodyfile="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ts__fft__cc__impl_1a481af5ed62183d06c75b117cd27cd6fa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::ts_fft_cc_impl::d_packet_len</definition>
+        <argsstring></argsstring>
+        <name>d_packet_len</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::d_packet_len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="44" column="9" bodyfile="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ts__fft__cc__impl_1ac1a0b89c0ae4f1f6aa8b527cd8470caa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::ts_fft_cc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::calculate_output_stream_length</qualifiedname>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="36" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ts__fft__cc__impl_1ab55700e63bf1d796698479539a6de38a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::ts_fft_cc_impl::ts_fft_cc_impl</definition>
+        <argsstring>(int packet_len, const std::string &amp;len_key)</argsstring>
+        <name>ts_fft_cc_impl</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::ts_fft_cc_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>packet_len</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1ts__fft__cc__impl_1a254c366ddb920534d33b35fdc58fbcf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::ts_fft_cc_impl::~ts_fft_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ts_fft_cc_impl</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::~ts_fft_cc_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="40" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1ts__fft__cc__impl_1a8b94036969ad007ac64b0d6ade08a610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::ts_fft_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::radar::ts_fft_cc_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="47" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::radar::ts_fft_cc</label>
+        <link refid="classgr_1_1radar_1_1ts__fft__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::ts_fft_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1ts__fft__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::radar::ts_fft_cc</label>
+        <link refid="classgr_1_1radar_1_1ts__fft__cc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::ts_fft_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1ts__fft__cc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" line="30" column="1" bodyfile="/home/lmz/gr-radar/lib/ts_fft_cc_impl.h" bodystart="31" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1ac1a0b89c0ae4f1f6aa8b527cd8470caa" prot="protected" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1a6e767ffda3508f0827d39058e23f8718" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>d_buffer</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1ae7fec68e9b1eb4f950cfd2e259f9002d" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>d_fft_plan</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1a481af5ed62183d06c75b117cd27cd6fa" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>d_packet_len</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc_1a3eec0a171fdde85795ea7e2aa9979902" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc_1a8587e84c710084a5787a0ce3ed36f9ee" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1ab55700e63bf1d796698479539a6de38a" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>ts_fft_cc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1a8b94036969ad007ac64b0d6ade08a610" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1ts__fft__cc__impl_1a254c366ddb920534d33b35fdc58fbcf5" prot="public" virt="non-virtual"><scope>gr::radar::ts_fft_cc_impl</scope><name>~ts_fft_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

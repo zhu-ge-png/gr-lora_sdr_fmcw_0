@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1time__plot" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::time_plot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="time__plot_8h" local="no">time_plot.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a1cca5f796f54993aacf5eea88693243e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::time_plot::d_interval</definition>
+        <argsstring></argsstring>
+        <name>d_interval</name>
+        <qualifiedname>gr::radar::time_plot::d_interval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="50" column="9" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1ab11ecb05a03e9141eda459c2c8d6bd35" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::time_plot::d_label_y</definition>
+        <argsstring></argsstring>
+        <name>d_label_y</name>
+        <qualifiedname>gr::radar::time_plot::d_label_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="51" column="17" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a286af254bebac098bebd4e236cca61ce" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::time_plot::d_axis_y</definition>
+        <argsstring></argsstring>
+        <name>d_axis_y</name>
+        <qualifiedname>gr::radar::time_plot::d_axis_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="52" column="17" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1abfbae36c72ecf816b91ada70c3973d3f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt; *</type>
+        <definition>std::vector&lt;float&gt;* gr::radar::time_plot::d_y</definition>
+        <argsstring></argsstring>
+        <name>d_y</name>
+        <qualifiedname>gr::radar::time_plot::d_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="53" column="17" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1affd4e3acc2d5100108d23175d2e20578" prot="private" static="no" mutable="no">
+        <type>bool *</type>
+        <definition>bool* gr::radar::time_plot::d_y_read</definition>
+        <argsstring></argsstring>
+        <name>d_y_read</name>
+        <qualifiedname>gr::radar::time_plot::d_y_read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="54" column="10" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a820bf8d01536d84f43cc47345a0abfa3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::time_plot::d_range_time</definition>
+        <argsstring></argsstring>
+        <name>d_range_time</name>
+        <qualifiedname>gr::radar::time_plot::d_range_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="55" column="11" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1ae6c111b2b9a93eb6f8e02a7efaf21c08" prot="private" static="no" mutable="no">
+        <type>QwtPlot *</type>
+        <definition>QwtPlot* gr::radar::time_plot::d_plot</definition>
+        <argsstring></argsstring>
+        <name>d_plot</name>
+        <qualifiedname>gr::radar::time_plot::d_plot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="57" column="13" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a0a29e383f7b76277efd359cfbade2e4c" prot="private" static="no" mutable="no">
+        <type>QwtSymbol *</type>
+        <definition>QwtSymbol* gr::radar::time_plot::d_symbol</definition>
+        <argsstring></argsstring>
+        <name>d_symbol</name>
+        <qualifiedname>gr::radar::time_plot::d_symbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="58" column="15" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a20c741bb104feb9442ee6c875fd436f4" prot="private" static="no" mutable="no">
+        <type>QwtPlotGrid *</type>
+        <definition>QwtPlotGrid* gr::radar::time_plot::d_grid</definition>
+        <argsstring></argsstring>
+        <name>d_grid</name>
+        <qualifiedname>gr::radar::time_plot::d_grid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="59" column="17" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a348576275e82cc7e544b4e59c8424a1e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; QwtPlotMarker * &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;QwtPlotMarker*&gt; &gt; gr::radar::time_plot::d_marker</definition>
+        <argsstring></argsstring>
+        <name>d_marker</name>
+        <qualifiedname>gr::radar::time_plot::d_marker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="60" column="17" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1a2d0c6de124e13d947cf15ed33c87118c" prot="private" static="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* gr::radar::time_plot::d_timer</definition>
+        <argsstring></argsstring>
+        <name>d_timer</name>
+        <qualifiedname>gr::radar::time_plot::d_timer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="62" column="12" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1time__plot_1aa50e9d0e4e6be3335e7db129a15ca104" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::time_plot::d_refresh_counter</definition>
+        <argsstring></argsstring>
+        <name>d_refresh_counter</name>
+        <qualifiedname>gr::radar::time_plot::d_refresh_counter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="64" column="9" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1time__plot_1a1c7954c630eabccd379ed96f917930f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::time_plot::time_plot</definition>
+        <argsstring>(int interval, std::string label_y, std::vector&lt; float &gt; axis_y, float range_time, std::vector&lt; float &gt; *y, bool *y_read, std::string label, QWidget *parent=0)</argsstring>
+        <name>time_plot</name>
+        <qualifiedname>gr::radar::time_plot::time_plot</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label_y</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range_time</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>y_read</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1time__plot_1aa99ed2cc640a60ced4c26c48369fee4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::time_plot::~time_plot</definition>
+        <argsstring>()</argsstring>
+        <name>~time_plot</name>
+        <qualifiedname>gr::radar::time_plot::~time_plot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="47" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1time__plot_1a71246da50cc9223d26abf7b547a089e0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::time_plot::resizeEvent</definition>
+        <argsstring>(QResizeEvent *event)</argsstring>
+        <name>resizeEvent</name>
+        <qualifiedname>gr::radar::time_plot::resizeEvent</qualifiedname>
+        <param>
+          <type>QResizeEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="67" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classgr_1_1radar_1_1time__plot_1a53f97fc4ae889e65f9be6f834c4f5b8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::time_plot::refresh</definition>
+        <argsstring>()</argsstring>
+        <name>refresh</name>
+        <qualifiedname>gr::radar::time_plot::refresh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/time_plot.h" line="70" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::time_plot</label>
+        <link refid="classgr_1_1radar_1_1time__plot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::time_plot</label>
+        <link refid="classgr_1_1radar_1_1time__plot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/time_plot.h" line="34" column="1" bodyfile="/home/lmz/gr-radar/lib/time_plot.h" bodystart="35" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1time__plot_1a286af254bebac098bebd4e236cca61ce" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_axis_y</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a20c741bb104feb9442ee6c875fd436f4" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_grid</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a1cca5f796f54993aacf5eea88693243e" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_interval</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1ab11ecb05a03e9141eda459c2c8d6bd35" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_label_y</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a348576275e82cc7e544b4e59c8424a1e" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_marker</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1ae6c111b2b9a93eb6f8e02a7efaf21c08" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_plot</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a820bf8d01536d84f43cc47345a0abfa3" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_range_time</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1aa50e9d0e4e6be3335e7db129a15ca104" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_refresh_counter</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a0a29e383f7b76277efd359cfbade2e4c" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_symbol</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a2d0c6de124e13d947cf15ed33c87118c" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_timer</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1abfbae36c72ecf816b91ada70c3973d3f" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_y</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1affd4e3acc2d5100108d23175d2e20578" prot="private" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>d_y_read</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a53f97fc4ae889e65f9be6f834c4f5b8d" prot="public" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>refresh</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a71246da50cc9223d26abf7b547a089e0" prot="protected" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>resizeEvent</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1a1c7954c630eabccd379ed96f917930f9" prot="public" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>time_plot</name></member>
+      <member refid="classgr_1_1radar_1_1time__plot_1aa99ed2cc640a60ced4c26c48369fee4d" prot="public" virt="non-virtual"><scope>gr::radar::time_plot</scope><name>~time_plot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

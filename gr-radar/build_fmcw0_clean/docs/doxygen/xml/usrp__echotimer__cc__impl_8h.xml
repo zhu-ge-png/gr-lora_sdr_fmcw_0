@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="usrp__echotimer__cc__impl_8h" kind="file" language="C++">
+    <compoundname>usrp_echotimer_cc_impl.h</compoundname>
+    <includes refid="usrp__echotimer__cc_8h" local="no">radar/usrp_echotimer_cc.h</includes>
+    <includes local="no">uhd/usrp/multi_usrp.hpp</includes>
+    <includes local="no">uhd/utils/thread.hpp</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>radar/usrp_echotimer_cc.h</label>
+        <link refid="usrp__echotimer__cc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>usrp_echotimer_cc_impl.h</label>
+        <link refid="usrp__echotimer__cc__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+      <node id="6">
+        <label>uhd/usrp/multi_usrp.hpp</label>
+      </node>
+      <node id="7">
+        <label>uhd/utils/thread.hpp</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1usrp__echotimer__cc__impl" prot="public">gr::radar::usrp_echotimer_cc_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/lib/usrp_echotimer_cc_impl.h"/>
+  </compounddef>
+</doxygen>

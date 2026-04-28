@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="estimator__ofdm__pydoc_8h" kind="file" language="C++">
+    <compoundname>estimator_ofdm_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>estimator_ofdm_pydoc.h</label>
+        <link refid="estimator__ofdm__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="estimator__ofdm__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="estimator__ofdm__pydoc_8h_1a503175195f4e331b46014a8e92a2e130" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_ofdm</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_ofdm</name>
+        <initializer>= R&quot;doc(This block evaluates the peaks given from a OFDM matrix. Input are the bins of the peaks with the identifiers &apos;axis_x&apos; and &apos;axis_y&apos;. The parameters of the block axis_x and axis_y are vectors which define the mapping of the axis. If two values are given it is assumed a linear progression in between. If four values are given the middle values are set on half of the axis and it is interpolated linear in between. len_x and len_y gives the length of the axis in number of bins. symbol_x and symbol_y defines the identifier (symbols) for the output data. merge_consecutive toggles merging consecutive peaks. Each peak is compared with peaks in a range of one bin. If there is a peak with a higher power the actual bin is not used for evaluations. If merge_consecutive is true data with identifier &apos;power&apos; is needed.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::estimator_ofdm.
+
+To avoid accidental use of raw pointers, radar::estimator_ofdm&apos;s constructor is in a private implementation class. radar::estimator_ofdm::make is the public interface for creating new instances.
+
+Args:
+    symbol_x : 
+    len_x : 
+    axis_x : 
+    symbol_y : 
+    len_y : 
+    axis_y : 
+    merge_consecutive : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__ofdm__pydoc_8h_1a34fcad0eb50a4ebc6b77372bd3391b9e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_ofdm_estimator_ofdm</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_ofdm_estimator_ofdm</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" line="37" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__ofdm__pydoc_8h_1ab125412858d14e74e9b8d118fb8fcda2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_ofdm_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_ofdm_make</name>
+        <initializer>= R&quot;doc(This block evaluates the peaks given from a OFDM matrix. Input are the bins of the peaks with the identifiers &apos;axis_x&apos; and &apos;axis_y&apos;. The parameters of the block axis_x and axis_y are vectors which define the mapping of the axis. If two values are given it is assumed a linear progression in between. If four values are given the middle values are set on half of the axis and it is interpolated linear in between. len_x and len_y gives the length of the axis in number of bins. symbol_x and symbol_y defines the identifier (symbols) for the output data. merge_consecutive toggles merging consecutive peaks. Each peak is compared with peaks in a range of one bin. If there is a peak with a higher power the actual bin is not used for evaluations. If merge_consecutive is true data with identifier &apos;power&apos; is needed.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::estimator_ofdm.
+
+To avoid accidental use of raw pointers, radar::estimator_ofdm&apos;s constructor is in a private implementation class. radar::estimator_ofdm::make is the public interface for creating new instances.
+
+Args:
+    symbol_x : 
+    len_x : 
+    axis_x : 
+    symbol_y : 
+    len_y : 
+    axis_y : 
+    merge_consecutive : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" line="40" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_ofdm_pydoc.h"/>
+  </compounddef>
+</doxygen>

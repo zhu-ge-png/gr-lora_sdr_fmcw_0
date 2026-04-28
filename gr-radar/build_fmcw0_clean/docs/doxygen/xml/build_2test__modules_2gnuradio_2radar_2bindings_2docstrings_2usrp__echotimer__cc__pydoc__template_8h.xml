@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h" kind="file" language="C++">
+    <compoundname>build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h</compoundname>
+    <includes local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>usrp_echotimer_cc_pydoc_template.h</label>
+        <link refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1a5747a05c625dda69c49209206a4b1163" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1a85c394a075af4c564c72acbe0e30c057" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="22" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1acc3de0ee3537e6860eab9043854b393d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="25" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1a105395bd0f9d9a80a14f81f8cfe974cf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_make</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="28" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1aa0e4f89bae249fb455b6f0751e02df49" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_set_num_delay_samps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_set_num_delay_samps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="31" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1a6bd07612fa5f27d1ed9bd119740c87f2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_set_rx_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_set_rx_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="34" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h_1a6ce623328c2e6ce5e9f52b859124f99c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_set_tx_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_set_tx_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" line="37" column="20" bodyfile="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h"/>
+  </compounddef>
+</doxygen>

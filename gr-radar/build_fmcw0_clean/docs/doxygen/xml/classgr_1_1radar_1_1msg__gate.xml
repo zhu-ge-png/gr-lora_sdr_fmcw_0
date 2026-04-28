@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1msg__gate" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::msg_gate</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1msg__gate__impl" prot="public" virt="non-virtual">gr::radar::msg_gate_impl</derivedcompoundref>
+    <includes refid="msg__gate_8h" local="no">msg_gate.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1msg__gate_1ac2f2fbb5c698a15987c80b1580e240d3" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1msg__gate" kindref="compound">msg_gate</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;msg_gate&gt; gr::radar::msg_gate::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::msg_gate::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/msg_gate.h" line="47" column="29" bodyfile="/home/lmz/gr-radar/include/radar/msg_gate.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__gate_1afb29d780f15330d02dddb2d8bf3d6f85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1msg__gate_1ac2f2fbb5c698a15987c80b1580e240d3" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::msg_gate::make</definition>
+        <argsstring>(std::vector&lt; std::string &gt; keys, std::vector&lt; float &gt; val_min, std::vector&lt; float &gt; val_max)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::msg_gate::make</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>keys</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>val_min</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>val_max</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1msg__gate" kindref="compound">radar::msg_gate</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1msg__gate" kindref="compound">radar::msg_gate</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1msg__gate_1afb29d780f15330d02dddb2d8bf3d6f85" kindref="member">radar::msg_gate::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/msg_gate.h" line="57" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block blocks messages whose data is not in range of val_min to val_max. All parameters are given as vectors. Each index represents a dataset with given identifier (symbol) which should be tested on valid data in given range. All other data is pushed through. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifiers (symbols) of the data as vector </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>val_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower limit of the gate as vector </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>val_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Higher limit of the gate as vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::msg_gate</label>
+        <link refid="classgr_1_1radar_1_1msg__gate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::msg_gate_impl</label>
+        <link refid="classgr_1_1radar_1_1msg__gate__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::msg_gate</label>
+        <link refid="classgr_1_1radar_1_1msg__gate"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/msg_gate.h" line="44" column="1" bodyfile="/home/lmz/gr-radar/include/radar/msg_gate.h" bodystart="45" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1msg__gate_1afb29d780f15330d02dddb2d8bf3d6f85" prot="public" virt="non-virtual"><scope>gr::radar::msg_gate</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1msg__gate_1ac2f2fbb5c698a15987c80b1580e240d3" prot="public" virt="non-virtual"><scope>gr::radar::msg_gate</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

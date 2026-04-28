@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1find__max__peak__c" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::radar::find_max_peak_c</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1find__max__peak__c__impl" prot="public" virt="non-virtual">gr::radar::find_max_peak_c_impl</derivedcompoundref>
+    <includes refid="find__max__peak__c_8h" local="no">find_max_peak_c.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1find__max__peak__c_1a962152948dcf712183a32732dcd25be7" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1find__max__peak__c" kindref="compound">find_max_peak_c</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;find_max_peak_c&gt; gr::radar::find_max_peak_c::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::find_max_peak_c::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" line="55" column="29" bodyfile="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1find__max__peak__c_1af99e98a6c25874d01375d4325f2e0275" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1find__max__peak__c_1a962152948dcf712183a32732dcd25be7" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::find_max_peak_c::make</definition>
+        <argsstring>(int samp_rate, float threshold, int samp_protect, std::vector&lt; float &gt; max_freq, bool cut_max_freq, const std::string &amp;len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::find_max_peak_c::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_protect</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>max_freq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cut_max_freq</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1find__max__peak__c" kindref="compound">radar::find_max_peak_c</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1find__max__peak__c" kindref="compound">radar::find_max_peak_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1find__max__peak__c_1af99e98a6c25874d01375d4325f2e0275" kindref="member">radar::find_max_peak_c::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" line="65" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1find__max__peak__c_1adc7673c9ed04bf49b1ef7e9cb60db989" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::find_max_peak_c::set_threshold</definition>
+        <argsstring>(float threshold)=0</argsstring>
+        <name>set_threshold</name>
+        <qualifiedname>gr::radar::find_max_peak_c::set_threshold</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1find__max__peak__c__impl_1a86f8f41f1c632cd79a43eb2d597908d3">set_threshold</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>threshold</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" line="71" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1find__max__peak__c_1abaf4240cdb5dcd4af0a88821221861e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::find_max_peak_c::set_samp_protect</definition>
+        <argsstring>(int samp)=0</argsstring>
+        <name>set_samp_protect</name>
+        <qualifiedname>gr::radar::find_max_peak_c::set_samp_protect</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1find__max__peak__c__impl_1ad43be71ddea1d2a5ccf0039b232fd0a1">set_samp_protect</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>samp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" line="72" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1find__max__peak__c_1a85faea414a4ed5966fb7240bc82f2826" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::radar::find_max_peak_c::set_max_freq</definition>
+        <argsstring>(std::vector&lt; float &gt; freq)=0</argsstring>
+        <name>set_max_freq</name>
+        <qualifiedname>gr::radar::find_max_peak_c::set_max_freq</qualifiedname>
+        <reimplementedby refid="classgr_1_1radar_1_1find__max__peak__c__impl_1a831fdc228c728c13ba4225e90306bf14">set_max_freq</reimplementedby>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" line="73" column="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block estimates a single peak of a given FFT spectrum as tagged stream. Output is a message with the information of frequency, phase and power of the peak as a f32vector with a single item. All data is tagged with the identifiers (symbols) &apos;frequency&apos;, &apos;phase&apos; and &apos;power&apos;. The peak is estimated on the whole spectrum or on the range max_freq if cut_max_freq is true. Furthermore a threshold of the spectrum amplitude can be given with threshold. The DC peak can be cut out with the protected samples samp_protect. This value do not evaluate samp_protect samples around the DC peak. If no suitable peak is found the block returns empty vectors with the identifiers. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>samp_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sample rate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>threshold</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Threshold for detection of the spectrum amplitude </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samp_protect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Protected samples for cutting DC peak </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Frequency range for cutting spectrum </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cut_max_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Toggle cutting the spectrum for peak estimation </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::find_max_peak_c</label>
+        <link refid="classgr_1_1radar_1_1find__max__peak__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::find_max_peak_c_impl</label>
+        <link refid="classgr_1_1radar_1_1find__max__peak__c__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::find_max_peak_c</label>
+        <link refid="classgr_1_1radar_1_1find__max__peak__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" line="52" column="1" bodyfile="/home/lmz/gr-radar/include/radar/find_max_peak_c.h" bodystart="53" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1find__max__peak__c_1af99e98a6c25874d01375d4325f2e0275" prot="public" virt="non-virtual"><scope>gr::radar::find_max_peak_c</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1find__max__peak__c_1a85faea414a4ed5966fb7240bc82f2826" prot="public" virt="pure-virtual"><scope>gr::radar::find_max_peak_c</scope><name>set_max_freq</name></member>
+      <member refid="classgr_1_1radar_1_1find__max__peak__c_1abaf4240cdb5dcd4af0a88821221861e7" prot="public" virt="pure-virtual"><scope>gr::radar::find_max_peak_c</scope><name>set_samp_protect</name></member>
+      <member refid="classgr_1_1radar_1_1find__max__peak__c_1adc7673c9ed04bf49b1ef7e9cb60db989" prot="public" virt="pure-virtual"><scope>gr::radar::find_max_peak_c</scope><name>set_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1find__max__peak__c_1a962152948dcf712183a32732dcd25be7" prot="public" virt="non-virtual"><scope>gr::radar::find_max_peak_c</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

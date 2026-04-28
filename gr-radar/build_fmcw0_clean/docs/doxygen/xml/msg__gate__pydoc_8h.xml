@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="msg__gate__pydoc_8h" kind="file" language="C++">
+    <compoundname>msg_gate_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>msg_gate_pydoc.h</label>
+        <link refid="msg__gate__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="msg__gate__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="msg__gate__pydoc_8h_1a7f59d8cdcb750fdaeec06b647a134992" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_gate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_gate</name>
+        <initializer>= R&quot;doc(This block blocks messages whose data is not in range of val_min to val_max. All parameters are given as vectors. Each index represents a dataset with given identifier (symbol) which should be tested on valid data in given range. All other data is pushed through.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::msg_gate.
+
+To avoid accidental use of raw pointers, radar::msg_gate&apos;s constructor is in a private implementation class. radar::msg_gate::make is the public interface for creating new instances.
+
+Args:
+    keys : 
+    val_min : 
+    val_max : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="msg__gate__pydoc_8h_1aa289523e4f7cd60c63b2291fcf1aab40" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_gate_msg_gate</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_gate_msg_gate</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" line="33" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="msg__gate__pydoc_8h_1a2a2955ae9b738f22b8d33ecd0b318a9b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_msg_gate_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_msg_gate_make</name>
+        <initializer>= R&quot;doc(This block blocks messages whose data is not in range of val_min to val_max. All parameters are given as vectors. Each index represents a dataset with given identifier (symbol) which should be tested on valid data in given range. All other data is pushed through.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::msg_gate.
+
+To avoid accidental use of raw pointers, radar::msg_gate&apos;s constructor is in a private implementation class. radar::msg_gate::make is the public interface for creating new instances.
+
+Args:
+    keys : 
+    val_min : 
+    val_max : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" line="36" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/msg_gate_pydoc.h"/>
+  </compounddef>
+</doxygen>

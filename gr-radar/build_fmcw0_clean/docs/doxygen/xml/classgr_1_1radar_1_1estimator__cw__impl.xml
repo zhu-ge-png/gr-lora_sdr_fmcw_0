@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1estimator__cw__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::estimator_cw_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1estimator__cw" prot="public" virt="non-virtual">gr::radar::estimator_cw</basecompoundref>
+    <includes refid="estimator__cw__impl_8h" local="no">estimator_cw_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a8a411c520f575a8569c4800bd9f8274e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_cw_impl::d_center_freq</definition>
+        <argsstring></argsstring>
+        <name>d_center_freq</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_center_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="39" column="11" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a9e5f4ba0653f30c2ab7083a77cb61136" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_port_id_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_port_id_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="40" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a16211a4b28fd92b3e016ac54650d15c2" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_port_id_out</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_out</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_port_id_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="40" column="29" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a80a3c0b8e2077a819520257cffaee34a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_cw_impl::d_freq</definition>
+        <argsstring></argsstring>
+        <name>d_freq</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="42" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1aaf7e864cfc9e701c2e4566f3f15d04ad" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_ptimestamp</definition>
+        <argsstring></argsstring>
+        <name>d_ptimestamp</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_ptimestamp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="43" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a001b3100f16516ca11f8a60683d336be" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_pfreq</definition>
+        <argsstring></argsstring>
+        <name>d_pfreq</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_pfreq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="43" column="29" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1ab220ae8d2c587a275e12f85ed55cd12c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::estimator_cw_impl::d_vel</definition>
+        <argsstring></argsstring>
+        <name>d_vel</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_vel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="45" column="17" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a8bc9e50957f805a33d2545c8734eca85" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_vel_key</definition>
+        <argsstring></argsstring>
+        <name>d_vel_key</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_vel_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="46" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a91edea7df7273a346cb78c381618e7e2" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_vel_value</definition>
+        <argsstring></argsstring>
+        <name>d_vel_value</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_vel_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="46" column="26" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1af01a51f0e13f405587700c36e0a671a1" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_vel_pack</definition>
+        <argsstring></argsstring>
+        <name>d_vel_pack</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_vel_pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="46" column="38" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a53e4a91552440ecaf9fee64f17b0b78d" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_value</definition>
+        <argsstring></argsstring>
+        <name>d_value</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="46" column="49" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a86ae686f28ba0b68fc569f72f86cd673" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_time_key</definition>
+        <argsstring></argsstring>
+        <name>d_time_key</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_time_key</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="47" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a0b864ee380ccf90eb5a48c0f03247940" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_time_value</definition>
+        <argsstring></argsstring>
+        <name>d_time_value</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_time_value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="47" column="27" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1ad2c12425085d5f8c263f5b3d3c24f795" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_cw_impl::d_time_pack</definition>
+        <argsstring></argsstring>
+        <name>d_time_pack</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::d_time_pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="47" column="40" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__cw__impl_1a089ea1489921ff39ac685c59164f3bb2" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::radar::estimator_cw_impl::c_light</definition>
+        <argsstring></argsstring>
+        <name>c_light</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::c_light</qualifiedname>
+        <initializer>= 3e8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="49" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__cw__impl_1acacf682a39dd8a12fdb63f0c3f236f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_cw_impl::estimator_cw_impl</definition>
+        <argsstring>(float center_freq)</argsstring>
+        <name>estimator_cw_impl</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::estimator_cw_impl</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__cw__impl_1a8debee08627717e14f273886d7f4daba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_cw_impl::~estimator_cw_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~estimator_cw_impl</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::~estimator_cw_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__cw__impl_1a198fde7bf21cc25a2e215c831cc3bdf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_cw_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <qualifiedname>gr::radar::estimator_cw_impl::handle_msg</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="37" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_cw</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_cw_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_cw</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_cw_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__cw__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_freq</edgelabel>
+          <edgelabel>d_vel</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/estimator_cw_impl.h" line="29" column="1" bodyfile="/home/lmz/gr-radar/lib/estimator_cw_impl.h" bodystart="30" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a089ea1489921ff39ac685c59164f3bb2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>c_light</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a8a411c520f575a8569c4800bd9f8274e" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a80a3c0b8e2077a819520257cffaee34a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a001b3100f16516ca11f8a60683d336be" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_pfreq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a9e5f4ba0653f30c2ab7083a77cb61136" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_port_id_in</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a16211a4b28fd92b3e016ac54650d15c2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_port_id_out</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1aaf7e864cfc9e701c2e4566f3f15d04ad" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_ptimestamp</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a86ae686f28ba0b68fc569f72f86cd673" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_time_key</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1ad2c12425085d5f8c263f5b3d3c24f795" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_time_pack</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a0b864ee380ccf90eb5a48c0f03247940" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_time_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a53e4a91552440ecaf9fee64f17b0b78d" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1ab220ae8d2c587a275e12f85ed55cd12c" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_vel</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a8bc9e50957f805a33d2545c8734eca85" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_vel_key</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1af01a51f0e13f405587700c36e0a671a1" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_vel_pack</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a91edea7df7273a346cb78c381618e7e2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>d_vel_value</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1acacf682a39dd8a12fdb63f0c3f236f3a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>estimator_cw_impl</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a198fde7bf21cc25a2e215c831cc3bdf9" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw_1aaf9b7df283343a3a51e96ef864b54579" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw_1abf034b0f78f85391d45cb66882521ad0" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__cw__impl_1a8debee08627717e14f273886d7f4daba" prot="public" virt="non-virtual"><scope>gr::radar::estimator_cw_impl</scope><name>~estimator_cw_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

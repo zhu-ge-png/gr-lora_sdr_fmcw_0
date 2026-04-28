@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1split__fsk__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::split_fsk_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::tagged_stream_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1split__fsk__cc__impl" prot="public" virt="non-virtual">gr::radar::split_fsk_cc_impl</derivedcompoundref>
+    <includes refid="split__fsk__cc_8h" local="no">split_fsk_cc.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1split__fsk__cc_1adf9f40b7ae0a4e67c98e593e0d86bf0e" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1split__fsk__cc" kindref="compound">split_fsk_cc</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;split_fsk_cc&gt; gr::radar::split_fsk_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::split_fsk_cc::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/split_fsk_cc.h" line="46" column="29" bodyfile="/home/lmz/gr-radar/include/radar/split_fsk_cc.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__fsk__cc_1a8b2d29255faa6cab9f42ac45b2f3d42e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1split__fsk__cc_1adf9f40b7ae0a4e67c98e593e0d86bf0e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::split_fsk_cc::make</definition>
+        <argsstring>(int samp_per_freq, int samp_discard, const std::string &amp;len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::split_fsk_cc::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samp_per_freq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_discard</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1split__fsk__cc" kindref="compound">radar::split_fsk_cc</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1split__fsk__cc" kindref="compound">radar::split_fsk_cc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1split__fsk__cc_1a8b2d29255faa6cab9f42ac45b2f3d42e" kindref="member">radar::split_fsk_cc::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/split_fsk_cc.h" line="57" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block splits a FSK signal consisting of two separate signals. samp_per_freq items are taken and pushed alternating to the outputs. Discarded samples are thrown away at the beginning of samp_per_freq samples and only samp_per_freq-samp_discard are pushed to output. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>samp_per_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Samples per frequency </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samp_discard</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Discarded samples </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::split_fsk_cc</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::split_fsk_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::split_fsk_cc</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/split_fsk_cc.h" line="43" column="1" bodyfile="/home/lmz/gr-radar/include/radar/split_fsk_cc.h" bodystart="44" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc_1a8b2d29255faa6cab9f42ac45b2f3d42e" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc_1adf9f40b7ae0a4e67c98e593e0d86bf0e" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

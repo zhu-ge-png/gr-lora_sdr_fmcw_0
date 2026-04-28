@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="estimator__rcs__pydoc_8h" kind="file" language="C++">
+    <compoundname>estimator_rcs_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>estimator_rcs_pydoc.h</label>
+        <link refid="estimator__rcs__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="estimator__rcs__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a024815d91943bd60a77ffd84bef1690a" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs</name>
+        <initializer>= R&quot;doc(Basic RCS block for estimating the RCS of a single target. Some hardware specs need to be known for calculating RCS values, see parameters for details. The radar equation is used to calculate the RCS: RCS = Pr*(4pi)^3*R^4/(Pt*Gt*Gr*lamda^2). The Rx power (Pr) and the distance (R) are being estimated, while the other parameters are given in the flowgraph. It is possible to average a number of samples by setting the num_mean value &gt; 1. The RCS will be 0 until enough samples are collected to calculate the mean value (be patient). The Tx power (Pt) needs to be calibrated with external hardware. I recommend to calibrate for the wanted power and not to change the parameters in the flowgraph on the Tx side after that. The RCS block needs the Rx power, to estimate the RCS. For that, the input power of the block needs to be determined analytically and altered via the corr_factor and exponent values, to fit the following equation: Pr = P_input ^ (exponent) * corr_factor / Pt. In addition, the FFTs need to be normalized for correct power calculation.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::estimator_rcs.
+
+To avoid accidental use of raw pointers, radar::estimator_rcs&apos;s constructor is in a private implementation class. radar::estimator_rcs::make is the public interface for creating new instances.
+
+Args:
+    num_mean : 
+    center_freq : 
+    antenna_gain_tx : 
+    antenna_gain_rx : 
+    usrp_gain_rx : 
+    power_tx : 
+    corr_factor : 
+    exponent : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a57253e1c7bea80a8253ad72347997d85" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_estimator_rcs_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_estimator_rcs_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="38" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a5de909d0b6330d788cc7113bcab3ab35" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_estimator_rcs_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_estimator_rcs_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="41" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a62ab5a3b7ebf7ed13e01d3eab01ed6dc" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_make</name>
+        <initializer>= R&quot;doc(Basic RCS block for estimating the RCS of a single target. Some hardware specs need to be known for calculating RCS values, see parameters for details. The radar equation is used to calculate the RCS: RCS = Pr*(4pi)^3*R^4/(Pt*Gt*Gr*lamda^2). The Rx power (Pr) and the distance (R) are being estimated, while the other parameters are given in the flowgraph. It is possible to average a number of samples by setting the num_mean value &gt; 1. The RCS will be 0 until enough samples are collected to calculate the mean value (be patient). The Tx power (Pt) needs to be calibrated with external hardware. I recommend to calibrate for the wanted power and not to change the parameters in the flowgraph on the Tx side after that. The RCS block needs the Rx power, to estimate the RCS. For that, the input power of the block needs to be determined analytically and altered via the corr_factor and exponent values, to fit the following equation: Pr = P_input ^ (exponent) * corr_factor / Pt. In addition, the FFTs need to be normalized for correct power calculation.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::estimator_rcs.
+
+To avoid accidental use of raw pointers, radar::estimator_rcs&apos;s constructor is in a private implementation class. radar::estimator_rcs::make is the public interface for creating new instances.
+
+Args:
+    num_mean : 
+    center_freq : 
+    antenna_gain_tx : 
+    antenna_gain_rx : 
+    usrp_gain_rx : 
+    power_tx : 
+    corr_factor : 
+    exponent : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="44" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1aee99902e7232f151029d2bcd81b2e4d9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_num_mean</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_num_mean</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="63" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a255ac689287ebdbd8516b3f4fb4f22a1" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_center_freq</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_center_freq</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="66" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1afcca8baa9c5ed8088ebdbd859c633363" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_antenna_gain_tx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_antenna_gain_tx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="69" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1af353426afcebe26dacbeba3964a97353" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_antenna_gain_rx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_antenna_gain_rx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="72" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1aa4f56c4176e20ec83a540254eb99499f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_usrp_gain_rx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_usrp_gain_rx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="75" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a6b3521aab1a6e5e84ae54535aff24453" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_power_tx</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_power_tx</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="78" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="estimator__rcs__pydoc_8h_1a2591ac2196ce72d5ee6db97f2ce23ee5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_estimator_rcs_set_corr_factor</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_estimator_rcs_set_corr_factor</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" line="81" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/estimator_rcs_pydoc.h"/>
+  </compounddef>
+</doxygen>

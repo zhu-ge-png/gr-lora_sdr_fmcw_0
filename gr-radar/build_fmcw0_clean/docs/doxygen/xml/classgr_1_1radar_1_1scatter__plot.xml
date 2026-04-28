@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1scatter__plot" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::scatter_plot</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="scatter__plot_8h" local="no">scatter_plot.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1aa284fde19451cecfda1e7a9a52918b58" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::scatter_plot::d_interval</definition>
+        <argsstring></argsstring>
+        <name>d_interval</name>
+        <qualifiedname>gr::radar::scatter_plot::d_interval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="52" column="9" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1ae38119e8a3fe8324be39dcb04e3d1dcc" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::scatter_plot::d_label_x</definition>
+        <argsstring></argsstring>
+        <name>d_label_x</name>
+        <qualifiedname>gr::radar::scatter_plot::d_label_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="53" column="17" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1ae52c1fe6667f2561da5621b6219775f5" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::scatter_plot::d_label_y</definition>
+        <argsstring></argsstring>
+        <name>d_label_y</name>
+        <qualifiedname>gr::radar::scatter_plot::d_label_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="53" column="27" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a71bbda3298161894e910665505bd3e46" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::scatter_plot::d_axis_x</definition>
+        <argsstring></argsstring>
+        <name>d_axis_x</name>
+        <qualifiedname>gr::radar::scatter_plot::d_axis_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="54" column="17" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a0a71984c1870df81a9bcf76f095ce9b5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::scatter_plot::d_axis_y</definition>
+        <argsstring></argsstring>
+        <name>d_axis_y</name>
+        <qualifiedname>gr::radar::scatter_plot::d_axis_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="54" column="26" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a46f81af3ac3523420d3d9c9a98928c03" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt; *</type>
+        <definition>std::vector&lt;float&gt;* gr::radar::scatter_plot::d_x</definition>
+        <argsstring></argsstring>
+        <name>d_x</name>
+        <qualifiedname>gr::radar::scatter_plot::d_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="55" column="16" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a6be18b5b4e446d87012396418ec91c5e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt; *</type>
+        <definition>std::vector&lt;float&gt; * gr::radar::scatter_plot::d_y</definition>
+        <argsstring></argsstring>
+        <name>d_y</name>
+        <qualifiedname>gr::radar::scatter_plot::d_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="55" column="20" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1ab2edd138af1b92f26625667044a576c4" prot="private" static="no" mutable="no">
+        <type>bool *</type>
+        <definition>bool* gr::radar::scatter_plot::d_xy_read</definition>
+        <argsstring></argsstring>
+        <name>d_xy_read</name>
+        <qualifiedname>gr::radar::scatter_plot::d_xy_read</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="56" column="10" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a95b8c2e3e73bc63892a5d0413e0b554d" prot="private" static="no" mutable="no">
+        <type>QwtPlot *</type>
+        <definition>QwtPlot* gr::radar::scatter_plot::d_plot</definition>
+        <argsstring></argsstring>
+        <name>d_plot</name>
+        <qualifiedname>gr::radar::scatter_plot::d_plot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="57" column="13" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1adccb06431a872cb2fb6e5d95c0090de9" prot="private" static="no" mutable="no">
+        <type>QwtSymbol *</type>
+        <definition>QwtSymbol* gr::radar::scatter_plot::d_symbol</definition>
+        <argsstring></argsstring>
+        <name>d_symbol</name>
+        <qualifiedname>gr::radar::scatter_plot::d_symbol</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="58" column="15" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a5921aa84c6de2bca65dee50cfdb46eb0" prot="private" static="no" mutable="no">
+        <type>QwtPlotGrid *</type>
+        <definition>QwtPlotGrid* gr::radar::scatter_plot::d_grid</definition>
+        <argsstring></argsstring>
+        <name>d_grid</name>
+        <qualifiedname>gr::radar::scatter_plot::d_grid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="59" column="17" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1ac63394ca2de9311c74665068ca2cf040" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; QwtPlotMarker * &gt;</type>
+        <definition>std::vector&lt;QwtPlotMarker*&gt; gr::radar::scatter_plot::d_marker</definition>
+        <argsstring></argsstring>
+        <name>d_marker</name>
+        <qualifiedname>gr::radar::scatter_plot::d_marker</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="60" column="17" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1scatter__plot_1a560d8dfeb5e9a13c52907e3d8e662bca" prot="private" static="no" mutable="no">
+        <type>QTimer *</type>
+        <definition>QTimer* gr::radar::scatter_plot::d_timer</definition>
+        <argsstring></argsstring>
+        <name>d_timer</name>
+        <qualifiedname>gr::radar::scatter_plot::d_timer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="61" column="12" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1scatter__plot_1a8ff20fecfe164697cf4252ba37a780d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::scatter_plot::scatter_plot</definition>
+        <argsstring>(int interval, std::vector&lt; float &gt; axis_x, std::vector&lt; float &gt; axis_y, std::vector&lt; float &gt; *x, std::vector&lt; float &gt; *y, std::string label_x, std::string label_y, bool *xy_read, std::string label, QWidget *parent=0)</argsstring>
+        <name>scatter_plot</name>
+        <qualifiedname>gr::radar::scatter_plot::scatter_plot</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_x</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_y</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt; *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label_x</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label_y</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>xy_read</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1scatter__plot_1a5c513678732dff5f3c35c02848b2bcb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::scatter_plot::~scatter_plot</definition>
+        <argsstring>()</argsstring>
+        <name>~scatter_plot</name>
+        <qualifiedname>gr::radar::scatter_plot::~scatter_plot</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="49" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1scatter__plot_1a1bb9d4479cac98cf9808c5d203227089" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::scatter_plot::resizeEvent</definition>
+        <argsstring>(QResizeEvent *event)</argsstring>
+        <name>resizeEvent</name>
+        <qualifiedname>gr::radar::scatter_plot::resizeEvent</qualifiedname>
+        <param>
+          <type>QResizeEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="64" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classgr_1_1radar_1_1scatter__plot_1a0be39e4d522a1e741e841d5f7bc4c328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::scatter_plot::refresh</definition>
+        <argsstring>()</argsstring>
+        <name>refresh</name>
+        <qualifiedname>gr::radar::scatter_plot::refresh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="67" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::scatter_plot</label>
+        <link refid="classgr_1_1radar_1_1scatter__plot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::scatter_plot</label>
+        <link refid="classgr_1_1radar_1_1scatter__plot"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/scatter_plot.h" line="34" column="1" bodyfile="/home/lmz/gr-radar/lib/scatter_plot.h" bodystart="35" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a71bbda3298161894e910665505bd3e46" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_axis_x</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a0a71984c1870df81a9bcf76f095ce9b5" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_axis_y</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a5921aa84c6de2bca65dee50cfdb46eb0" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_grid</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1aa284fde19451cecfda1e7a9a52918b58" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_interval</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1ae38119e8a3fe8324be39dcb04e3d1dcc" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_label_x</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1ae52c1fe6667f2561da5621b6219775f5" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_label_y</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1ac63394ca2de9311c74665068ca2cf040" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_marker</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a95b8c2e3e73bc63892a5d0413e0b554d" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_plot</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1adccb06431a872cb2fb6e5d95c0090de9" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_symbol</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a560d8dfeb5e9a13c52907e3d8e662bca" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_timer</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a46f81af3ac3523420d3d9c9a98928c03" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_x</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1ab2edd138af1b92f26625667044a576c4" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_xy_read</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a6be18b5b4e446d87012396418ec91c5e" prot="private" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>d_y</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a0be39e4d522a1e741e841d5f7bc4c328" prot="public" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>refresh</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a1bb9d4479cac98cf9808c5d203227089" prot="protected" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>resizeEvent</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a8ff20fecfe164697cf4252ba37a780d9" prot="public" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>scatter_plot</name></member>
+      <member refid="classgr_1_1radar_1_1scatter__plot_1a5c513678732dff5f3c35c02848b2bcb9" prot="public" virt="non-virtual"><scope>gr::radar::scatter_plot</scope><name>~scatter_plot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

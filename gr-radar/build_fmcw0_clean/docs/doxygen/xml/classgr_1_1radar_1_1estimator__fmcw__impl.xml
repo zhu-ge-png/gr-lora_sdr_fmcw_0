@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1estimator__fmcw__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::estimator_fmcw_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1estimator__fmcw" prot="public" virt="non-virtual">gr::radar::estimator_fmcw</basecompoundref>
+    <includes refid="estimator__fmcw__impl_8h" local="no">estimator_fmcw_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a2a9698989905bf4ea283ef9816015515" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::estimator_fmcw_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_samp_rate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="48" column="9" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1af092dc7e0f6283d740be4c6d69fbb538" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fmcw_impl::d_center_freq</definition>
+        <argsstring></argsstring>
+        <name>d_center_freq</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_center_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="49" column="11" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1aacbedec4243eb7e36dc653e23fc577d8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fmcw_impl::d_sweep_freq</definition>
+        <argsstring></argsstring>
+        <name>d_sweep_freq</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_sweep_freq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="49" column="25" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a4627b04c8f72ae560c9fd6616078ead2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::estimator_fmcw_impl::d_samp_up</definition>
+        <argsstring></argsstring>
+        <name>d_samp_up</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_samp_up</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="50" column="9" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a8af82310271b4ad1f4ab87bf5b13cc79" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::estimator_fmcw_impl::d_samp_down</definition>
+        <argsstring></argsstring>
+        <name>d_samp_down</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_samp_down</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="50" column="19" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1add4a453b9e8469b98d6d04dba5eda36c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::estimator_fmcw_impl::d_push_power</definition>
+        <argsstring></argsstring>
+        <name>d_push_power</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_push_power</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="51" column="10" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a9839874e5b204f71b58e57e849ff5b3a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fmcw_impl::d_const_up</definition>
+        <argsstring></argsstring>
+        <name>d_const_up</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_const_up</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="53" column="11" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a119186c1c651ff33c1a8d2e7488d3257" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fmcw_impl::d_const_down</definition>
+        <argsstring></argsstring>
+        <name>d_const_down</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_const_down</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="53" column="22" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1aabf4ddfa3b815ef80554f78fb27b04b7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::estimator_fmcw_impl::d_const_doppler</definition>
+        <argsstring></argsstring>
+        <name>d_const_doppler</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_const_doppler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="53" column="35" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a3e66ac064e7e6742bd814aceb5686c08" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::estimator_fmcw_impl::d_msg_cw_in</definition>
+        <argsstring></argsstring>
+        <name>d_msg_cw_in</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_msg_cw_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="55" column="10" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a42da9904d5ff1efc7cec9dd523b41c1d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::estimator_fmcw_impl::d_msg_up_in</definition>
+        <argsstring></argsstring>
+        <name>d_msg_up_in</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_msg_up_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="55" column="22" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a55c66ecaa3ee348f16b577865afb40f0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::estimator_fmcw_impl::d_msg_down_in</definition>
+        <argsstring></argsstring>
+        <name>d_msg_down_in</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_msg_down_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="55" column="34" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a94eef09295ce5b821c3c4b56ada07d24" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_port_id_in_cw</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in_cw</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_port_id_in_cw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="57" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a1de4e0ca6e2267e1fb92da0cc06f9bab" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_port_id_in_up</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in_up</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_port_id_in_up</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="57" column="32" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1ac0a7645a299846ca350db8a114e79544" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_port_id_in_down</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in_down</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_port_id_in_down</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="57" column="48" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1acb2c78805f434d3528cc7e6867b38d20" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_port_id_out</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_out</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_port_id_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="57" column="66" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a423a3412b57bf9c85b33f4ace4fa5fbb" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_msg_cw</definition>
+        <argsstring></argsstring>
+        <name>d_msg_cw</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_msg_cw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="58" column="16" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a8a063ad341dd38de217830899bc39332" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_msg_up</definition>
+        <argsstring></argsstring>
+        <name>d_msg_up</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_msg_up</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="58" column="25" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a8dcafb31f71fc635142d040ea9faf239" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::estimator_fmcw_impl::d_msg_down</definition>
+        <argsstring></argsstring>
+        <name>d_msg_down</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::d_msg_down</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="58" column="34" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1estimator__fmcw__impl_1af5e7ae5b0f3cfd677f580974727a01d7" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr float</type>
+        <definition>constexpr float gr::radar::estimator_fmcw_impl::c_light</definition>
+        <argsstring></argsstring>
+        <name>c_light</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::c_light</qualifiedname>
+        <initializer>= 3e8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="60" column="28" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fmcw__impl_1ad494cc7d33a3f00ef5ccab280a2819c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_fmcw_impl::estimator_fmcw_impl</definition>
+        <argsstring>(int samp_rate, float center_freq, float sweep_freq, int samp_up, int samp_down, bool push_power)</argsstring>
+        <name>estimator_fmcw_impl</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::estimator_fmcw_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sweep_freq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_up</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_down</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>push_power</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a298e17a81fb82bb68027cbb1a947557e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::estimator_fmcw_impl::~estimator_fmcw_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~estimator_fmcw_impl</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::~estimator_fmcw_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="41" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a69b8976b6ef8b8d197e7eaaf2e798ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_fmcw_impl::handle_msg_cw</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg_cw</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::handle_msg_cw</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fmcw__impl_1ab5a279e002ed4cf17f83aa24d534a306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_fmcw_impl::handle_msg_up</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg_up</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::handle_msg_up</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="44" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fmcw__impl_1ac398fd2713e91dff3ead87e713868a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_fmcw_impl::handle_msg_down</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg_down</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::handle_msg_down</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="45" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fmcw__impl_1a022f38530853dbe670a98d49e75f4bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::estimator_fmcw_impl::estimate</definition>
+        <argsstring>()</argsstring>
+        <name>estimate</name>
+        <qualifiedname>gr::radar::estimator_fmcw_impl::estimate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="46" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_fmcw</label>
+        <link refid="classgr_1_1radar_1_1estimator__fmcw"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_fmcw_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__fmcw__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::estimator_fmcw</label>
+        <link refid="classgr_1_1radar_1_1estimator__fmcw"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_fmcw_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__fmcw__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" line="29" column="1" bodyfile="/home/lmz/gr-radar/lib/estimator_fmcw_impl.h" bodystart="30" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1af5e7ae5b0f3cfd677f580974727a01d7" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>c_light</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1af092dc7e0f6283d740be4c6d69fbb538" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_center_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1aabf4ddfa3b815ef80554f78fb27b04b7" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_const_doppler</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a119186c1c651ff33c1a8d2e7488d3257" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_const_down</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a9839874e5b204f71b58e57e849ff5b3a" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_const_up</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a423a3412b57bf9c85b33f4ace4fa5fbb" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_msg_cw</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a3e66ac064e7e6742bd814aceb5686c08" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_msg_cw_in</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a8dcafb31f71fc635142d040ea9faf239" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_msg_down</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a55c66ecaa3ee348f16b577865afb40f0" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_msg_down_in</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a8a063ad341dd38de217830899bc39332" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_msg_up</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a42da9904d5ff1efc7cec9dd523b41c1d" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_msg_up_in</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a94eef09295ce5b821c3c4b56ada07d24" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_port_id_in_cw</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1ac0a7645a299846ca350db8a114e79544" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_port_id_in_down</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a1de4e0ca6e2267e1fb92da0cc06f9bab" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_port_id_in_up</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1acb2c78805f434d3528cc7e6867b38d20" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_port_id_out</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1add4a453b9e8469b98d6d04dba5eda36c" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_push_power</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a8af82310271b4ad1f4ab87bf5b13cc79" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_samp_down</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a2a9698989905bf4ea283ef9816015515" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a4627b04c8f72ae560c9fd6616078ead2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_samp_up</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1aacbedec4243eb7e36dc653e23fc577d8" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>d_sweep_freq</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a022f38530853dbe670a98d49e75f4bc1" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>estimate</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1ad494cc7d33a3f00ef5ccab280a2819c3" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>estimator_fmcw_impl</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a69b8976b6ef8b8d197e7eaaf2e798ec2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>handle_msg_cw</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1ac398fd2713e91dff3ead87e713868a02" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>handle_msg_down</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1ab5a279e002ed4cf17f83aa24d534a306" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>handle_msg_up</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw_1a23be76bf0eb5e5f959ac18822bfc355e" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw_1af3e590b6cbfb30d71cbfde9bcf594fe2" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fmcw__impl_1a298e17a81fb82bb68027cbb1a947557e" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fmcw_impl</scope><name>~estimator_fmcw_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

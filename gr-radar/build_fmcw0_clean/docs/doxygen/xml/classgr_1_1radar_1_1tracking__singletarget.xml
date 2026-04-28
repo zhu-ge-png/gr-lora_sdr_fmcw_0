@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1tracking__singletarget" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::tracking_singletarget</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1tracking__singletarget__impl" prot="public" virt="non-virtual">gr::radar::tracking_singletarget_impl</derivedcompoundref>
+    <includes refid="tracking__singletarget_8h" local="no">tracking_singletarget.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1tracking__singletarget_1a18812ad0f71d62ee773c8f9b68f9e6c3" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1tracking__singletarget" kindref="compound">tracking_singletarget</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;tracking_singletarget&gt; gr::radar::tracking_singletarget::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::tracking_singletarget::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/tracking_singletarget.h" line="57" column="29" bodyfile="/home/lmz/gr-radar/include/radar/tracking_singletarget.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1tracking__singletarget_1a3ed299c6ac39346a6366610339771e62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1tracking__singletarget_1a18812ad0f71d62ee773c8f9b68f9e6c3" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::tracking_singletarget::make</definition>
+        <argsstring>(int num_particle, float std_range_meas, float std_velocity_meas, float std_accel_sys, float threshold_track, int threshold_lost, std::string filter)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::tracking_singletarget::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>num_particle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>std_range_meas</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>std_velocity_meas</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>std_accel_sys</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>threshold_track</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>threshold_lost</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1tracking__singletarget" kindref="compound">radar::tracking_singletarget</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1tracking__singletarget" kindref="compound">radar::tracking_singletarget</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1tracking__singletarget_1a3ed299c6ac39346a6366610339771e62" kindref="member">radar::tracking_singletarget::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/tracking_singletarget.h" line="67" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block tracks a singletarget detection with a particle or kalman filter. As input values with identifiers &apos;range&apos; and &apos;velocity&apos; are needed and should hold a f32vector with only one element. All input variables tagged with std gives the standard deviation of the parameter. The threshold_track is a value which decides with the likelihood of the data if the new data is accepted as a track. A good starting value is threshold_track = 0.001. threshold_lost is the number of false tracks unitel the track is lost and the tracker begins with a new one. The string filter decides which tracking kernel should be used. &apos;kalman&apos; or &apos;particle&apos; are valid. If &apos;particle&apos; is chosen num_particle gives the number of particles for the particle filter. If &apos;kalman&apos; is chosen there is no effect on the tracker. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>num_particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of particles for particle filter. There is no effect if kalman filter is chosen.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>std_range_meas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Standard deviation of the range measurement</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>std_velocity_meas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Standard deviation of the velocity measurement </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>std_accel_sys</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Standard deviation of the system acceleration </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>threshold_track</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to decide if data is valid for the track </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>theshold_lost</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of false tracks until the current track is lost </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Filter kernel to be used. &apos;kalman&apos; or &apos;particle&apos; are valid. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::tracking_singletarget</label>
+        <link refid="classgr_1_1radar_1_1tracking__singletarget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::tracking_singletarget_impl</label>
+        <link refid="classgr_1_1radar_1_1tracking__singletarget__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::tracking_singletarget</label>
+        <link refid="classgr_1_1radar_1_1tracking__singletarget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/tracking_singletarget.h" line="54" column="1" bodyfile="/home/lmz/gr-radar/include/radar/tracking_singletarget.h" bodystart="55" bodyend="74"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1tracking__singletarget_1a3ed299c6ac39346a6366610339771e62" prot="public" virt="non-virtual"><scope>gr::radar::tracking_singletarget</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1tracking__singletarget_1a18812ad0f71d62ee773c8f9b68f9e6c3" prot="public" virt="non-virtual"><scope>gr::radar::tracking_singletarget</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

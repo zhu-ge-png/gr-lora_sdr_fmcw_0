@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1signal__generator__fsk__c" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::signal_generator_fsk_c</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1signal__generator__fsk__c__impl" prot="public" virt="non-virtual">gr::radar::signal_generator_fsk_c_impl</derivedcompoundref>
+    <includes refid="signal__generator__fsk__c_8h" local="no">signal_generator_fsk_c.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1signal__generator__fsk__c_1a54516ff89d086e4099ded1e3424fc9d3" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1signal__generator__fsk__c" kindref="compound">signal_generator_fsk_c</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;signal_generator_fsk_c&gt; gr::radar::signal_generator_fsk_c::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::signal_generator_fsk_c::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/signal_generator_fsk_c.h" line="50" column="29" bodyfile="/home/lmz/gr-radar/include/radar/signal_generator_fsk_c.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1signal__generator__fsk__c_1aa7ba73c60496bd8870ab0912bcce6530" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1signal__generator__fsk__c_1a54516ff89d086e4099ded1e3424fc9d3" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::signal_generator_fsk_c::make</definition>
+        <argsstring>(int samp_rate, int samp_per_freq, int blocks_per_tag, float freq_low, float freq_high, float amplitude, const std::string &amp;len_key=&quot;packet_len&quot;)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::signal_generator_fsk_c::make</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_per_freq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blocks_per_tag</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq_low</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>freq_high</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amplitude</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+          <defval>&quot;packet_len&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1signal__generator__fsk__c" kindref="compound">radar::signal_generator_fsk_c</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1signal__generator__fsk__c" kindref="compound">radar::signal_generator_fsk_c</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1signal__generator__fsk__c_1aa7ba73c60496bd8870ab0912bcce6530" kindref="member">radar::signal_generator_fsk_c::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/signal_generator_fsk_c.h" line="60" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block generates a signal for FSK radar in baseband. The waveform consists of a signal with an alternating frequency. The packet length for subsequent tagged streams is calculated with two times the samples per single frequency multiplied by the blocks per tag. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>samp_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Signal sample rate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samp_per_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of samples per frequency until the frequency shifts </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>blocks_per_tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A block contains samp_per_freq samples of the low frequency and samp_per_freq samples of the high frequency. The packet length for subsequent tagged stream blocks is calculated with 2*samp_per_freq*blocks_per_tag.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>freq_low</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lower frequency in baseband</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>freq_high</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Higher frequency in baseband</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>amplitude</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Signal amplitude</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>len_key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Packet length key for tagged stream </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::radar::signal_generator_fsk_c</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fsk__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::signal_generator_fsk_c_impl</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fsk__c__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::radar::signal_generator_fsk_c</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fsk__c"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/signal_generator_fsk_c.h" line="47" column="1" bodyfile="/home/lmz/gr-radar/include/radar/signal_generator_fsk_c.h" bodystart="48" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1signal__generator__fsk__c_1aa7ba73c60496bd8870ab0912bcce6530" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fsk_c</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fsk__c_1a54516ff89d086e4099ded1e3424fc9d3" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fsk_c</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

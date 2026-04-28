@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_ebe9c707aaacb97fa69c835e3deced7c" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerdir refid="dir_f589d30364993e7430ee53b86b4d2adb">docstrings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/python/radar/bindings/"/>
+  </compounddef>
+</doxygen>

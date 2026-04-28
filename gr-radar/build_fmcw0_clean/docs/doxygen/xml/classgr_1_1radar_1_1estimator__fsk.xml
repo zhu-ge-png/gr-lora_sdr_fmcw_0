@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1estimator__fsk" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::estimator_fsk</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1estimator__fsk__impl" prot="public" virt="non-virtual">gr::radar::estimator_fsk_impl</derivedcompoundref>
+    <includes refid="estimator__fsk_8h" local="no">estimator_fsk.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1estimator__fsk_1a08ee006008ce9ae7b8cffcd4def0a1a9" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1estimator__fsk" kindref="compound">estimator_fsk</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;estimator_fsk&gt; gr::radar::estimator_fsk::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <qualifiedname>gr::radar::estimator_fsk::sptr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/estimator_fsk.h" line="48" column="29" bodyfile="/home/lmz/gr-radar/include/radar/estimator_fsk.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1estimator__fsk_1aa3fa5b2fb6bc9f361c344fb4e02c2f50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1estimator__fsk_1a08ee006008ce9ae7b8cffcd4def0a1a9" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::estimator_fsk::make</definition>
+        <argsstring>(float center_freq, float delta_freq, bool push_power=false)</argsstring>
+        <name>make</name>
+        <qualifiedname>gr::radar::estimator_fsk::make</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>center_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delta_freq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>push_power</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1estimator__fsk" kindref="compound">radar::estimator_fsk</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1estimator__fsk" kindref="compound">radar::estimator_fsk</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1estimator__fsk_1aa3fa5b2fb6bc9f361c344fb4e02c2f50" kindref="member">radar::estimator_fsk::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/include/radar/estimator_fsk.h" line="58" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This block estimates the range with peaks given from a FSK spectrum. Needed identifiers (symbols) are &apos;frequency&apos; and &apos;phase&apos;. The velocity is calculated with the &apos;frequency&apos; information and the doppler formula. The phase of the doppler peaks are used to estimate the range. Output identifier are &apos;range&apos; and &apos;velocity&apos;. If push_power is true the information about the power of the peaks is pushed through. This can be used for estimating the RCS of an object. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>center_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Center frequency </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>delta_freq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Frequency difference of high and low frequency </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>push_power</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Toggle pushing through information about power of peaks </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_fsk</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::radar::estimator_fsk_impl</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::radar::estimator_fsk</label>
+        <link refid="classgr_1_1radar_1_1estimator__fsk"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/include/radar/estimator_fsk.h" line="45" column="1" bodyfile="/home/lmz/gr-radar/include/radar/estimator_fsk.h" bodystart="46" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1estimator__fsk_1aa3fa5b2fb6bc9f361c344fb4e02c2f50" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1estimator__fsk_1a08ee006008ce9ae7b8cffcd4def0a1a9" prot="public" virt="non-virtual"><scope>gr::radar::estimator_fsk</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

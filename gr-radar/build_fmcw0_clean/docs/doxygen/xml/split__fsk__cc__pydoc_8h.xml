@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="split__fsk__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>split_fsk_cc_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>split_fsk_cc_pydoc.h</label>
+        <link refid="split__fsk__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="split__fsk__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="split__fsk__cc__pydoc_8h_1a9f7b4468a751d8f599d395c92085f8e5" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_split_fsk_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_split_fsk_cc</name>
+        <initializer>= R&quot;doc(This block splits a FSK signal consisting of two separate signals. samp_per_freq items are taken and pushed alternating to the outputs. Discarded samples are thrown away at the beginning of samp_per_freq samples and only samp_per_freq-samp_discard are pushed to output.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::split_fsk_cc.
+
+To avoid accidental use of raw pointers, radar::split_fsk_cc&apos;s constructor is in a private implementation class. radar::split_fsk_cc::make is the public interface for creating new instances.
+
+Args:
+    samp_per_freq : 
+    samp_discard : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="split__fsk__cc__pydoc_8h_1ab15af36627b487c9e3d5ab2605a66ef8" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_split_fsk_cc_split_fsk_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_split_fsk_cc_split_fsk_cc</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" line="33" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="split__fsk__cc__pydoc_8h_1a7479793668fad8482dbe6f0be94c60f3" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_split_fsk_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_split_fsk_cc_make</name>
+        <initializer>= R&quot;doc(This block splits a FSK signal consisting of two separate signals. samp_per_freq items are taken and pushed alternating to the outputs. Discarded samples are thrown away at the beginning of samp_per_freq samples and only samp_per_freq-samp_discard are pushed to output.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::split_fsk_cc.
+
+To avoid accidental use of raw pointers, radar::split_fsk_cc&apos;s constructor is in a private implementation class. radar::split_fsk_cc::make is the public interface for creating new instances.
+
+Args:
+    samp_per_freq : 
+    samp_discard : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" line="36" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/split_fsk_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

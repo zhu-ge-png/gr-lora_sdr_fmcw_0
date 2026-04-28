@@ -1,0 +1,416 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="build_2python_2radar_2bindings_2pydoc__macros_8h" kind="file" language="C++">
+    <compoundname>build/python/radar/bindings/pydoc_macros.h</compoundname>
+    <includedby refid="crop__matrix__vcvc__pydoc_8h" local="yes">crop_matrix_vcvc_pydoc.h</includedby>
+    <includedby refid="estimator__cw__pydoc_8h" local="yes">estimator_cw_pydoc.h</includedby>
+    <includedby refid="estimator__fmcw__pydoc_8h" local="yes">estimator_fmcw_pydoc.h</includedby>
+    <includedby refid="estimator__fsk__pydoc_8h" local="yes">estimator_fsk_pydoc.h</includedby>
+    <includedby refid="estimator__ofdm__pydoc_8h" local="yes">estimator_ofdm_pydoc.h</includedby>
+    <includedby refid="estimator__rcs__pydoc_8h" local="yes">estimator_rcs_pydoc.h</includedby>
+    <includedby refid="estimator__sync__pulse__c__pydoc_8h" local="yes">estimator_sync_pulse_c_pydoc.h</includedby>
+    <includedby refid="find__max__peak__c__pydoc_8h" local="yes">find_max_peak_c_pydoc.h</includedby>
+    <includedby refid="msg__gate__pydoc_8h" local="yes">msg_gate_pydoc.h</includedby>
+    <includedby refid="msg__manipulator__pydoc_8h" local="yes">msg_manipulator_pydoc.h</includedby>
+    <includedby refid="ofdm__cyclic__prefix__remover__cvc__pydoc_8h" local="yes">ofdm_cyclic_prefix_remover_cvc_pydoc.h</includedby>
+    <includedby refid="ofdm__divide__vcvc__pydoc_8h" local="yes">ofdm_divide_vcvc_pydoc.h</includedby>
+    <includedby refid="os__cfar__2d__vc__pydoc_8h" local="yes">os_cfar_2d_vc_pydoc.h</includedby>
+    <includedby refid="os__cfar__c__pydoc_8h" local="yes">os_cfar_c_pydoc.h</includedby>
+    <includedby refid="print__results__pydoc_8h" local="yes">print_results_pydoc.h</includedby>
+    <includedby refid="qtgui__scatter__plot__pydoc_8h" local="yes">qtgui_scatter_plot_pydoc.h</includedby>
+    <includedby refid="qtgui__spectrogram__plot__pydoc_8h" local="yes">qtgui_spectrogram_plot_pydoc.h</includedby>
+    <includedby refid="qtgui__time__plot__pydoc_8h" local="yes">qtgui_time_plot_pydoc.h</includedby>
+    <includedby refid="signal__generator__cw__c__pydoc_8h" local="yes">signal_generator_cw_c_pydoc.h</includedby>
+    <includedby refid="signal__generator__fmcw__c__pydoc_8h" local="yes">signal_generator_fmcw_c_pydoc.h</includedby>
+    <includedby refid="signal__generator__fsk__c__pydoc_8h" local="yes">signal_generator_fsk_c_pydoc.h</includedby>
+    <includedby refid="signal__generator__sync__pulse__c__pydoc_8h" local="yes">signal_generator_sync_pulse_c_pydoc.h</includedby>
+    <includedby refid="split__cc__pydoc_8h" local="yes">split_cc_pydoc.h</includedby>
+    <includedby refid="split__fsk__cc__pydoc_8h" local="yes">split_fsk_cc_pydoc.h</includedby>
+    <includedby refid="static__target__simulator__cc__pydoc_8h" local="yes">static_target_simulator_cc_pydoc.h</includedby>
+    <includedby refid="tracking__singletarget__pydoc_8h" local="yes">tracking_singletarget_pydoc.h</includedby>
+    <includedby refid="transpose__matrix__vcvc__pydoc_8h" local="yes">transpose_matrix_vcvc_pydoc.h</includedby>
+    <includedby refid="trigger__command__pydoc_8h" local="yes">trigger_command_pydoc.h</includedby>
+    <includedby refid="ts__fft__cc__pydoc_8h" local="yes">ts_fft_cc_pydoc.h</includedby>
+    <includedby refid="usrp__echotimer__cc__pydoc_8h" local="yes">usrp_echotimer_cc_pydoc.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>crop_matrix_vcvc_pydoc.h</label>
+        <link refid="crop__matrix__vcvc__pydoc_8h"/>
+      </node>
+      <node id="3">
+        <label>estimator_cw_pydoc.h</label>
+        <link refid="estimator__cw__pydoc_8h"/>
+      </node>
+      <node id="4">
+        <label>estimator_fmcw_pydoc.h</label>
+        <link refid="estimator__fmcw__pydoc_8h"/>
+      </node>
+      <node id="5">
+        <label>estimator_fsk_pydoc.h</label>
+        <link refid="estimator__fsk__pydoc_8h"/>
+      </node>
+      <node id="6">
+        <label>estimator_ofdm_pydoc.h</label>
+        <link refid="estimator__ofdm__pydoc_8h"/>
+      </node>
+      <node id="7">
+        <label>estimator_rcs_pydoc.h</label>
+        <link refid="estimator__rcs__pydoc_8h"/>
+      </node>
+      <node id="8">
+        <label>estimator_sync_pulse_c_pydoc.h</label>
+        <link refid="estimator__sync__pulse__c__pydoc_8h"/>
+      </node>
+      <node id="9">
+        <label>find_max_peak_c_pydoc.h</label>
+        <link refid="find__max__peak__c__pydoc_8h"/>
+      </node>
+      <node id="10">
+        <label>msg_gate_pydoc.h</label>
+        <link refid="msg__gate__pydoc_8h"/>
+      </node>
+      <node id="11">
+        <label>msg_manipulator_pydoc.h</label>
+        <link refid="msg__manipulator__pydoc_8h"/>
+      </node>
+      <node id="12">
+        <label>ofdm_cyclic_prefix_remover_cvc_pydoc.h</label>
+        <link refid="ofdm__cyclic__prefix__remover__cvc__pydoc_8h"/>
+      </node>
+      <node id="13">
+        <label>ofdm_divide_vcvc_pydoc.h</label>
+        <link refid="ofdm__divide__vcvc__pydoc_8h"/>
+      </node>
+      <node id="14">
+        <label>os_cfar_2d_vc_pydoc.h</label>
+        <link refid="os__cfar__2d__vc__pydoc_8h"/>
+      </node>
+      <node id="15">
+        <label>os_cfar_c_pydoc.h</label>
+        <link refid="os__cfar__c__pydoc_8h"/>
+      </node>
+      <node id="16">
+        <label>print_results_pydoc.h</label>
+        <link refid="print__results__pydoc_8h"/>
+      </node>
+      <node id="1">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>qtgui_scatter_plot_pydoc.h</label>
+        <link refid="qtgui__scatter__plot__pydoc_8h"/>
+      </node>
+      <node id="18">
+        <label>qtgui_spectrogram_plot_pydoc.h</label>
+        <link refid="qtgui__spectrogram__plot__pydoc_8h"/>
+      </node>
+      <node id="19">
+        <label>qtgui_time_plot_pydoc.h</label>
+        <link refid="qtgui__time__plot__pydoc_8h"/>
+      </node>
+      <node id="20">
+        <label>signal_generator_cw_c_pydoc.h</label>
+        <link refid="signal__generator__cw__c__pydoc_8h"/>
+      </node>
+      <node id="21">
+        <label>signal_generator_fmcw_c_pydoc.h</label>
+        <link refid="signal__generator__fmcw__c__pydoc_8h"/>
+      </node>
+      <node id="22">
+        <label>signal_generator_fsk_c_pydoc.h</label>
+        <link refid="signal__generator__fsk__c__pydoc_8h"/>
+      </node>
+      <node id="23">
+        <label>signal_generator_sync_pulse_c_pydoc.h</label>
+        <link refid="signal__generator__sync__pulse__c__pydoc_8h"/>
+      </node>
+      <node id="24">
+        <label>split_cc_pydoc.h</label>
+        <link refid="split__cc__pydoc_8h"/>
+      </node>
+      <node id="25">
+        <label>split_fsk_cc_pydoc.h</label>
+        <link refid="split__fsk__cc__pydoc_8h"/>
+      </node>
+      <node id="26">
+        <label>static_target_simulator_cc_pydoc.h</label>
+        <link refid="static__target__simulator__cc__pydoc_8h"/>
+      </node>
+      <node id="27">
+        <label>tracking_singletarget_pydoc.h</label>
+        <link refid="tracking__singletarget__pydoc_8h"/>
+      </node>
+      <node id="28">
+        <label>transpose_matrix_vcvc_pydoc.h</label>
+        <link refid="transpose__matrix__vcvc__pydoc_8h"/>
+      </node>
+      <node id="29">
+        <label>trigger_command_pydoc.h</label>
+        <link refid="trigger__command__pydoc_8h"/>
+      </node>
+      <node id="30">
+        <label>ts_fft_cc_pydoc.h</label>
+        <link refid="ts__fft__cc__pydoc_8h"/>
+      </node>
+      <node id="31">
+        <label>usrp_echotimer_cc_pydoc.h</label>
+        <link refid="usrp__echotimer__cc__pydoc_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" prot="public" static="no">
+        <name>__EXPAND</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="4" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" prot="public" static="no">
+        <name>__COUNT</name>
+        <param><defname>_1</defname></param>
+        <param><defname>_2</defname></param>
+        <param><defname>_3</defname></param>
+        <param><defname>_4</defname></param>
+        <param><defname>_5</defname></param>
+        <param><defname>_6</defname></param>
+        <param><defname>_7</defname></param>
+        <param><defname>COUNT</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>COUNT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="5" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" prot="public" static="no">
+        <name>__VA_SIZE</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a251b23a2efed48ff2ba2d6f449ed33a3" kindref="member">__COUNT</ref>(__VA_ARGS__, 7, 6, 5, 4, 3, 2, 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="6" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" prot="public" static="no">
+        <name>__CAT1</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer>a##b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="7" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" prot="public" static="no">
+        <name>__CAT2</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1afdd58e017733f2235c227ef8dd3b2de8" kindref="member">__CAT1</ref>(a, b)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="8" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a43c147206df4346db5e9d6445aab28ae" prot="public" static="no">
+        <name>__DOC1</name>
+        <param><defname>n1</defname></param>
+        <initializer>__doc_##n1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="9" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a53738db606593bc1554371d718695fed" prot="public" static="no">
+        <name>__DOC2</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <initializer>__doc_##n1##_##n2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="10" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a21baf08c04d32485764f227c32b5bf5d" prot="public" static="no">
+        <name>__DOC3</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="11" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a9463ba0ad86bcb4c59b5aecf8a37174c" prot="public" static="no">
+        <name>__DOC4</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="12" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a942579d548421ddb2906af7094e5789c" prot="public" static="no">
+        <name>__DOC5</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="13" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a31ea356761360e78d16525aa69d2dae6" prot="public" static="no">
+        <name>__DOC6</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <initializer>__doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="14" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a6f1e731f1c6d2893ff1bf98582a7de6e" prot="public" static="no">
+        <name>__DOC7</name>
+        <param><defname>n1</defname></param>
+        <param><defname>n2</defname></param>
+        <param><defname>n3</defname></param>
+        <param><defname>n4</defname></param>
+        <param><defname>n5</defname></param>
+        <param><defname>n6</defname></param>
+        <param><defname>n7</defname></param>
+        <initializer>    __doc_##n1##_##n2##_##n3##_##n4##_##n5##_##n6##_##n7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="15" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="15" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="define" id="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" prot="public" static="no">
+        <name>DOC</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1afa7cf06549cf7fd295f622ef6f376357" kindref="member">__EXPAND</ref>(<ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1af08fe30f2a41cef10658f6a892d20543" kindref="member">__CAT2</ref>(__DOC, <ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a2815f7ab197591ba9559415c694f9ce0" kindref="member">__VA_SIZE</ref>(__VA_ARGS__)))(__VA_ARGS__))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" line="17" column="9" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/pydoc_macros.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc" prot="public" virt="non-virtual">gr::radar::ofdm_cyclic_prefix_remover_cvc</basecompoundref>
+    <includes refid="ofdm__cyclic__prefix__remover__cvc__impl_8h" local="no">ofdm_cyclic_prefix_remover_cvc_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1a318e3cdfae84ea873220e5af5d9a13c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::d_fft_len</definition>
+        <argsstring></argsstring>
+        <name>d_fft_len</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::d_fft_len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="41" column="9" bodyfile="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1a9d1baea4cb6706d8cf3b54abec4a0807" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::d_cp_len</definition>
+        <argsstring></argsstring>
+        <name>d_cp_len</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::d_cp_len</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="41" column="19" bodyfile="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1ab09f6d92ae1dcc9d8879eb999c5a7edc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::d_tags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="42" column="17" bodyfile="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1ad26c338d127822bad90880937f510b67" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::calculate_output_stream_length</qualifiedname>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="35" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1aa124c26c43a041a6f9b328de9348fe30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::ofdm_cyclic_prefix_remover_cvc_impl</definition>
+        <argsstring>(int fft_len, int cp_len, std::string len_key)</argsstring>
+        <name>ofdm_cyclic_prefix_remover_cvc_impl</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::ofdm_cyclic_prefix_remover_cvc_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>fft_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cp_len</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1ab5cd18fbb9675015aa374972bd02d4e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::~ofdm_cyclic_prefix_remover_cvc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_cyclic_prefix_remover_cvc_impl</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::~ofdm_cyclic_prefix_remover_cvc_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1aaf540b5ff8f76085d101cf5e04b5b2cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="45" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::radar::ofdm_cyclic_prefix_remover_cvc</label>
+        <link refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</label>
+        <link refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::radar::ofdm_cyclic_prefix_remover_cvc</label>
+        <link refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</label>
+        <link refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; tag_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" line="29" column="1" bodyfile="/home/lmz/gr-radar/lib/ofdm_cyclic_prefix_remover_cvc_impl.h" bodystart="30" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1ad26c338d127822bad90880937f510b67" prot="protected" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1a9d1baea4cb6706d8cf3b54abec4a0807" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>d_cp_len</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1a318e3cdfae84ea873220e5af5d9a13c8" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>d_fft_len</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1ab09f6d92ae1dcc9d8879eb999c5a7edc" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc_1a5f948ca841e412d79a2c0e1f90bab74f" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1aa124c26c43a041a6f9b328de9348fe30" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>ofdm_cyclic_prefix_remover_cvc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc_1a5997e4c0182e6aa31a6ba0d7104911e0" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1aaf540b5ff8f76085d101cf5e04b5b2cb" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__cyclic__prefix__remover__cvc__impl_1ab5cd18fbb9675015aa374972bd02d4e4" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_cyclic_prefix_remover_cvc_impl</scope><name>~ofdm_cyclic_prefix_remover_cvc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

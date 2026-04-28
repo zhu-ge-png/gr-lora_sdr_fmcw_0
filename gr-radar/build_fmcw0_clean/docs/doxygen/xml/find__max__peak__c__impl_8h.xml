@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="find__max__peak__c__impl_8h" kind="file" language="C++">
+    <compoundname>find_max_peak_c_impl.h</compoundname>
+    <includes refid="find__max__peak__c_8h" local="no">radar/find_max_peak_c.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>radar/find_max_peak_c.h</label>
+        <link refid="find__max__peak__c_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>find_max_peak_c_impl.h</label>
+        <link refid="find__max__peak__c__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1find__max__peak__c__impl" prot="public">gr::radar::find_max_peak_c_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/lib/find_max_peak_c_impl.h"/>
+  </compounddef>
+</doxygen>

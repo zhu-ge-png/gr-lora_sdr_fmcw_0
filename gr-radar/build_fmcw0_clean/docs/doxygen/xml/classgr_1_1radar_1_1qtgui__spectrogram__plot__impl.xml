@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::qtgui_spectrogram_plot_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1qtgui__spectrogram__plot" prot="public" virt="non-virtual">gr::radar::qtgui_spectrogram_plot</basecompoundref>
+    <includes refid="qtgui__spectrogram__plot__impl_8h" local="no">qtgui_spectrogram_plot_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a9bf8db08480af90fbefa75af5c76b490" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::qtgui_spectrogram_plot_impl::d_argc</definition>
+        <argsstring></argsstring>
+        <name>d_argc</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_argc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="52" column="9" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1ac2185f7cb058824cdd5e8f2995f922b9" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* gr::radar::qtgui_spectrogram_plot_impl::d_argv</definition>
+        <argsstring></argsstring>
+        <name>d_argv</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_argv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="53" column="10" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a6dbdce2acdc4715804c5b2a731d9fd70" prot="public" static="no" mutable="no">
+        <type>QApplication *</type>
+        <definition>QApplication* gr::radar::qtgui_spectrogram_plot_impl::d_qApplication</definition>
+        <argsstring></argsstring>
+        <name>d_qApplication</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_qApplication</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="54" column="18" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1abd6fe7898717cc7c30de87b1a33d5d8a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::qtgui_spectrogram_plot_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_vlen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="56" column="9" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1abbc4f0ac38f6d5568cf42aef3ccb8b1d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::qtgui_spectrogram_plot_impl::d_interval</definition>
+        <argsstring></argsstring>
+        <name>d_interval</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_interval</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="56" column="16" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a70738e4c7f3a6ed2f42ee45606fbc24a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::qtgui_spectrogram_plot_impl::d_xlabel</definition>
+        <argsstring></argsstring>
+        <name>d_xlabel</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_xlabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="57" column="17" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1aa9f12cd6e1a27907006f1ec0ce883c62" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::qtgui_spectrogram_plot_impl::d_ylabel</definition>
+        <argsstring></argsstring>
+        <name>d_ylabel</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_ylabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="57" column="26" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a98ba46fdd43017d522c49a2ebd438315" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::qtgui_spectrogram_plot_impl::d_label</definition>
+        <argsstring></argsstring>
+        <name>d_label</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_label</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="57" column="35" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a45df4201e89cc100f987d9a8c4968d44" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::qtgui_spectrogram_plot_impl::d_axis_x</definition>
+        <argsstring></argsstring>
+        <name>d_axis_x</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_axis_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="58" column="17" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1af6cbabf7a312b0707fb107a53c215829" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::qtgui_spectrogram_plot_impl::d_axis_y</definition>
+        <argsstring></argsstring>
+        <name>d_axis_y</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_axis_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="58" column="26" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a298625f207c940cfa0f4a3569d2c9abe" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::qtgui_spectrogram_plot_impl::d_axis_z</definition>
+        <argsstring></argsstring>
+        <name>d_axis_z</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_axis_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="58" column="35" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a461e0e317e98200e4be2ab671b6c1e20" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::qtgui_spectrogram_plot_impl::d_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_buffer</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_buffer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="59" column="17" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a8e56efa833c198cf723e42cdf4d5c29c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::qtgui_spectrogram_plot_impl::d_autoscale_z</definition>
+        <argsstring></argsstring>
+        <name>d_autoscale_z</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_autoscale_z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="60" column="10" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a48abf1ed186e90f33f6640af56873c40" prot="public" static="no" mutable="no">
+        <type><ref refid="classgr_1_1radar_1_1spectrogram__plot" kindref="compound">spectrogram_plot</ref> *</type>
+        <definition>spectrogram_plot* gr::radar::qtgui_spectrogram_plot_impl::d_main_gui</definition>
+        <argsstring></argsstring>
+        <name>d_main_gui</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::d_main_gui</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="61" column="22" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a4172d8386a81c71316e791282a6cc602" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::qtgui_spectrogram_plot_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::calculate_output_stream_length</qualifiedname>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="36" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a4dc4d4a70fddca8cef2323b3e8ba7257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::qtgui_spectrogram_plot_impl::qtgui_spectrogram_plot_impl</definition>
+        <argsstring>(int vlen, int interval, std::string xlabel, std::string ylabel, std::string label, std::vector&lt; float &gt; axis_x, std::vector&lt; float &gt; axis_y, std::vector&lt; float &gt; axis_z, bool autoscale_z, std::string len_key)</argsstring>
+        <name>qtgui_spectrogram_plot_impl</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::qtgui_spectrogram_plot_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vlen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>xlabel</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>ylabel</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_x</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_y</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_z</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoscale_z</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="39" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1ac9e6bdedb19d0d8463bfeee56b7804d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::qtgui_spectrogram_plot_impl::~qtgui_spectrogram_plot_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~qtgui_spectrogram_plot_impl</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::~qtgui_spectrogram_plot_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="49" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a48ef8f9f0ef4273eda8c8ed400c23137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::qtgui_spectrogram_plot_impl::run_gui</definition>
+        <argsstring>()</argsstring>
+        <name>run_gui</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::run_gui</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="50" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a38b65e35a56a18a7a38182e63c111b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::qtgui_spectrogram_plot_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::radar::qtgui_spectrogram_plot_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="64" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::radar::qtgui_spectrogram_plot</label>
+        <link refid="classgr_1_1radar_1_1qtgui__spectrogram__plot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::qtgui_spectrogram_plot_impl</label>
+        <link refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>QWidget</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::qtgui_spectrogram_plot</label>
+        <link refid="classgr_1_1radar_1_1qtgui__spectrogram__plot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::qtgui_spectrogram_plot_impl</label>
+        <link refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_label</edgelabel>
+          <edgelabel>d_xlabel</edgelabel>
+          <edgelabel>d_ylabel</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>d_axis_x</edgelabel>
+          <edgelabel>d_axis_y</edgelabel>
+          <edgelabel>d_axis_z</edgelabel>
+          <edgelabel>d_buffer</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>d_main_gui</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::radar::spectrogram_plot</label>
+        <link refid="classgr_1_1radar_1_1spectrogram__plot"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="5">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::string</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" line="30" column="1" bodyfile="/home/lmz/gr-radar/lib/qtgui_spectrogram_plot_impl.h" bodystart="31" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a4172d8386a81c71316e791282a6cc602" prot="protected" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a9bf8db08480af90fbefa75af5c76b490" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_argc</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1ac2185f7cb058824cdd5e8f2995f922b9" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_argv</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a8e56efa833c198cf723e42cdf4d5c29c" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_autoscale_z</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a45df4201e89cc100f987d9a8c4968d44" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_axis_x</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1af6cbabf7a312b0707fb107a53c215829" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_axis_y</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a298625f207c940cfa0f4a3569d2c9abe" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_axis_z</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a461e0e317e98200e4be2ab671b6c1e20" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_buffer</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1abbc4f0ac38f6d5568cf42aef3ccb8b1d" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_interval</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a98ba46fdd43017d522c49a2ebd438315" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_label</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a48abf1ed186e90f33f6640af56873c40" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_main_gui</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a6dbdce2acdc4715804c5b2a731d9fd70" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_qApplication</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1abd6fe7898717cc7c30de87b1a33d5d8a" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a70738e4c7f3a6ed2f42ee45606fbc24a" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_xlabel</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1aa9f12cd6e1a27907006f1ec0ce883c62" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>d_ylabel</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot_1ae392aec8be44a10222bbb323cf6ccd24" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a4dc4d4a70fddca8cef2323b3e8ba7257" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>qtgui_spectrogram_plot_impl</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a48ef8f9f0ef4273eda8c8ed400c23137" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>run_gui</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot_1ad4fd1d18ec872224680e4c9eb5a31bc4" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1a38b65e35a56a18a7a38182e63c111b5c" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__spectrogram__plot__impl_1ac9e6bdedb19d0d8463bfeee56b7804d8" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_spectrogram_plot_impl</scope><name>~qtgui_spectrogram_plot_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

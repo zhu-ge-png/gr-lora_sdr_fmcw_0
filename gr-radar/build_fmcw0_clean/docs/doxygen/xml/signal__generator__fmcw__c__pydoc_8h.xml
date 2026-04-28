@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="signal__generator__fmcw__c__pydoc_8h" kind="file" language="C++">
+    <compoundname>signal_generator_fmcw_c_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>signal_generator_fmcw_c_pydoc.h</label>
+        <link refid="signal__generator__fmcw__c__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="signal__generator__fmcw__c__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="signal__generator__fmcw__c__pydoc_8h_1a0e28b6841b18b4b864cc15d4aed3e0c7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_signal_generator_fmcw_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_signal_generator_fmcw_c</name>
+        <initializer>= R&quot;doc(Generates a signal for FMCW radar in baseband.
+
+
+The generated signal consists of three parts, in this order:
+
+
+
+
+
+
+The up-chirp goes from CW frequency to CW frequency plus sweep frequency and the down-chirp goes in the opposite direction. All of these parts can be disabled by setting the corresponding length to zero.
+
+
+The packet length for subsequent tagged streams is calculated by the sum of the number of samples of the single modulations parts.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    samp_rate : Signal sample rate (samples per second)
+    samp_up : Number samples of up-chirp part
+    samp_down : Number samples of down-chirp part
+    samp_cw : Number samples of CW part
+    freq_cw : CW signal frequency in baseband
+    freq_sweep : Sweep frequency of up- and down-chirp
+    amplitude : Signal amplitude
+    len_key : Packet length key for tagged stream)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="signal__generator__fmcw__c__pydoc_8h_1a93cd534f77e5c5b4d77984900ca19083" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_signal_generator_fmcw_c_signal_generator_fmcw_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_signal_generator_fmcw_c_signal_generator_fmcw_c</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" line="49" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="signal__generator__fmcw__c__pydoc_8h_1a9fb2ce73108da54e33000132f3ec3f0d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_signal_generator_fmcw_c_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_signal_generator_fmcw_c_make</name>
+        <initializer>= R&quot;doc(Generates a signal for FMCW radar in baseband.
+
+
+The generated signal consists of three parts, in this order:
+
+
+
+
+
+
+The up-chirp goes from CW frequency to CW frequency plus sweep frequency and the down-chirp goes in the opposite direction. All of these parts can be disabled by setting the corresponding length to zero.
+
+
+The packet length for subsequent tagged streams is calculated by the sum of the number of samples of the single modulations parts.
+
+Constructor Specific Documentation:
+
+
+
+Args:
+    samp_rate : Signal sample rate (samples per second)
+    samp_up : Number samples of up-chirp part
+    samp_down : Number samples of down-chirp part
+    samp_cw : Number samples of CW part
+    freq_cw : CW signal frequency in baseband
+    freq_sweep : Sweep frequency of up- and down-chirp
+    amplitude : Signal amplitude
+    len_key : Packet length key for tagged stream)doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" line="52" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/signal_generator_fmcw_c_pydoc.h"/>
+  </compounddef>
+</doxygen>

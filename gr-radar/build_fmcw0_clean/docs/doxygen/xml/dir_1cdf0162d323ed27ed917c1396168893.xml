@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_1cdf0162d323ed27ed917c1396168893" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2crop__matrix__vcvc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/crop_matrix_vcvc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2estimator__cw__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/estimator_cw_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2estimator__fmcw__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/estimator_fmcw_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2estimator__fsk__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/estimator_fsk_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2estimator__ofdm__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/estimator_ofdm_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2estimator__rcs__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/estimator_rcs_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2estimator__sync__pulse__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/estimator_sync_pulse_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2find__max__peak__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/find_max_peak_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2msg__gate__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/msg_gate_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2msg__manipulator__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/msg_manipulator_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2ofdm__cyclic__prefix__remover__cvc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/ofdm_cyclic_prefix_remover_cvc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2ofdm__divide__vcvc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/ofdm_divide_vcvc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__2d__vc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_2d_vc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2os__cfar__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/os_cfar_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2print__results__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/print_results_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2qtgui__scatter__plot__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/qtgui_scatter_plot_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2qtgui__spectrogram__plot__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/qtgui_spectrogram_plot_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2qtgui__time__plot__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/qtgui_time_plot_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2signal__generator__cw__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/signal_generator_cw_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2signal__generator__fmcw__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/signal_generator_fmcw_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2signal__generator__fsk__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/signal_generator_fsk_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2signal__generator__sync__pulse__c__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/signal_generator_sync_pulse_c_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2split__cc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/split_cc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2split__fsk__cc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/split_fsk_cc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2static__target__simulator__cc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/static_target_simulator_cc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2tracking__singletarget__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/tracking_singletarget_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2transpose__matrix__vcvc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/transpose_matrix_vcvc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2trigger__command__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/trigger_command_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2ts__fft__cc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/ts_fft_cc_pydoc_template.h</innerfile>
+    <innerfile refid="build_2test__modules_2gnuradio_2radar_2bindings_2docstrings_2usrp__echotimer__cc__pydoc__template_8h">build/test_modules/gnuradio/radar/bindings/docstrings/usrp_echotimer_cc_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/test_modules/gnuradio/radar/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

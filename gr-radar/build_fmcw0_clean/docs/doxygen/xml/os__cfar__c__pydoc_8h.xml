@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os__cfar__c__pydoc_8h" kind="file" language="C++">
+    <compoundname>os_cfar_c_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>os_cfar_c_pydoc.h</label>
+        <link refid="os__cfar__c__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="os__cfar__c__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1a4e2c04db1feac6a6989e37eed4f9cded" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c</name>
+        <initializer>= R&quot;doc(This block estimates peaks of a given FFT spectrum as tagged stream. Multi peak detection is implemented with the OS-CFAR algorithm. The algorithm uses around the cell under test (CUT) on each side samp_compare samples to estimate the noise floor. This relative threshold is defined by the bin of the vector within the sorted samp_compare samples. A standard value is rel_threshold = 0.78. The value of this bin is multiplied by mult_threshold and compared with the CUT. samp_protect samples are a protected are which is not used for acquiring compare samples. If consecutive bins are detected as valid peaks it is possible to merge these detections with merge_consecutive = true. Output data are f32vectors with the information of frequency, power and phase. The identifiers (symbols) are &apos;frequency&apos;, &apos;power&apos; and &apos;phase&apos;.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::os_cfar_c.
+
+To avoid accidental use of raw pointers, radar::os_cfar_c&apos;s constructor is in a private implementation class. radar::os_cfar_c::make is the public interface for creating new instances.
+
+Args:
+    samp_rate : 
+    samp_compare : 
+    samp_protect : 
+    rel_threshold : 
+    mult_threshold : 
+    merge_consecutive : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1ae58b43e8f350e39d3435d5513a3ad5d9" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_os_cfar_c_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_os_cfar_c_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="37" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1afbb707605bb03153bc3b9d3c79e53652" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_os_cfar_c_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_os_cfar_c_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="40" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1af5781452b7ebcb1e49926870d4dc7a2c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_make</name>
+        <initializer>= R&quot;doc(This block estimates peaks of a given FFT spectrum as tagged stream. Multi peak detection is implemented with the OS-CFAR algorithm. The algorithm uses around the cell under test (CUT) on each side samp_compare samples to estimate the noise floor. This relative threshold is defined by the bin of the vector within the sorted samp_compare samples. A standard value is rel_threshold = 0.78. The value of this bin is multiplied by mult_threshold and compared with the CUT. samp_protect samples are a protected are which is not used for acquiring compare samples. If consecutive bins are detected as valid peaks it is possible to merge these detections with merge_consecutive = true. Output data are f32vectors with the information of frequency, power and phase. The identifiers (symbols) are &apos;frequency&apos;, &apos;power&apos; and &apos;phase&apos;.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::os_cfar_c.
+
+To avoid accidental use of raw pointers, radar::os_cfar_c&apos;s constructor is in a private implementation class. radar::os_cfar_c::make is the public interface for creating new instances.
+
+Args:
+    samp_rate : 
+    samp_compare : 
+    samp_protect : 
+    rel_threshold : 
+    mult_threshold : 
+    merge_consecutive : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="43" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1a23e0e3548fe9a795b240b4b18370e83f" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_set_rel_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_set_rel_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="61" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1aaac34267ea55918b8f6ca8be0d30454b" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_set_mult_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_set_mult_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="64" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1a183359649b544c3ed14f0cf25b92db77" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_set_samp_compare</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_set_samp_compare</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="67" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__c__pydoc_8h_1a0dc77997d073bc95874e57b3516bbaf6" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_c_set_samp_protect</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_c_set_samp_protect</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" line="70" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_c_pydoc.h"/>
+  </compounddef>
+</doxygen>

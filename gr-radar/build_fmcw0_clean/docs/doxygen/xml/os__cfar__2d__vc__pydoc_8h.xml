@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="os__cfar__2d__vc__pydoc_8h" kind="file" language="C++">
+    <compoundname>os_cfar_2d_vc_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>os_cfar_2d_vc_pydoc.h</label>
+        <link refid="os__cfar__2d__vc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="os__cfar__2d__vc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1aec69bcf16d502c958e78ee6ad6635649" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc</name>
+        <initializer>= R&quot;doc(This block estimates peaks of a given matrix. A matrix can be represented as a combination of vectors and tagged streams. Input has to be a matrix with linear scaled values (NOT logarithmic scaled!). Used algorithm is a 2<ref refid="crop__matrix__vcvc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> OS-CFAR algorithm. The algorithm uses around the cell under test (CUT) on each side samp_compare samples to estimate the noise floor. samp_protect is a protected are around the CUT which is not used for acquiring compare samples. Index 0 of a input vector refers to x axis properties and index 1 refers to y axis properties. The relative threshold is defined by the bin of the vector within the sorted samp_compare samples. A standard value is rel_threshold = 0.78. The value of this bin is multiplied by mult_threshold and compared with the CUT. If the magnitude square of the CUT is greater than the threshold the matrix item is accepted. Used identifiers (symbols) for data are &apos;axis_x&apos;, &apos;axis_y&apos; and &apos;power&apos;.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::os_cfar_2d_vc.
+
+To avoid accidental use of raw pointers, radar::os_cfar_2d_vc&apos;s constructor is in a private implementation class. radar::os_cfar_2d_vc::make is the public interface for creating new instances.
+
+Args:
+    vlen : 
+    samp_compare : 
+    samp_protect : 
+    rel_threshold : 
+    mult_threshold : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1ab95c6cd45aaf86c26e9251a2bf1c1b1e" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="36" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1a3021de23e92dc10a59d9cb06ea310a24" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_os_cfar_2d_vc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="39" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1ad5859e47e6ce7861479e46a337b52f01" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_make</name>
+        <initializer>= R&quot;doc(This block estimates peaks of a given matrix. A matrix can be represented as a combination of vectors and tagged streams. Input has to be a matrix with linear scaled values (NOT logarithmic scaled!). Used algorithm is a 2<ref refid="crop__matrix__vcvc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" kindref="member">D</ref> OS-CFAR algorithm. The algorithm uses around the cell under test (CUT) on each side samp_compare samples to estimate the noise floor. samp_protect is a protected are around the CUT which is not used for acquiring compare samples. Index 0 of a input vector refers to x axis properties and index 1 refers to y axis properties. The relative threshold is defined by the bin of the vector within the sorted samp_compare samples. A standard value is rel_threshold = 0.78. The value of this bin is multiplied by mult_threshold and compared with the CUT. If the magnitude square of the CUT is greater than the threshold the matrix item is accepted. Used identifiers (symbols) for data are &apos;axis_x&apos;, &apos;axis_y&apos; and &apos;power&apos;.
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of radar::os_cfar_2d_vc.
+
+To avoid accidental use of raw pointers, radar::os_cfar_2d_vc&apos;s constructor is in a private implementation class. radar::os_cfar_2d_vc::make is the public interface for creating new instances.
+
+Args:
+    vlen : 
+    samp_compare : 
+    samp_protect : 
+    rel_threshold : 
+    mult_threshold : 
+    len_key : )doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="42" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1a63941887d6fb7632c2fc5d523ef18548" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_rel_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_rel_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="59" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1a103804d221935b0d184a0a2c5447ce02" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_mult_threshold</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_mult_threshold</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="62" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1ac610bbd455609769d61b7794c7193bc7" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_samp_compare</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_samp_compare</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="65" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="os__cfar__2d__vc__pydoc_8h_1a30a8e74ae7969719a2f42b50a60b9458" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_os_cfar_2d_vc_set_samp_protect</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_os_cfar_2d_vc_set_samp_protect</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" line="68" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/os_cfar_2d_vc_pydoc.h"/>
+  </compounddef>
+</doxygen>

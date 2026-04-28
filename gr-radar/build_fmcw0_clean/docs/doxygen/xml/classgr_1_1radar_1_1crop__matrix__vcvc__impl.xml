@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1crop__matrix__vcvc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::crop_matrix_vcvc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1crop__matrix__vcvc" prot="public" virt="non-virtual">gr::radar::crop_matrix_vcvc</basecompoundref>
+    <includes refid="crop__matrix__vcvc__impl_8h" local="no">crop_matrix_vcvc_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a1d7aedfca0b822b1fc29778961a136ed" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::crop_matrix_vcvc_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::d_vlen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="44" column="9" bodyfile="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1abf1334e65b381147e0c591a73e75e09b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::radar::crop_matrix_vcvc_impl::d_crop_x</definition>
+        <argsstring></argsstring>
+        <name>d_crop_x</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::d_crop_x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="45" column="17" bodyfile="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a0d26d4e883d5709dbb404c982b5d47bc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::radar::crop_matrix_vcvc_impl::d_crop_y</definition>
+        <argsstring></argsstring>
+        <name>d_crop_y</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::d_crop_y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="45" column="26" bodyfile="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a50506df6944c5301c9071303e14fc4f9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::radar::crop_matrix_vcvc_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::d_tags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="46" column="17" bodyfile="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a51a590ebea8a5a14044bdd5a3eb35b0e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::crop_matrix_vcvc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::calculate_output_stream_length</qualifiedname>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="35" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a9eb2e00cb65508ee1542f1e161639d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::crop_matrix_vcvc_impl::crop_matrix_vcvc_impl</definition>
+        <argsstring>(int vlen, std::vector&lt; int &gt; crop_x, std::vector&lt; int &gt; crop_y, std::string len_key)</argsstring>
+        <name>crop_matrix_vcvc_impl</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::crop_matrix_vcvc_impl</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>vlen</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>crop_x</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>crop_y</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a7884634cf3275e185fc612b3ac49581c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::crop_matrix_vcvc_impl::~crop_matrix_vcvc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~crop_matrix_vcvc_impl</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::~crop_matrix_vcvc_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="42" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1aaf893a11d0c49e929daea26b76d043eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::crop_matrix_vcvc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <qualifiedname>gr::radar::crop_matrix_vcvc_impl::work</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="49" column="9"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::radar::crop_matrix_vcvc</label>
+        <link refid="classgr_1_1radar_1_1crop__matrix__vcvc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::crop_matrix_vcvc_impl</label>
+        <link refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::radar::crop_matrix_vcvc</label>
+        <link refid="classgr_1_1radar_1_1crop__matrix__vcvc"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::crop_matrix_vcvc_impl</label>
+        <link refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_crop_x</edgelabel>
+          <edgelabel>d_crop_y</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>d_tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::vector&lt; tag_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" line="29" column="1" bodyfile="/home/lmz/gr-radar/lib/crop_matrix_vcvc_impl.h" bodystart="30" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a51a590ebea8a5a14044bdd5a3eb35b0e" prot="protected" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a9eb2e00cb65508ee1542f1e161639d79" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>crop_matrix_vcvc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1abf1334e65b381147e0c591a73e75e09b" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>d_crop_x</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a0d26d4e883d5709dbb404c982b5d47bc" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>d_crop_y</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a50506df6944c5301c9071303e14fc4f9" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a1d7aedfca0b822b1fc29778961a136ed" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc_1aefd957c45a63639566fb5efd1fe82efb" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc_1a16824473256f251ed7eaa707d5508a1a" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1aaf893a11d0c49e929daea26b76d043eb" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1crop__matrix__vcvc__impl_1a7884634cf3275e185fc612b3ac49581c" prot="public" virt="non-virtual"><scope>gr::radar::crop_matrix_vcvc_impl</scope><name>~crop_matrix_vcvc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

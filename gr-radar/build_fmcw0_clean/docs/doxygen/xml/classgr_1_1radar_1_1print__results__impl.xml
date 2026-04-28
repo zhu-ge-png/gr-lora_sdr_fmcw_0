@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1print__results__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::print_results_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1print__results" prot="public" virt="non-virtual">gr::radar::print_results</basecompoundref>
+    <includes refid="print__results__impl_8h" local="no">print_results_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1a48c7248f040adb8e7facdbcb9ee082f8" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::print_results_impl::d_port_id_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in</name>
+        <qualifiedname>gr::radar::print_results_impl::d_port_id_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="40" column="16" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1a43ee88ee33a300d2eff430034d6b0e6d" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::radar::print_results_impl::d_size_msg</definition>
+        <argsstring></argsstring>
+        <name>d_size_msg</name>
+        <qualifiedname>gr::radar::print_results_impl::d_size_msg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="41" column="12" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1af8ef14f2403f1aa8c5e475438a62b5fe" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t gr::radar::print_results_impl::d_size_part</definition>
+        <argsstring></argsstring>
+        <name>d_size_part</name>
+        <qualifiedname>gr::radar::print_results_impl::d_size_part</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="41" column="23" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1ac6abbd5f3a853476cc3835511d536d0e" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::print_results_impl::d_msg_part</definition>
+        <argsstring></argsstring>
+        <name>d_msg_part</name>
+        <qualifiedname>gr::radar::print_results_impl::d_msg_part</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="42" column="16" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1a2aa820cc844c8e6907133bca1b7a130e" prot="public" static="no" mutable="no">
+        <type>std::ofstream</type>
+        <definition>std::ofstream gr::radar::print_results_impl::d_file</definition>
+        <argsstring></argsstring>
+        <name>d_file</name>
+        <qualifiedname>gr::radar::print_results_impl::d_file</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="44" column="19" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1aab7dd5d6d90ff632074d248cc41f0540" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::print_results_impl::d_filename</definition>
+        <argsstring></argsstring>
+        <name>d_filename</name>
+        <qualifiedname>gr::radar::print_results_impl::d_filename</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="45" column="17" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1print__results__impl_1aa8adec0c57793d85a737d11687800946" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::radar::print_results_impl::d_store_msg</definition>
+        <argsstring></argsstring>
+        <name>d_store_msg</name>
+        <qualifiedname>gr::radar::print_results_impl::d_store_msg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="46" column="10" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1print__results__impl_1acc9f531f6bae32deea781ec54fe1fd48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::print_results_impl::print_results_impl</definition>
+        <argsstring>(bool store_msg, const std::string filename)</argsstring>
+        <name>print_results_impl</name>
+        <qualifiedname>gr::radar::print_results_impl::print_results_impl</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>store_msg</declname>
+        </param>
+        <param>
+          <type>const std::string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="36" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1print__results__impl_1a7b1de7b8f0a8cee48f14ea51172cc72f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::print_results_impl::~print_results_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~print_results_impl</name>
+        <qualifiedname>gr::radar::print_results_impl::~print_results_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="37" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1print__results__impl_1a9a4b5821e07bc58e6564e0e69f8351fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::print_results_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <qualifiedname>gr::radar::print_results_impl::handle_msg</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="38" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::print_results</label>
+        <link refid="classgr_1_1radar_1_1print__results"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::print_results_impl</label>
+        <link refid="classgr_1_1radar_1_1print__results__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::print_results</label>
+        <link refid="classgr_1_1radar_1_1print__results"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::print_results_impl</label>
+        <link refid="classgr_1_1radar_1_1print__results__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_file</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>d_filename</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::basic_ios&lt; Char &gt;</label>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std::basic_ofstream&lt; Char &gt;</label>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::basic_ostream&lt; Char &gt;</label>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="8">
+        <label>std::ios_base</label>
+      </node>
+      <node id="4">
+        <label>std::ofstream</label>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>std::string</label>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/print_results_impl.h" line="30" column="1" bodyfile="/home/lmz/gr-radar/lib/print_results_impl.h" bodystart="31" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1a2aa820cc844c8e6907133bca1b7a130e" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_file</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1aab7dd5d6d90ff632074d248cc41f0540" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_filename</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1ac6abbd5f3a853476cc3835511d536d0e" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_msg_part</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1a48c7248f040adb8e7facdbcb9ee082f8" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_port_id_in</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1a43ee88ee33a300d2eff430034d6b0e6d" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_size_msg</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1af8ef14f2403f1aa8c5e475438a62b5fe" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_size_part</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1aa8adec0c57793d85a737d11687800946" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>d_store_msg</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1a9a4b5821e07bc58e6564e0e69f8351fb" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1radar_1_1print__results_1ae9effa9273b962baf9a62053e2367513" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1acc9f531f6bae32deea781ec54fe1fd48" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>print_results_impl</name></member>
+      <member refid="classgr_1_1radar_1_1print__results_1ac0c73baedd94463299beaa5820fe6c98" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1print__results__impl_1a7b1de7b8f0a8cee48f14ea51172cc72f" prot="public" virt="non-virtual"><scope>gr::radar::print_results_impl</scope><name>~print_results_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

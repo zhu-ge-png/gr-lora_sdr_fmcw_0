@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="usrp__echotimer__cc__pydoc_8h" kind="file" language="C++">
+    <compoundname>usrp_echotimer_cc_pydoc.h</compoundname>
+    <includes refid="build_2python_2radar_2bindings_2pydoc__macros_8h" local="yes">pydoc_macros.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>pydoc_macros.h</label>
+        <link refid="build_2python_2radar_2bindings_2pydoc__macros_8h"/>
+      </node>
+      <node id="1">
+        <label>usrp_echotimer_cc_pydoc.h</label>
+        <link refid="usrp__echotimer__cc__pydoc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="usrp__echotimer__cc__pydoc_8h_1a74021f021dcdfbb22891787b79c5529d" prot="public" static="no">
+        <name>D</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="build_2python_2radar_2bindings_2pydoc__macros_8h_1a4e578031ec998eaeb933d5caa6a7d28a" kindref="member">DOC</ref>(gr,radar, __VA_ARGS__ )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="10" column="10" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1a5747a05c625dda69c49209206a4b1163" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="19" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1a85c394a075af4c564c72acbe0e30c057" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_0</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_0</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="52" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1acc3de0ee3537e6860eab9043854b393d" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_1</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_usrp_echotimer_cc_1</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="55" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1a105395bd0f9d9a80a14f81f8cfe974cf" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_make</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_make</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="58" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1aa0e4f89bae249fb455b6f0751e02df49" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_set_num_delay_samps</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_set_num_delay_samps</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="91" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1a6bd07612fa5f27d1ed9bd119740c87f2" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_set_rx_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_set_rx_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="94" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="usrp__echotimer__cc__pydoc_8h_1a6ce623328c2e6ce5e9f52b859124f99c" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char* __doc_gr_radar_usrp_echotimer_cc_set_tx_gain</definition>
+        <argsstring></argsstring>
+        <name>__doc_gr_radar_usrp_echotimer_cc_set_tx_gain</name>
+        <initializer>= R&quot;doc()doc&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" line="97" column="20" bodyfile="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lmz/gr-radar/build/python/radar/bindings/usrp_echotimer_cc_pydoc.h"/>
+  </compounddef>
+</doxygen>

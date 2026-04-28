@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+  \makeatletter
+    \def\doxynewunicodechar#1#2{%
+    \@tempswafalse
+    \edef\nuc@tempa{\detokenize{#1}}%
+    \if\relax\nuc@tempa\relax
+      \nuc@emptyargerr
+    \else
+      \edef\@tempb{\expandafter\@car\nuc@tempa\@nil}%
+      \nuc@check
+      \if@tempswa
+        \@namedef{u8:\nuc@tempa}{#2}%
+      \fi
+    \fi
+  }
+  \makeatother
+  \doxynewunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \doxynewunicodechar{²}{${}^{2}$}% Superscript two
+  \doxynewunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+\[
+    r_h(t) = b_h s(t - \tau_h) e^{j2\pi f_{D,h}}
+\]
+\pagebreak
+
+$f_C$
+\pagebreak
+
+$\sigma_{\text{RCS},h}$
+\pagebreak
+
+$d_h$
+\pagebreak
+
+$c_0$
+\pagebreak
+
+\[
+    b_h = \sqrt{\frac{c_0^2 \sigma_{\text{RCS},h}}{(4\pi)^3 d_h^4 f_C^2}}
+\]
+\pagebreak
+
+$\tau_h$
+\pagebreak
+
+\[
+    \tau_h = 2\frac{d_h}{c_0}
+\]
+\pagebreak
+
+$f_{D,h}$
+\pagebreak
+
+\[
+    f_{D,h} = 2\frac{v_{\text{rel},h}{c_0} f_C
+\]
+\pagebreak
+
+\[
+    r(t) = \sum_{h=0}^{H-1} r_h(t)
+\]
+\pagebreak
+
+\end{document}

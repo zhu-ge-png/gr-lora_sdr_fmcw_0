@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgr_1_1radar_1_1msg__manipulator__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::msg_manipulator_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1msg__manipulator" prot="public" virt="non-virtual">gr::radar::msg_manipulator</basecompoundref>
+    <includes refid="msg__manipulator__impl_8h" local="no">msg_manipulator_impl.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1msg__manipulator__impl_1aa75fbe9af8f70b4fe07159b3d6a1e37a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; gr::radar::msg_manipulator_impl::d_symbols</definition>
+        <argsstring></argsstring>
+        <name>d_symbols</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::d_symbols</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="43" column="17" bodyfile="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1msg__manipulator__impl_1acbd385fba4653d40bb986d4ac4a82639" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::msg_manipulator_impl::d_const_add</definition>
+        <argsstring></argsstring>
+        <name>d_const_add</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::d_const_add</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="44" column="17" bodyfile="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1msg__manipulator__impl_1aa6cf820b064f1ad692d5388021583f06" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::msg_manipulator_impl::d_const_mult</definition>
+        <argsstring></argsstring>
+        <name>d_const_mult</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::d_const_mult</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="44" column="29" bodyfile="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1msg__manipulator__impl_1a5b0ea47937ab05a6f324a1b499c03a60" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::msg_manipulator_impl::d_port_id_in</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_in</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::d_port_id_in</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="46" column="16" bodyfile="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1msg__manipulator__impl_1a1c4942fbbf4e6a910ac5846994e7f7e7" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::msg_manipulator_impl::d_port_id_out</definition>
+        <argsstring></argsstring>
+        <name>d_port_id_out</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::d_port_id_out</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="46" column="29" bodyfile="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator__impl_1a720666e17d5fbe9abc5e64ed0db3cdfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::msg_manipulator_impl::msg_manipulator_impl</definition>
+        <argsstring>(std::vector&lt; std::string &gt; symbols, std::vector&lt; float &gt; const_add, std::vector&lt; float &gt; const_mult)</argsstring>
+        <name>msg_manipulator_impl</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::msg_manipulator_impl</qualifiedname>
+        <param>
+          <type>std::vector&lt; std::string &gt;</type>
+          <declname>symbols</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>const_add</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>const_mult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="35" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator__impl_1a3daf88783cac9553651103a929f31346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::msg_manipulator_impl::~msg_manipulator_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~msg_manipulator_impl</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::~msg_manipulator_impl</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="38" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator__impl_1a6405865674e2fa3e36465952cd0dc8cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::radar::msg_manipulator_impl::handle_msg</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>handle_msg</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::handle_msg</qualifiedname>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="39" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator__impl_1adb25fa0f06f2a83464226a013980cb39" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::msg_manipulator_impl::set_const_add</definition>
+        <argsstring>(std::vector&lt; float &gt; val)</argsstring>
+        <name>set_const_add</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::set_const_add</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1msg__manipulator_1af07ff2cea0c12ef0deb6eb8bb357daac">set_const_add</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="40" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1msg__manipulator__impl_1ad5a18157f4477d05884d1bf2ca403dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::msg_manipulator_impl::set_const_mult</definition>
+        <argsstring>(std::vector&lt; float &gt; val)</argsstring>
+        <name>set_const_mult</name>
+        <qualifiedname>gr::radar::msg_manipulator_impl::set_const_mult</qualifiedname>
+        <reimplements refid="classgr_1_1radar_1_1msg__manipulator_1aaf8e76ed8a27f0a8de8d5461438020a7">set_const_mult</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="41" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::msg_manipulator</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::msg_manipulator_impl</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::radar::msg_manipulator</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::radar::msg_manipulator_impl</label>
+        <link refid="classgr_1_1radar_1_1msg__manipulator__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>d_symbols</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>d_const_add</edgelabel>
+          <edgelabel>d_const_mult</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std::basic_string&lt; Char &gt;</label>
+      </node>
+      <node id="5">
+        <label>std::string</label>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="4">
+        <label>std::vector&lt; std::string &gt;</label>
+        <childnode refid="5" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" line="29" column="1" bodyfile="/home/lmz/gr-radar/lib/msg_manipulator_impl.h" bodystart="30" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1acbd385fba4653d40bb986d4ac4a82639" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>d_const_add</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1aa6cf820b064f1ad692d5388021583f06" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>d_const_mult</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1a5b0ea47937ab05a6f324a1b499c03a60" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>d_port_id_in</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1a1c4942fbbf4e6a910ac5846994e7f7e7" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>d_port_id_out</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1aa75fbe9af8f70b4fe07159b3d6a1e37a" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>d_symbols</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1a6405865674e2fa3e36465952cd0dc8cc" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>handle_msg</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator_1a10571a59783a2d90e78dfa128b6619c1" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1a720666e17d5fbe9abc5e64ed0db3cdfb" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>msg_manipulator_impl</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1adb25fa0f06f2a83464226a013980cb39" prot="public" virt="virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>set_const_add</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1ad5a18157f4477d05884d1bf2ca403dfe" prot="public" virt="virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>set_const_mult</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator_1ae8aba349fc0c895f6ed5af04bfbaedb6" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1msg__manipulator__impl_1a3daf88783cac9553651103a929f31346" prot="public" virt="non-virtual"><scope>gr::radar::msg_manipulator_impl</scope><name>~msg_manipulator_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
